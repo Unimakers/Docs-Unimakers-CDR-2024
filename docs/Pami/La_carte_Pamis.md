@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Robot
+parent: Pamis
 nav_order: 1
 title: La carte
 ---
