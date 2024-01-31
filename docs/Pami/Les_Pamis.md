@@ -5,4 +5,6 @@ nav_order: 8
 has_children: true
 ---
 
-##Les Pamis
+## Les Pamis
+
+voici la page de garde des pamis
