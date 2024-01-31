@@ -4,7 +4,7 @@ nav_order: 1
 title: Accueil
 ---
 
-# Les Docs de l'équipe I3 de la coupe de france de robotique 2024
+# Les Docs de l'équipe I3 de la coupe de france de robotique 2024 PROUTEDEEE
 
 Bienvenue dans la documentation du projet de la coupe de france de robotique. Vous allez y trouver les differents documentations ainsi que recherches que l'équipe a fait lors de la quete de constuire un robot, tout en itterant les designs
 
