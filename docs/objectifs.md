@@ -6,20 +6,39 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+La Coupe de France de Robotique, existant depuis plus de 30 ans, est une compétition annuelle qui rassemble des équipes d'étudiants de toute la France autour d'un défi technologique : concevoir, réaliser et faire concourir un robot autonome selon un cahier des charges précis.  
+
+Participer à cette compétition offre aux étudiants une opportunité inestimable de mettre en pratique leurs connaissances théoriques, de développer des compétences transversales en gestion de projet et de travailler en équipe. 
+
+Au fil des années, la Coupe est devenue une référence incontournable, reconnue par les recruteurs. En effet, bon nombre des participants d'antan occupent aujourd'hui des postes clés dans l'industrie et sont eux-mêmes devenus des recruteurs, cherchant des talents ayant cette expérience unique.  
+
+La présence de l’école dans cette compétition renforce son image d'excellence et d'innovation dans le domaine de la technologie et de l'ingénierie, tout en démontrant notre engagement à préparer les étudiants aux défis du monde réel. 
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Dans un contexte associatif et du parcours d'étude en ingénieurie, les étudiant cherchent a amméiliorer leurs competences dans la robotique par le bia d'un projet concret, une possibilité qui est donné par la coupe de france de robotique. 
+Toute au long du projet, les étudiant serons ammenée a faire des recherches de systèmes mécanique, electronique, algorithmique, en utilisant les ressources dissponible (internet, contacts)
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+En 9 mois, les équipes vont construire un robot capable de réaliser 1 ou plusieurs taches suivantes:
+
+
+  - prendre un plante et la planter dans un potager ou jardiniere suivant la couleur
+  - Mettre la plante dans un pot et la planter partout
+  - Tourner Le panneau solaire vers la couleur de son camps
+  - Etre actif pendant 90s
+
+Particularité de cette année, lors de la compétition des petits robot appelé P.A.M.I, qui devra faire une ou pulusieurs taches également
+
+  - se déplacer a la 90iéme seconde, et s'eteindre au bout de 100s
+  - etre dans une zone
+  - toucher une plante
 
 # Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+De nombreuses robot existent déja, le robot actuelle est basée sur des robot a motorisation differentiel fait au préalable par l'ancien club A.R.E.A
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+Cet partie est dediée au cahier des charches qui évolue au cours du temps.
