@@ -2,7 +2,7 @@
 layout: default
 parent: Robot
 nav_order: 2
-title: La pince
+title: Hardware
 has_children: true
 ---
-## Tout sur la pince que j'ai pour toi
+## Tout sur le hardware dans le robot

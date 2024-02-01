@@ -3,6 +3,7 @@ layout: default
 parent: Robot
 has_children: true
 nav_order: 1
-title: La carte
+title: La Mecanique du robot
 ---
-## tout sur la carte de jeux
+## Ingénieur en mecanique?
+
