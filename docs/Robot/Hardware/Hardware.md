@@ -20,7 +20,7 @@ aient une fonction dans le robot
 
 Pour le mouvement, on a voulu opter pour des Stepper Nema17, ces stepper sont communement trouvé dans des imprimantes 3D et ont un couple acceptable pour des systèmes léger.
 
-<model-viewer src="./Hardware_files/Nema17.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/poster.webp" shadow-intensity="1" > </model-viewer>
+<model-viewer disable-zoom src="./Hardware_files/Nema17.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/poster.webp" shadow-intensity="1"> </model-viewer>
 
 Un stepper est un moteur electrique qui fonctionne de pas en pas, un changement de l'orde de la polarité permet de passer d'une postion a une autre. cette changement est, dans notre cas, gérée par notre 
 programme qui se trouve dans le robot 
@@ -44,9 +44,25 @@ On avait choisi ce modéle de stepper en utilisant le calculateur disponible sur
 Mais nous nous sommes rendue compte que ces moteur en pratique ne fournissent pas le couple attendue (probablement parceque dans le club on avais des marques noname). 
 Ce qui nous a ammmené de partir a une modéle suppérieur, les néma 23.
 
+Ces moteur sont un peu plus encombrant par rapport au nema 17, mais ils permettent de mettre le robot en direct drive, c'est a dire que la roue est directement mise sur 
+l'arbre moteur (plus sur le sujet dans la partie méca)
+
+<model-viewer src="./Hardware_files/NEMA23.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/Nemaposter.webp" shadow-intensity="1" disable-zoom >
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+
 
  
 
+Pour les mouvement d'actioneurs, on a opté d'utiliser principalement des servo moteurs, ce sont des moteur DC (Direct current) qui intégrent un reglutateur de postion.
+En envoyant un signal PMW (pulse width modulation) en français MLI (Modulation largeur d'impulsion), on peut commander le moteur a se regeler a une certaine angle.
 
 
-pour les mouvement d'actioneurs, on a opté pour utiliser principalement des servo moteurs pour les actionneurs, ce sont des moteur a engrenages métalique
+<model-viewer src="./Hardware_files/MG996RServo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/posterServo.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+
