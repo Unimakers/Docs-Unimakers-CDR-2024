@@ -16,7 +16,8 @@ L'objectif final de la simulation est de voir en temps réel les déplacement du
 
 ## Description de la simulation 3D
 
-La Simulation 3D s'effectue sur le logiciel Gazebo, (explication du logiciel)
+La Simulation 3D s'effectue sur le logiciel Gazebo sur une machine virtuelle, (explication du logiciel)
+- Machine virtuelle : Ubuntu version 22.04.3 (dernière version compatible avec Gazebo)
 
 ## Déplacement du robot
 
