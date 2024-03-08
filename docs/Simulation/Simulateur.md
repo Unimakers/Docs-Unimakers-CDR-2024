@@ -2,7 +2,7 @@
 layout: default
 nav_order: 8
 title: Simulateur
-children: true
+has_children: true
 ---
 
 ## Introduction
