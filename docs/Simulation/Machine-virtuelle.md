@@ -5,7 +5,7 @@ nav_order: 1
 title: Machine Virtuelle
 ---
 
-## Pourquoi travailler sur une machine virtuel ?
+## Pourquoi travailler sur une machine virtuelle ?
 
 Travailler sur une machine virtuelle présente plusieurs avantages, notamment :
 
@@ -22,7 +22,7 @@ Cependant, il y a aussi des inconvénients :
 
 Dans notre cas, on a travailler ur une machien virtuel car le logiciel de simulation (Gazebo) est compatible qu'avec Linux.
 
-## Comment choisir sa machine virtuel 
+## Comment choisir sa machine virtuelle
   
 Choisir la bonne machine virtuelle dépend de vos besoins spécifiques et des fonctionnalités que vous recherchez. Voici quelques conseils pour vous aider à prendre une décision :
 
