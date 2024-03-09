@@ -2,7 +2,7 @@
 layout: default
 parent: Simulateur
 nav_order: 2
-title: Machine Virtuelle
+title: Gazebo
 ---
 
 ## Qu'est ce que Gazebo ?
