@@ -27,13 +27,9 @@ Dans notre cas, on a travailler ur une machien virtuel car le logiciel de simula
 Choisir la bonne machine virtuelle dépend de vos besoins spécifiques et des fonctionnalités que vous recherchez. Voici quelques conseils pour vous aider à prendre une décision :
 
 1. **Parallels Desktop:** Si vous êtes nouveau dans le domaine des machines virtuelles, Parallels Desktop est un excellent choix. Il vous guide pour localiser les fichiers d’installation ISO et vous aide à les télécharger. C’est un outil convivial pour les débutants.
-
 2. **VMware:** VMWare est largement utilisé dans l’industrie et offre des performances élevées. Il est idéal pour les environnements d’entreprise où la performance, la sécurité et la gestion centralisée sont essentielles.
-
 3. **Oracle VM VirtualBox:** VirtualBox est un logiciel de machine virtuelle open-source et gratuit. Il prend en charge divers systèmes d’exploitation (Windows, Linux, macOS) et offre des fonctionnalités avancées telles que la capture d’écran, le clonage et la gestion à distance.
-
 4. **Microsoft Azure:** Si vous envisagez d’utiliser des machines virtuelles dans le cloud, Microsoft Azure propose une large gamme d’options. Assurez-vous de choisir une image capable d’exécuter les applications dont vous avez besoin.
-
 5. **Nutanix:** Nutanix propose un modèle de machine virtuelle privilégié par ceux qui recherchent une flexibilité et une visibilité optimales au niveau du matériel.
 
 En résumé, choisissez votre machine virtuelle en fonction de vos besoins spécifiques, de votre niveau d’expertise et des fonctionnalités dont vous avez besoin.
