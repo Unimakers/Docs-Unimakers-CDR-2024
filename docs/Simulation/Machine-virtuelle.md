@@ -23,7 +23,7 @@ Cependant, il y a aussi des inconvénients :
 Dans notre cas, on a travailler ur une machien virtuel car le logiciel de simulation (Gazebo) est compatible qu'avec Linux.
 
 ## Comment choisir sa machine virtuel 
-
+  
 Choisir la bonne machine virtuelle dépend de vos besoins spécifiques et des fonctionnalités que vous recherchez. Voici quelques conseils pour vous aider à prendre une décision :
 
 1. **Parallels Desktop:** Si vous êtes nouveau dans le domaine des machines virtuelles, Parallels Desktop est un excellent choix. Il vous guide pour localiser les fichiers d’installation ISO et vous aide à les télécharger. C’est un outil convivial pour les débutants.
