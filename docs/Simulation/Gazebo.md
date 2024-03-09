@@ -30,8 +30,8 @@ En résumé, Gazebo est un outil puissant pour la simulation robotique, utilisé
 ## Comment installer Gazebo ? 
 
 1. Ouvrez un terminal dans votre machine virtuelle
-2. Mettez à jour les dépots de votre système avec la commande : 'sudo apt update'
-3. Installez gazebo en utilisant la commande : 'sudo apt install gazebo' 
+2. Mettez à jour les dépots de votre système avec la commande : `sudo apt update`
+3. Installez gazebo en utilisant la commande : `sudo apt install gazebo`
 4. Attendez que l'installation soit terminée. Gazebo sera installé sur votre système.
-5. Pour vérifier que Gazebo est bien installé, exécutez la commande suivant: 'gazebo'
+5. Pour vérifier que Gazebo est bien installé, exécutez la commande suivant: `gazebo`
  
