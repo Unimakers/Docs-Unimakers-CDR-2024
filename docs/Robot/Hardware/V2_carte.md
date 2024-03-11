@@ -25,6 +25,10 @@ aliméntée en 5v fourni une tension logique en 5v également. donc la selection
 Des connecteurs type Servo sont présent sur le schématique pour brancher des boutons, lumieres, servomoteurs, neopixels, tout cela avec du tension 5V, qui
 peuvent ou non, etre utilisée selon l'application.
 
-Des temoins led et des connecteurs 5V et 12v pour pouvoir allimenter la carte permettent de verfier et fair fonctionner la carte, ce qui implique que cette 
+Des temoins led et des connecteurs 5V et 12v pour pouvoir allimenter la carte permettent de verfier et faire fonctionner la carte, ce qui implique que cette 
 carte ne gére pas la transfromation de tension. l'idée était d'utiliser une carte externe qui lui gérérai la tension d'allimentation, et que seule les 
 alimentation logique seraient transformée (3.3V pour l'esp32 et l'I²C) sur cette carte.
+
+Vous pouvez voir que le pcb est inférieur a 10x10cm, cela permettai de reduire les couts de production a 2€ chez JLCPCB (non sponsorisée).
+
+4 points de montages permettent facilement de monter la carte sur une plaque en bois acrylique, ou encore au makerbeams.
