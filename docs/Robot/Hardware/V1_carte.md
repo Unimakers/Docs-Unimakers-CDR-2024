@@ -13,7 +13,7 @@ Objectif: Créer une carte de commande des differents systèmes éléctronqiue q
 <kicanvas-embed src="./V1_carte_files/MainBoardV1.kicad_sch" controls="basic"> </kicanvas-embed>
 
 Sur cette premiére carte, Nous étions passé sur un module ESP32 S3, cette module est un ensemble de composant sur un mini pcb enfermée dans une cage de faraday, 
-permetant de reduire les nuissance de l'exterieur. plus sur cette microcontroleur [ici] (https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
+permetant de reduire les nuissance de l'exterieur. plus sur cette microcontroleur [ici](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
 
 Le robot à 3 moteur pas à pas a controler, c'est a dire qu'il nous faut 3 controlleurs pas à pas, de nombreux composants et BOB (break out boards) sont sur le marché qui répondent a cette demande.
 
@@ -31,11 +31,12 @@ Une idée aurait été d'implémenter un ciruit de traduction tension logique, q
 
 ![Illustration D'un level shifter](./V1_carte_files/logic-level-shifting-basics.jpg)
 
-Mais comme sur le marché, on trouvera de nombreuses composants en 3.3V, il est préférable de passer la tension d'alimentation I²C par la suite en 3.3v (voire prochaine carte)
+Mais comme sur le marché, on trouve de nombreuses composants en 3.3V, il est préférable de passer la tension d'alimentation I²C par la suite en 3.3v (voire prochaine carte)
 
 La tension passe par un transformateur qui baisse la tension d'entrée de 12v à 5v, ensuite la tension 5v passe par un AMS117 qui baisse la tension vers 3,3v 
 pour alimenter l'esp32.
 
 
 Sources:
-[Level shifter](https://www.digikey.com/en/blog/logic-level-shifting-basics)
+-[Level shifter](https://www.digikey.com/en/blog/logic-level-shifting-basics)
+-[ESP32](https://www.espressif.com/en/products/socs/esp32-s3)
