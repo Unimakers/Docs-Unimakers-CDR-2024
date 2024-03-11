@@ -10,8 +10,6 @@ title: V2 Carte
 
 Je n'était pas content de la premiere carte, nottament par sa manque d'adaptabilité, donc la carte V2 est née!
 
-<kicanvas-embed > </kicanvas-embed>
-
 <kicanvas-embed controls="full">
     <kicanvas-source src="./V2_carte_files/MainBoardV2.kicad_sch"></kicanvas-source>
     <kicanvas-source src="./V2_carte_files/MainBoardV2.kicad_pcb"></kicanvas-source>
