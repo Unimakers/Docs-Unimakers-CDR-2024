@@ -31,4 +31,4 @@ alimentation logique seraient transformée (3.3V pour l'esp32 et l'I²C) sur cet
 
 Vous pouvez voir que le pcb est inférieur a 10x10cm, cela permettai de reduire les couts de production a 2€ chez JLCPCB (non sponsorisée).
 
-4 points de montages permettent facilement de monter la carte sur une plaque en bois acrylique, ou encore au makerbeams.
+4 points de montages permettent facilement de monter la carte sur une plaque en bois acrylique, ou encore a des makerbeams.
