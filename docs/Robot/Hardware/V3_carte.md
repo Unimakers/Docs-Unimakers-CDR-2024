@@ -10,6 +10,7 @@ title: V3 Carte
 
 <kicanvas-embed controls="full">
     <kicanvas-source src="./V3_carte_files/MainBoardV3.kicad_sch"></kicanvas-source>
+    <kicanvas-source src="./V3_carte_files/Power_sheet.kicad_sch"></kicanvas-source>
     <kicanvas-source src="./V3_carte_files/MainBoardV3.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
 
