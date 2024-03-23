@@ -1,0 +1,68 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1ef59d5b-39eb-49f8-99b9-e861d13c2482)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.29 88.9) (size 77.47 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2bf74d3e-04f5-4f14-a385-297b90a10080)
+    (property "Sheetname" "Mechanicals" (at 34.29 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Meca.kicad_sch" (at 34.29 137.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MainBoard V4"
+        (path "/1ef59d5b-39eb-49f8-99b9-e861d13c2482" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 25.908) (size 79.756 49.276) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a5df44ab-6b7a-4a63-bb76-d214f269f7a0)
+    (property "Sheetname" "Logic" (at 33.02 25.1964 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Logic.kicad_sch" (at 33.02 75.7686 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MainBoard V4"
+        (path "/1ef59d5b-39eb-49f8-99b9-e861d13c2482" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 148.336 25.4) (size 74.168 45.974) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fb6ec5c9-59b4-4943-9b7c-86a0aa30c57d)
+    (property "Sheetname" "Power" (at 148.336 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 148.336 71.9586 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Champ2" "" (at 148.336 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MainBoard V4"
+        (path "/1ef59d5b-39eb-49f8-99b9-e861d13c2482" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
