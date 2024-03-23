@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 2
 title: Objectifs du projet
 ---
 
@@ -16,8 +16,8 @@ La présence de l’école dans cette compétition renforce son image d'excellen
 
 ## Contexte du Projet
 
-Dans un contexte associatif et du parcours d'étude en ingénieurie, les étudiant cherchent a amméiliorer leurs competences dans la robotique par le bia d'un projet concret, une possibilité qui est donné par la coupe de france de robotique. 
-Toute au long du projet, les étudiant serons ammenée a faire des recherches de systèmes mécanique, electronique, algorithmique, en utilisant les ressources dissponible (internet, contacts)
+Dans un contexte associatif et du parcours d'étude en ingénieurie, les étudiant cherchent a améiliorer leurs competences dans la robotique par le bia d'un projet concret, une possibilité qui est donné par la coupe de france de robotique. 
+Toute au long du projet, les étudiant serons ammenée a faire des recherches pluridiciplinaire, en utilisant les ressources dissponible (internet, contacts)
 
 ## Objectifs du Projet
 
