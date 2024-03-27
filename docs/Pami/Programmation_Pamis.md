@@ -22,5 +22,9 @@ Il peut :
 Il ne peut pas :
 - amener une plante dans une zone
 - sortir une plante d'une zone (invalidation de l'action du PAMI le cas échéant)
+- réaliser ses actions dans une zone adverse (points pour l'équipe adverse le cas échéant)
+- collisionner un robot autre que celui de son équipe (pressage du bouton d'arrêt d'urgence et disqualification le cas échéant)
 
-De plus, la stratégie développée pour le PAMI varie selon le côté où il commence. Nous devons donc être capables de sélectionner la bonne stratégie avant le début du match.
+De plus, la stratégie développée pour le PAMI varie selon le côté du terrain où il commence. Nous devons donc être capables de sélectionner la bonne stratégie avant le début du match.
+
+En résumé, le PAMI doit pouvoir se déplacer d'un point A (sa zone de départ) à un point B (sa jardinière), en pollinisant une plante dans sa jardinière (contact) et en restant à ses côtés jusqu'à la fin du match.
