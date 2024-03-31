@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Simulateur
 title: Generateur de stratégies - 2024
 nav_order: 4
 ---
