@@ -36,6 +36,9 @@ Mais comme sur le marché, on trouve de nombreuses composants en 3.3V, il est pr
 La tension passe par un transformateur qui baisse la tension d'entrée de 12v à 5v, ensuite la tension 5v passe par un AMS117 qui baisse la tension vers 3,3v 
 pour alimenter l'esp32.
 
+On peux apercevoir un connecteur Uart( Universal Asynchronous Receiver Transmitter) qui se connecte au Uart 1 de l'esp32, ce connecteur permet de communiquer avec un lidar qui se trouve au dessus de notre robot (voir lidar)
+
+une switch est présent pour alimenter l'esp soit via l'USB soit via l'alimentation de la batterie du robot, mais jamais les 2 en même temps (cela peux entrainer des soucis)
 
 Sources:
 -[Level shifter](https://www.digikey.com/en/blog/logic-level-shifting-basics)
