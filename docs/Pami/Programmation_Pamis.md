@@ -31,4 +31,9 @@ En résumé, le PAMI doit pouvoir se déplacer d'un point A (sa zone de départ)
 
 ### Objectifs
 
-//ici les objectifs côté programmation
+La programmation du microcontrôleur réalise ainsi ces actions :
+- Pollinisation des jardinières
+- Détection de potentielles collisions
+- Synchronisation avec le robot principal
+
+## Logique fonctionnelle
