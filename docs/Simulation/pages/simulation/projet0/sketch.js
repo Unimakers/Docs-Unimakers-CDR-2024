@@ -1,7 +1,6 @@
 //déclaration des variables ici
 let image_du_terrain;
 let echelle;
-let 
 
 /*
 function setup() {
