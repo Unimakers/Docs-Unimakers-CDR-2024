@@ -1,36 +1,18 @@
-//déclaration des variables ici
-let image_du_terrain;
-let echelle;
-
-/*
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
+//Cette fonction dessine l'image du terrain sur le canvas, en ajustant sa taille pour s'adapter à la fenêtre.
+function dessinerTerrain(){ 
   background(220);
-}*/
+  let image_du_terrain = loadImage('vinyle2024.png'); //charge le vinyle dans la fonction image du terrain de la simulation 
+  let ratioImg = image_du_terrain.width / image_du_terrain.height; //calcul un ratio entre la largeur et la hauteur de l'image
+  let largeurImg, hauteurImg; //déclare les variables de la hauteur et de la largeur du vinyle
 
-function setup(){
-  var largeurCanvas = 2000; // Largeur du canvas en pixels
-  var hauteurCanvas = 1334; // Hauteur du canvas en pixels
-  var largeurSurface = 3000;  // Largeur de la surface en milimètres
-  var hauteurSurface = 2000;  // Hauteur de la surface en milimètres
+  if(ratioImg < width/height){  //
+    largeurImg = width;
+    hauteurImg = largeurImg / ratioImg;
+  }else {
+    hauteurImg = height;
+    largeurImg = hauteurImg * ratioImg;
 }
-
-function calculerEchelle(largeurCanvas, hauteurCanvas, largeurSurface, hauteurSurface) {
-  // Calculer l'échelle en fonction de la largeur et de la hauteur du canvas
-  let echelleLargeur = largeurCanvas / largeurSurface;
-  let echelleHauteur = hauteurCanvas / hauteurSurface;
-
-  // Choisir l'échelle la plus petite pour assurer que la surface puisse tenir dans le canvas
-  let echelle = Math.min(echelleLargeur, echelleHauteur);
-
-  return echelle;
+  let x = (width - largeurImg) / 2;
+  let y = (height - hauteurImg) / 2;
+  image(image_du_terrain, 0, 0, width, height);
 }
-
-function fond_du_canva(){
-  image_du_terrain = loadImage('vinyle2024.png');
-
-}
-
