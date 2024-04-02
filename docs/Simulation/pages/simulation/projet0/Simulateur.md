@@ -7,9 +7,9 @@ title: Simulateur
 
 # Générateur de stratégies
 
-<script src="https://github.com/Unimakers/Docs-Unimakers-CDR-2024/blob/main/docs/Simulation/pages/simulation/projet0/p5.js"></script>
+<script src="https://github.com/Unimakers/Docs-Unimakers-CDR-2024/docs/Simulation/pages/simulation/projet0/p5.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/quicksettings@latest/quicksettings.min.js"></script>
-<script src="https://github.com/Unimakers/Docs-Unimakers-CDR-2024/blob/main/docs/Simulation/pages/simulation/projet0/p5.gui.js"></script> 
+<script src="https://github.com/Unimakers/Docs-Unimakers-CDR-2024/docs/Simulation/pages/simulation/projet0/p5.gui.js"></script> 
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <div id="ui-container" class="container">
