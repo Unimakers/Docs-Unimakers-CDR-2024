@@ -1,8 +1,8 @@
 ---
 layout: default
 has_children: true
-nav_order: 1
-title: Génrateur de stratégie
+nav_order: 5
+title: Générateur de stratégie
 ---
 
 # Générateur de stratégies
