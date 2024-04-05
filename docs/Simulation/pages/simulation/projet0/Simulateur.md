@@ -29,4 +29,4 @@ title: Simulateur
 
 <div id="p5-container"></div>
 
-<script src="sketch.V_1.js"></script>
+<script src="sketch.V_2.js"></script>

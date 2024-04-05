@@ -1,3 +1,50 @@
+let terrainImage;
+let ajustement = 90; // Pourcentage de la taille originale.
+
+// GUI
+let cb_POI;
+let afficherPOI = true;
+let cb_DeleteOption;
+let deleteOption = false;
+let etatRobot = 'arrêté'; // Peut être 'lecture', 'pause', ou 'arrêté'
+let positionRobot = 0; // Indice du point de stratégie actuel
+let vitesseRobot = 1; // Vitesse de déplacement entre les points (modifiable par un curseur)
+
+// Points
+let echelleX, echelleY; // Facteurs d'échelle pour les axes X et Y
+let rawPOIs = [];
+let pois = [];
+let pointsStrategie = [];
+let numeroPointStrategie = 1; // Commencez à numéroter à partir de 1
+let pointSelectionne = null;
+
+function setup() {
+
+    const container = select('#p5-container');
+    let height = (windowHeight * ajustement) / 100;
+    let width = (height * 2) / 3;
+
+    if (width > container.width) {
+        width = container.width;
+        height = (width * 3) / 2;
+    }
+
+    height = (height * ajustement) / 100;
+    width = (width * ajustement) / 100;
+
+    let canvas = createCanvas(width, height);
+    canvas.parent('p5-container');
+    calculerEchelle();
+    extractPOIs(); // Extrait les points après le chargement du fichier
+    setupUI();
+}
+function draw() {
+    drawTerrain();
+    dessinerPoint();
+    dessinerChemin(pointsStrategie);
+    dessinerListe(pointsStrategie);
+    dessinerRobot();
+}
 //Cette fonction dessine l'image du terrain sur le canvas, en ajustant sa taille pour s'adapter à la fenêtre.
 function dessinerTerrain(){ 
   background(220);
@@ -16,8 +63,7 @@ function dessinerTerrain(){
   let y = (height - hauteurImg) / 2;
   image(image_du_terrain, 0, 0, width, height);
 }
-
-function dessinerPoint(point){
+function dessinerPoint(points){
   let canvasX = point.y * echelle.y;
   let canvasY = (3000-point.x) * echelle.x;
   let taillePoint = 15; //défini la taille du point
@@ -47,11 +93,9 @@ function dessinerPoint(point){
     noStroke();
   }
 }
-
 function dessinerListe(points) {
     points.forEach(dessinerPoint);
 }
-
 function dessinerChemin(points) {
     if (points.length < 2) return;
     stroke(255, 204, 0);
@@ -65,7 +109,30 @@ function dessinerChemin(points) {
     });
     endShape();
 }
+function dessinerRobot() {
+    if (pointsStrategie.length > 1 && (etatRobot === 'lecture' || etatRobot === 'pause')) {
+        let indexActuel = Math.floor(positionRobot);
+        let indexSuivant = indexActuel + 1 < pointsStrategie.length ? indexActuel + 1 : indexActuel;
+        let progression = positionRobot - indexActuel;
 
+        let pointActuel = pointsStrategie[indexActuel];
+        let pointSuivant = pointsStrategie[indexSuivant];
+
+        let canvasX = lerp(pointActuel.y * echelleY, pointSuivant.y * echelleY, progression);
+        let canvasY = lerp((3000 - pointActuel.x) * echelleX, (3000 - pointSuivant.x) * echelleX, progression);
+
+        stroke(255); // Couleur du contour
+        strokeWeight(2); // Épaisseur du contour
+        fill('rgba(10, 10, 10, 0.5)');
+        ellipse(canvasX, canvasY, 50, 50);
+
+        if (etatRobot === 'lecture') {
+            if (indexActuel < pointsStrategie.length - 1) { // Empêche l'incrémentation au-delà du dernier point
+                positionRobot += vitesseRobot * 0.01;
+            }
+        }
+    }
+}
 function extrairePointsInteret() {
     const regex = /const Vec2 (\w+) = Vec2\((\d+),(\d+)\);/;
     pointsBruts.forEach(line => {
@@ -76,7 +143,6 @@ function extrairePointsInteret() {
         }
     });
 }
-
 function mousePressed() {
     if (optionSuppression && mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
         let index = pointsStrategie.findIndex(point => {
@@ -116,20 +182,16 @@ function mouseDragged() {
         pointSelectionne.couleur = "blue";
     }
 }
-
 function mouseReleased() {
     pointSelectionne = null;
 }
-
 function effacerStrategie() {
     pointsStrategie = [];
     numeroPointStrategie = 1;
 }
-
 function sauvegarderStrategie() {
     localStorage.setItem('strategie', JSON.stringify(pointsStrategie));
 }
-
 function chargerStrategie() {
     let strategie = localStorage.getItem('strategie');
     if (strategie) {
@@ -137,7 +199,6 @@ function chargerStrategie() {
         numeroPointStrategie = pointsStrategie.length ? pointsStrategie[pointsStrategie.length - 1].numero + 1 : 1;
     }
 }
-
 function exporterStrategie() {
     let dataStr = JSON.stringify(pointsStrategie, null, 2);
     let dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
@@ -147,7 +208,6 @@ function exporterStrategie() {
     linkElement.setAttribute('download', exportFileDefaultName);
     linkElement.click();
 }
-
 function handleFile(file) {
     if (file.type === 'application/json' || true) {
         let reader = new FileReader();
@@ -167,7 +227,6 @@ function handleFile(file) {
         console.log("Tentative de lecture du fichier comme JSON indépendamment du type.");
     }
 }
-
 function exporterCPP() {
     let contenuCPP = "void match(){\n";
     pointsStrategie.forEach((point) => {
@@ -181,7 +240,6 @@ function exporterCPP() {
     contenuCPP += "}\n";
     download('strategy.cpp', contenuCPP);
 }
-
 function download(filename, text) {
     var element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -191,3 +249,4 @@ function download(filename, text) {
     element.click();
     document.body.removeChild(element);
 }
+
