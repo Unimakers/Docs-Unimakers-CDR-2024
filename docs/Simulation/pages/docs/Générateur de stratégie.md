@@ -7,10 +7,10 @@ title: Générateur de stratégie
 
 # Générateur de stratégies - 2024
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+<script src="https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/Simulation/pages/simulation/projet0/p5.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/quicksettings@latest/quicksettings.min.js"></script>
-<script src="p5.gui.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/Simulation/pages/simulation/projet0/p5.gui.js"></script>
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/Simulation/pages/simulation/projet0/style.css">
 
 <div id="ui-container" class="container">
     <div id="checkboxContainer" class="col mb-2">
@@ -29,4 +29,4 @@ title: Générateur de stratégie
 
 <div id="p5-container"></div>
 
-<script src="sketch.V_1.js"></script>
+<script src="https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/Simulation/pages/simulation/projet0/sketch.V_1.js"></script>
