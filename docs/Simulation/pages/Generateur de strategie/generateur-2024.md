@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Generateur de stratégies - 2024
+nav_order: 1
 parent: Simulation
-nav_order: 4
-title: Générateur de stratégie
 ---
 
 # Générateur de stratégies - 2024
