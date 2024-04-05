@@ -88,7 +88,7 @@ function setupUI() {
     btnLoad.mousePressed(loadStrategie);
     btnLoad.class('btn btn-info mr-2');
 
-    let btnExport = createButton('Export JSON');
+    /*let btnExport = createButton('Export JSON');
     btnExport.parent('buttonsContainer');
     btnExport.mousePressed(exporterStrategie);
     btnExport.class('btn btn-primary mr-2');
@@ -96,7 +96,7 @@ function setupUI() {
     let btnExportCPP = createButton('Export CPP');
     btnExportCPP.parent('buttonsContainer');
     btnExportCPP.mousePressed(exporterCPP);
-    btnExportCPP.class('btn btn-secondary mr-2');
+    btnExportCPP.class('btn btn-secondary mr-2');*/
 
     // Initialisation de l'input de fichier
     let inputImport = createFileInput(handleFile);
