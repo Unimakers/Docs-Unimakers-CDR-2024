@@ -1,8 +1,8 @@
 ---
 layout: default
-has_children: true
+parent: Simulation
 nav_order: 4
-title: Simulateur
+title: Générateur de stratégie
 ---
 
 # Générateur de stratégies

@@ -27,7 +27,7 @@ function calculerEchelle() {
 
 
 function preload() {
-    terrainImage = loadImage('https://github.com/LesKaribous/StrategyToolbox/blob/main/docs/pages/strategy-2024/vinyle2024.png');
+    terrainImage = loadImage('vinyle2024.png');
     rawPOIs = loadStrings('https://raw.githubusercontent.com/LesKaribous/Twinsystem/2024/src/poi.h');
 }
 

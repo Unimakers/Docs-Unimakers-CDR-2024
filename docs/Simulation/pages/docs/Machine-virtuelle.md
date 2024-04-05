@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Simulateur
+parent: Simulation
 nav_order: 2
 title: Machine Virtuelle
 ---
