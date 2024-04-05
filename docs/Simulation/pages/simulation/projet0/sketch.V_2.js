@@ -27,8 +27,8 @@ function calculerEchelle() {
 
 
 function preload() {
-    terrainImage = loadImage('vinyle2024.png');
-    rawPOIs = loadStrings('https://github.com/Unimakers/Docs-Unimakers-CDR-2024/docs/Simulation/pages/simulation/projet0/Points.h');
+    terrainImage = loadImage('https://github.com/LesKaribous/StrategyToolbox/blob/main/docs/pages/strategy-2024/vinyle2024.png');
+    rawPOIs = loadStrings('https://raw.githubusercontent.com/LesKaribous/Twinsystem/2024/src/poi.h');
 }
 
 function setup() {
