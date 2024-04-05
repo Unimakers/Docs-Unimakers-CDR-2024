@@ -8,7 +8,7 @@ let cb_DeleteOption;
 let deleteOption = false;
 let etatRobot = 'arrêté'; // l'état du robot peut être 'lecture', 'pause', ou 'arrêté'
 let positionRobot = 0; // Indice du point de stratégie actuel
-let vitesseRobot = 1; // Vitesse de déplacement entre les points (modifiable par un curseur)
+let vitesseRobot = 0.6; // Vitesse de déplacement entre les points (modifiable par un curseur)
 
 // Points
 let echelleX, echelleY; // Facteurs d'échelle pour les axes X et Y
@@ -133,7 +133,6 @@ function setupUI() {
     curseurVitesse.input(() => vitesseRobot = curseurVitesse.value() / 100);
 }
 
-
 function drawRobot() {
     if (pointsStrategie.length > 1 && (etatRobot === 'lecture' || etatRobot === 'pause')) {
         let indexActuel = Math.floor(positionRobot);
@@ -148,8 +147,9 @@ function drawRobot() {
 
         stroke(255); // Couleur du contour
         strokeWeight(2); // Épaisseur du contour
-        fill('rgba(10, 10, 10, 0.5)');
-        ellipse(canvasX, canvasY, 50, 50);
+        fill('rgba(10, 10, 10, 0.5)'); // rempli la forme d'un gris foncé de transparence 0.5
+        ellipse(canvasX, canvasY, 50, 50); //le robot est simulé par un cercle de 50mm de diamètre
+        //rect(canvasX, canvasY, largeur, hauteur) --> modif la largeur et la hauteur avec les dimensions du robot
 
         if (etatRobot === 'lecture') {
             if (indexActuel < pointsStrategie.length - 1) { // Empêche l'incrémentation au-delà du dernier point
