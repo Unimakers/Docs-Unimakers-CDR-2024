@@ -2,7 +2,9 @@
 layout: default
 has_children: true
 nav_order: 4
-title: Simulateur
+title: Simulation
 ---
 
 ## Timeline du projet partie simulation 
+
+ici mettre la timeline
