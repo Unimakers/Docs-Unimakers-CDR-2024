@@ -28,7 +28,7 @@ function calculerEchelle() {
 
 function preload() {
     terrainImage = loadImage('vinyle2024.png');
-    rawPOIs = loadStrings('https://raw.githubusercontent.com/LesKaribous/Twinsystem/2024/src/poi.h'); // modif le lien avec le nouveau ficher des points
+    rawPOIs = loadStrings('https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/Simulation/pages/Generateur_de_strategie/poi.h'); 
 }
 
 function setup() {
