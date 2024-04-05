@@ -159,10 +159,6 @@ function drawRobot() {
     }
 }
 
-
-
-
-
 function majDeleteOption() {
     deleteOption = cb_DeleteOption.checked();
 }
@@ -294,7 +290,6 @@ function drawPath(points) {
     endShape();
 }
 
-
 function extractPOIs() {
     const regex = /const Vec2 (\w+) = Vec2\((\d+),(\d+)\);/; // Regex pour matcher les points
 
@@ -309,6 +304,7 @@ function extractPOIs() {
         }
     });
 }
+
 function mousePressed() {
     if (deleteOption && mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
         // Logique de suppression des points
@@ -343,10 +339,6 @@ function mousePressed() {
     }
 }
 
-
-
-
-
 function renumeroterPoints() {
     numeroPointStrategie = 1;
     for (let point of pointsStrategie) {
@@ -378,7 +370,6 @@ function mouseDragged() {
         }
     }
 }
-
 
 function verifierAimantationEtCreerPoint() {
     let aimante = false;
@@ -412,7 +403,6 @@ function verifierAimantationEtCreerPoint() {
     }
 }
 
-
 function mouseReleased() {
     pointSelectionne = null; // Réinitialiser le point sélectionné après le glissement
 }
@@ -435,7 +425,7 @@ function loadStrategie() {
     }
 }
 
-function exporterStrategie() {
+/*function exporterStrategie() {
     let dataStr = JSON.stringify(pointsStrategie, null, 2);
     let dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
 
@@ -445,7 +435,7 @@ function exporterStrategie() {
     linkElement.setAttribute('href', dataUri);
     linkElement.setAttribute('download', exportFileDefaultName);
     linkElement.click();
-}
+}*/
 
 function handleFile(file) {
     if (file.type === 'application/json' || true) { // Ignore le type de fichier
@@ -467,7 +457,7 @@ function handleFile(file) {
     }
 }
 
-function exporterCPP() {
+/*function exporterCPP() {
     let contenuCPP = "void match(){\n";
     pointsStrategie.forEach((point) => {
         // Vérifier si le point correspond à un POI
@@ -483,7 +473,7 @@ function exporterCPP() {
     contenuCPP += "}\n";
 
     download('strategy.cpp', contenuCPP);
-}
+}*/
 
 
 function download(filename, text) {
