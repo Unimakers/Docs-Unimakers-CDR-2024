@@ -1,6 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include "geometry2D.h"
+#include "docs\Simulation\pages\Generateur_de_strategie\calculs\geometry2D.h"
 
 struct Matrix3x3;
 struct Vec2;

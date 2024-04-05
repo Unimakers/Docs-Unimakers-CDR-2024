@@ -1,5 +1,5 @@
 #pragma once
-#include "geometry3D.h"
+#include "docs\Simulation\pages\Generateur_de_strategie\calculs\geometry3D.h"
 
 #define _USE_MATH_DEFINES // for C++
 #include <cmath>
