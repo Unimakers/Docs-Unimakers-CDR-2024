@@ -67,10 +67,10 @@ function setupUI() {
     cb_POI.changed(majPOI);
     cb_POI.class('form-check-label');
 
-    cb_DeleteOption = createCheckbox("Delete Mode", deleteOption);
+    /*cb_DeleteOption = createCheckbox("Delete Mode", deleteOption);
     cb_DeleteOption.parent('checkboxContainer');
     cb_DeleteOption.changed(majDeleteOption);
-    cb_DeleteOption.class('form-check-label');
+    cb_DeleteOption.class('form-check-label');*/
 
     // Initialisation des boutons avec style Bootstrap
     let btnClear = createButton("Clear Stratégie");
