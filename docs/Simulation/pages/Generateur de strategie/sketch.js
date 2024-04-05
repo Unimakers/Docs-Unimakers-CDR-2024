@@ -6,7 +6,7 @@ let cb_POI;
 let afficherPOI = true;
 let cb_DeleteOption;
 let deleteOption = false;
-let etatRobot = 'arrêté'; // Peut être 'lecture', 'pause', ou 'arrêté'
+let etatRobot = 'arrêté'; // l'état du robot peut être 'lecture', 'pause', ou 'arrêté'
 let positionRobot = 0; // Indice du point de stratégie actuel
 let vitesseRobot = 1; // Vitesse de déplacement entre les points (modifiable par un curseur)
 
@@ -28,7 +28,7 @@ function calculerEchelle() {
 
 function preload() {
     terrainImage = loadImage('vinyle2024.png');
-    rawPOIs = loadStrings('https://raw.githubusercontent.com/LesKaribous/Twinsystem/2024/src/poi.h');
+    rawPOIs = loadStrings('https://raw.githubusercontent.com/LesKaribous/Twinsystem/2024/src/poi.h'); // modif le lien avec le nouveau ficher des points
 }
 
 function setup() {
