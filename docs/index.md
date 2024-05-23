@@ -8,7 +8,7 @@ title: Accueil
 
 Bienvenue dans la documentation du projet de la coupe de france de robotique. Vous allez y trouver les differents documentations ainsi que recherches que l'équipe a fait lors de la quete de constuire un robot, tout en itterant les designs
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevant.jpg)
+![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevantwide.jpg)
 
 ## In a nutshell
 
