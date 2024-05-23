@@ -4,8 +4,6 @@ nav_order: 2
 title: Objectifs du projet
 ---
 
-# Introduction
-
 <div>
   <img src="images/CDR-Web-Logo_Footer-Retina.png" alt="Logo de la coupe de france de robotique" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
