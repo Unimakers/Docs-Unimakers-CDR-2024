@@ -36,7 +36,7 @@ La programmation du microcontrôleur réalise ainsi ces actions :
 - Détection de potentielles collisions
 - Synchronisation avec le robot principal
 
-## Logique fonctionnelle
+### Logique fonctionnelle
 
 La logique fonctionnelle du PAMI repose sur une séquence d'actions précises pour garantir le bon déroulement de ses tâches durant le match :
 
@@ -46,3 +46,7 @@ La logique fonctionnelle du PAMI repose sur une séquence d'actions précises po
 4. **Désactivation :** Après un peu moins de 10 secondes passées, l'ESP32 désactive les steppers ainsi que le servomoteur. Ainsi, nous empêchons une potentielle disqualification due à une erreur de déplacement du PAMI.
 
 ![Algorigramme PAMI](https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/images/algorigramme_pami.drawio.svg)
+
+## Outils de développement utilisés
+
+Pour bien appréhender la programmation de l'ESP32, il est essentiel de mettre en place l'environnement de développement qui servira tout le long du projet. Cette section détaille donc les outils, les configurations, les dépendances et les bibliothèques nécessaires pour coder, tester et déployer le PAMI.
