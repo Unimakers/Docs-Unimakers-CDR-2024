@@ -18,7 +18,7 @@ rendent sur le lieu pendant 4 jours pour mettre au défi leurs robots, qu'ils au
 
 ## Poster
 
-![Poster projet](images/poster.jpg)
+![Poster projet](images/Poster.jpg)
 
 ## Vidéo
 
