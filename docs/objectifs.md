@@ -6,8 +6,14 @@ title: Objectifs du projet
 
 # Introduction
 
+
+
 ![Logo de la coupe de france de robotique](images/CDR-Web-Logo_Footer-Retina.png)
   
+
+<div>
+  <img src="images/CDR-Web-Logo_Header-Retina.png" alt="Logo de la coupe de france de robotique" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
 
 La Coupe de France de Robotique, existant depuis plus de 30 ans, est une compétition annuelle qui rassemble des équipes d'étudiants de toute la France autour d'un défi technologique : concevoir, réaliser et faire concourir un robot autonome selon un cahier des charges précis.  
 
