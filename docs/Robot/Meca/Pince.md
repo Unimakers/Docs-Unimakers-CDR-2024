@@ -1,7 +1,7 @@
 ---
 layout: default
 grand_parent: Robot
-parent: La Mecanique du robot
+parent: La Mécanique du robot
 nav_order: 1
 title: Système de Manipulation des éléments de jeu
 ---
