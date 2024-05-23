@@ -44,4 +44,8 @@ De nombreuses robot existent déja, le robot actuelle est basée sur des robot a
 # Cahier des Charges
 
 Le cahier des charges est en partie imposée par le règlement de le coupe de france de robotique, que vous pouvez retrouver sur le lien suivant.
+
+<embed src="files/Eurobot2024_Rules.pdf" type="application/pdf" width="100%" height="600px" />
+
+
 [Reglement de la coupe de france de robotique](https://www.coupederobotique.fr/wp-content/uploads/Eurobot2024_Rules_CUP_FR_FINAL.pdf)
