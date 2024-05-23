@@ -6,33 +6,34 @@ title: Objectifs du projet
 
 # Introduction
 
+![Logo de la coupe de france de robotique](images/CDR-Web-Logo_Footer-Retina.png)
 La Coupe de France de Robotique, existant depuis plus de 30 ans, est une compétition annuelle qui rassemble des équipes d'étudiants de toute la France autour d'un défi technologique : concevoir, réaliser et faire concourir un robot autonome selon un cahier des charges précis.  
 
-Participer à cette compétition offre aux étudiants une opportunité inestimable de mettre en pratique leurs connaissances théoriques, de développer des compétences transversales en gestion de projet et de travailler en équipe. 
+Participer à cette compétition offre une opportunité inestimable de mettre en pratique leurs connaissances théoriques, de développer des compétences transversales en gestion de projet et de travail en équipe. 
 
 Au fil des années, la Coupe est devenue une référence incontournable, reconnue par les recruteurs. En effet, bon nombre des participants d'antan occupent aujourd'hui des postes clés dans l'industrie et sont eux-mêmes devenus des recruteurs, cherchant des talents ayant cette expérience unique.  
 
-La présence de l’école dans cette compétition renforce son image d'excellence et d'innovation dans le domaine de la technologie et de l'ingénierie, tout en démontrant notre engagement à préparer les étudiants aux défis du monde réel. 
+La présence de l’école dans cette compétition renforce son image d'excellence et d'innovation dans le domaine de la technologie et de l'ingénierie, tout en démontrant notre engagement de se préparer aux défis du monde réel. 
 
 ## Contexte du Projet
 
-Dans un contexte associatif et du parcours d'étude en ingénieurie, les étudiant cherchent a améiliorer leurs competences dans la robotique par le bia d'un projet concret, une possibilité qui est donné par la coupe de france de robotique. 
-Toute au long du projet, les étudiant serons ammenée a faire des recherches pluridiciplinaire, en utilisant les ressources dissponible (internet, contacts)
+Dans un contexte associatif et du parcours d'étude en ingénieurie, on cherche a améiliorer nos competences dans la robotique par le bia d'un projet concret, une possibilité qui est donné par la coupe de france de robotique. 
+Toute au long du projet, nous étions ammenée a faire des recherches pluridiciplinaire, tout en utilisant les ressources dissponible (internet, contacts)
 
 ## Objectifs du Projet
 
-En 9 mois, les équipes vont construire un robot capable de réaliser 1 ou plusieurs taches suivantes:
+En 9 mois, les équipes ont construit un robot capable de réaliser plusieurs taches :
 
 
-  - prendre un plante et la planter dans un potager ou jardiniere suivant la couleur
+  - prendre une plante et la planter dans un potager ou jardiniere suivant la couleur
   - Mettre la plante dans un pot et la planter partout
   - Tourner Le panneau solaire vers la couleur de son camps
   - Etre actif pendant 90s
 
-Particularité de cette année, lors de la compétition des petits robot appelé P.A.M.I, qui devra faire une ou pulusieurs taches également
+Particularité de cette année, lors de la compétition des petits robot appelé P.A.M.I, qui éfectuent plusieurs taches également
 
   - se déplacer a la 90iéme seconde, et s'eteindre au bout de 100s
-  - etre dans une zone
+  - être dans une zone
   - toucher une plante
 
 # Existant
@@ -41,4 +42,5 @@ De nombreuses robot existent déja, le robot actuelle est basée sur des robot a
 
 # Cahier des Charges
 
-Cet partie est dediée au cahier des charches qui évolue au cours du temps.
+Le cahier des charges est en partie imposée par le règlement de le coupe de france de robotique, que vous pouvez retrouver sur le lien suivant.
+[Reglement de la coupe de france de robotique](https://www.coupederobotique.fr/wp-content/uploads/Eurobot2024_Rules_CUP_FR_FINAL.pdf)

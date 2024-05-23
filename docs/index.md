@@ -14,7 +14,7 @@ Bienvenue dans la documentation du projet de la coupe de france de robotique. Vo
 
 La coupe de robotique est un événement qui prend lieu chaque année a roche-sur-yon,
 de nombreux équipes de robtiques de différentes écoles d'ingénieurs ainsi que de lycées se 
-rendent sur le lieu pendant 4 jours pour mettre au défi le robot qu'ils auronts conçue lors de 9 mois préalable 
+rendent sur le lieu pendant 4 jours pour mettre au défi leurs robots, qu'ils auronts conçue lors de 9 mois préalable 
 
 ## Poster
 
