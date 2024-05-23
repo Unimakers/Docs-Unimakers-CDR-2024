@@ -37,3 +37,12 @@ La programmation du microcontrôleur réalise ainsi ces actions :
 - Synchronisation avec le robot principal
 
 ## Logique fonctionnelle
+
+La logique fonctionnelle du PAMI repose sur une séquence d'actions précises pour garantir le bon déroulement de ses tâches durant le match :
+
+1. **Initialisation :** Après 90 secondes de match, l'ESP32 active les steppers ainsi que le servomoteur, et lance la série d'instructions pour la stratégie.
+2. **Navigation :** Le PAMI quitte sa zone de départ et se dirige vers sa zone de pollinisation attribuée dans son code. Il s'assure d'éviter les obstacles à l'aide de son capteur ultrason.
+3. **Pollinisation :** Une fois arrivé à destination, le PAMI établit le contact avec la plante jusqu'à la fin du match.
+4. **Désactivation :** Après un peu moins de 10 secondes passées, l'ESP32 désactive les steppers ainsi que le servomoteur. Ainsi, nous empêchons une potentielle disqualification due à une erreur de déplacement du PAMI.
+
+![Algorigramme PAMI](https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/images/algorigramme_pami.drawio.svg)
