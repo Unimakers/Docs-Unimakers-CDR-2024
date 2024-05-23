@@ -47,6 +47,19 @@ La logique fonctionnelle du PAMI repose sur une séquence d'actions précises po
 
 ![Algorigramme PAMI](https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/images/algorigramme_pami.drawio.svg)
 
+Cela constitue donc la base programmable pour notre robot que l'on va implémenter.
+
 ## Outils de développement utilisés
 
-Pour bien appréhender la programmation de l'ESP32, il est essentiel de mettre en place l'environnement de développement qui servira tout le long du projet. Cette section détaille donc les outils, les configurations, les dépendances et les bibliothèques nécessaires pour coder, tester et déployer le PAMI.
+Pour bien appréhender la programmation de l'[ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3), il est essentiel de mettre en place l'environnement de développement qui servira tout le long du projet. Cette section détaille donc les outils et les bibliothèques nécessaires pour coder, tester et déployer notre PAMI.
+
+### Outils logiciels
+
+- **[Visual Studio Code](https://code.visualstudio.com/) :** Un riche éditeur de texte performant où nous venons greffer des extensions afin d'obtenir l'IDE qui nous correspond.
+- **[PlatformIO](https://platformio.org/) :** Une plateforme de développement, utilisée pour notre ESP32, offrant une gestion simplifiée des bibliothèques et des outils de compilation. Cela vient sous la forme d'une extension ajoutée à VSCode.
+
+### Bibliothèques
+
+- **[AccelStepper](https://github.com/waspinator/AccelStepper) :** Contrôle des moteurs pas à pas avec des fonctionnalités avancées comme l'accélération et la décélération. Nous l'utilisons pour la partie [steppers](https://unimakers.fr/).
+- **[Ultrasonic](https://github.com/ErickSimoes/Ultrasonic) :** Interfaçage et contrôle des capteurs à ultrasons afin de mesurer des distances avec précision. Nous l'utilisons pour la partie [obstacles](https://unimakers.fr/).
+- **[ESP32Servo](https://github.com/jkb-git/ESP32Servo) :** Contrôle des servomoteurs en utilisant les broches PWM de l'ESP32. Nous l'utilisons pour la partie [pollenisation](https://unimakers.fr/).
