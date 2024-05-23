@@ -8,7 +8,7 @@ title: Accueil
 
 Bienvenue dans la documentation du projet de la coupe de france de robotique. Vous allez y trouver les differents documentations ainsi que recherches que l'équipe a fait lors de la quete de constuire un robot, tout en itterant les designs
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevant.png)
+![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevant.jpg)
 
 ## In a nutshell
 
@@ -18,7 +18,7 @@ rendent sur le lieu pendant 4 jours pour mettre au défi leurs robots, qu'ils au
 
 ## Poster
 
-![Poster projet](images/Poster.png)
+![Poster projet](images/PosterBon.png)
 
 ## Vidéo
 
