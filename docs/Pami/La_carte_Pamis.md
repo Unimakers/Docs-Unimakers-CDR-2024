@@ -9,7 +9,7 @@ title: La carte
 La carte du PAMI doit permettre a un chassi sur roue de se deplacer vers son objectif(plantes) sur un terrain de 2m*3m Pendant 10 secondes,
 en respectant les mesures de sécuritées.
 
-##Cahier des charges:
+## Cahier des charges:
 	
    - Controle de trajectoire:
        
@@ -23,12 +23,12 @@ en respectant les mesures de sécuritées.
         
         Etre capable de s'arreter automatiquement a l'approche d'un obstacle
 
-##Contraintes:
+## Contraintes:
 	-Dimensions: 80mm X 80mm
 	-Quantitée de couches de circuits électriques possibles: 2 couches
 	-Points de fixations: 4 trous de 3mm de diametres
 
-##Conception:
+## Conception:
 	
     Choix des composants
 		
