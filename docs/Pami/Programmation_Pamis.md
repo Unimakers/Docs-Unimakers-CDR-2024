@@ -3,6 +3,7 @@ layout: default
 parent: Pamis
 nav_order: 3
 title: Programmation
+has_children: true
 ---
 
 # Programmation du microcontrôleur ESP32
