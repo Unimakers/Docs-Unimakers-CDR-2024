@@ -1,8 +1,8 @@
 ---
 layout: default
 parent: PAMI
-nav_order: 1
-title: Electronique
+nav_order: 2
+title: Électronique
 ---
 ## Contexte:
 
