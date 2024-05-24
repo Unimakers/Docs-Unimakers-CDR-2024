@@ -18,5 +18,13 @@ title: PCB_V1
   Le boot d'activation du microcontrolleur
   L'intérupteur d'arret d'urgence
   Les LEDs de vérification de l'etat des circuits
+
+  Schéma:
     
   ![Illustration shématique](./ShematicPAMI_V1.png)
+
+  
+  PCB:
+  ![Image pcb1](docs/images/PCBPAMI_V1.png)
+  
+  
