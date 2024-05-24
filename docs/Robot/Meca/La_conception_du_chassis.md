@@ -36,6 +36,21 @@ Le premier prototype utilisait une base roulante holonome pour permettre au robo
 
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
 #### <ins>La transmission</ins>
+
+Le choix d'une transmission différentielle pour la base roulante de notre projet présente plusieurs avantages importants, particulièrement dans le contexte d'optimisation de l'espace de stockage des plantes. Voici une argumentation détaillée basée sur la phrase fournie :  
+  
+<ins>Maniabilité et Précision :</ins> Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.  
+  
+<ins>Efficacité de l'Espace :</ins> L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.  
+  
+<ins>Simplicité Mécanique et Maintenance :</ins> Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.  
+  
+<ins>Adaptabilité et Flexibilité :</ins> Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.  
+  
+<ins>Répartition du Poids :</ins> La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.  
+  
+En conclusion, le choix d'une transmission différentielle pour la base roulante est justifié par sa capacité à optimiser l'espace de stockage des plantes grâce à une maniabilité supérieure, une utilisation efficace de l'espace, une simplicité mécanique, une adaptabilité élevée et une répartition optimale du poids. Ces avantages combinés permettent de créer un système de stockage plus efficace, flexible et facile à maintenir, répondant parfaitement aux exigences d'un environnement de stockage de plantes.  
+
 #### <ins>Optimisation de la forme et de l'espace de stockage</ins>
 
 Un prototype a été développé pour respecter le périmètre maximal de 1200 mm lorsque les actionneurs sont rétractés. Le robot devait avoir un centre creux pour stocker les plantes et les pots, pouvant accueillir 3 pots alignés.
