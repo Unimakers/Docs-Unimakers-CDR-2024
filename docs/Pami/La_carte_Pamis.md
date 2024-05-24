@@ -74,4 +74,4 @@ en respectant les mesures de sécuritées.
     - Le boot d'activation du microcontrolleur
     - L'intérupteur d'arret d'urgence
     - Les LEDs de vérification de l'etat des circuits
-    ![]](https://github.com/Unimakers/Docs-Unimakers-CDR-2024/blob/main/docs/images/ShematicPAMI_V1.png?raw=true)
+    ![](https://github.com/Unimakers/Docs-Unimakers-CDR-2024/blob/main/docs/images/ShematicPAMI_V1.png?raw=true)
