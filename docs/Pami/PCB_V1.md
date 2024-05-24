@@ -1,7 +1,7 @@
 ---
 layout: default
 grand_parent: PAMI
-parent: Hardware
+parent: Carte_PAMI.md
 nav_order: 1
 title: PCB_V1
 ---
