@@ -12,6 +12,11 @@ just_the_docs:
   search_enabled: true
   search_indexing: true
 
+callouts:
+  note:
+    title: Note
+    color: purple
+
 # Plugins
 plugins:
   - jekyll-remote-theme
