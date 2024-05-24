@@ -1,6 +1,6 @@
 ---
 layout: default
-grand_parent: Pamis
+grand_parent: PAMI
 parent: Programmation
 nav_order: 3
 title: Steppers

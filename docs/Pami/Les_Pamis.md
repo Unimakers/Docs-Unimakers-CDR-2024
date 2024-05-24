@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pamis
+title: PAMI
 nav_order: 4
 has_children: true
 ---

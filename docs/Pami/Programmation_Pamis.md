@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Pamis
+parent: PAMI
 nav_order: 3
 title: Programmation
 has_children: true
