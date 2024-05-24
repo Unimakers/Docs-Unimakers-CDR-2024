@@ -19,4 +19,4 @@ title: PCB_V1
   L'intérupteur d'arret d'urgence
   Les LEDs de vérification de l'etat des circuits
     
-   ![](ShematicPAMI_V1.png)
+  ![](docs/Pami/ShematicPAMI_V1.png)
