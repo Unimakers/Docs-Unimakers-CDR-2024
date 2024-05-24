@@ -27,7 +27,7 @@ La première version est idée pour les PAMI était de faire un maximun de PAMI 
 
 ### V1 
 
-![PAMI_V1](../images/PAMI-V1.png)
+<img src="../images/PAMI-V1.png" height="50%" weight="50%">
 
 La premiers version était uniquement théorique car elle n'a jamais était imprimé. Cette version n'a jamais été concrétisée car mom objectif de faire des PAMI les plus petits possible était compliquées et surtout mal abordé. 
 
