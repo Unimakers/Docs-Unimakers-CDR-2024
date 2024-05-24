@@ -3,6 +3,7 @@ layout: default
 parent: PAMI
 nav_order: 1
 title: Hardware
+has_children: true
 ---
 
 ## Contexte
