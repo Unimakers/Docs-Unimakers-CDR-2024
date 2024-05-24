@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Pamis
+parent: PAMI
 nav_order: 1
 title: La carte
 ---
