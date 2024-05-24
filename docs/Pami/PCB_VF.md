@@ -21,7 +21,9 @@ title: PCB_VF
 ## Adaptation du design
 
 -Passage a un formmat 80*80mm
+
 -Ajout de trous pour le passage de cables
+
 -Intégration d'une légende
 
 ![pcb](./PCBPAMIVF.png)
