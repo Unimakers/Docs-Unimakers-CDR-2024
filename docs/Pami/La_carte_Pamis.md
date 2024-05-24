@@ -33,6 +33,8 @@ en respectant les mesures de sécuritées.
     Choix des composants
 		
        - Esp32-S3-VROOM: Microcontroleur standardisé suffisament récent
+
+       - Port USB_OTG
 		
        - TMC2209 SILENTSTEPSTICK: Drivers de moteur stepper a disposition du club
 		
@@ -42,11 +44,11 @@ en respectant les mesures de sécuritées.
 
         -Intéruption d'urgence de l'alimentation
         -Activation du microcontroleur
-        -Changement de stratégie
-		
+        -Changement de stratégie	
+       
        - Buzzer_Beeper: Feedback sonore des actions du PAMI
 		
-       - Screen: FeedBack visuel de l'état du PAMI
+       - Screen: FeedBack visuel de l'état du PAMI	
 		
        - LEDs de vérification: Feedback électrique de l'etat des circuits
 
@@ -59,3 +61,17 @@ en respectant les mesures de sécuritées.
    
     Antenne: Besoin que l'antenne ne soit pas obstruée
     Cable management: Besoin de passages pour organiser les cables
+
+    ## Spécificitées de la version 1 :
+
+    Etant ma toute premiere réalisation de PCB, j'ai opté pour un design visullement intuitif comprenant uniquement les composants les plus cruciaux en essayant de rester sur une carte un minimum compactée en guise de carte test.
+    Ainsi dans le schematique vous trouverer l'élaborations des composants phares tels que :
+   
+    - L'Esp32-S3-VROOM
+    - Le port USB_OTG
+    - Les controlleurs moteurs TMC2209 SILENTSTEPSTICK
+    - Le régulateur de tension Traco TSR_2-2433
+    - Le boot d'activation du microcontrolleur
+    - L'intérupteur d'arret d'urgence
+    - Les LEDs de vérification de l'etat des circuits
+    ![]](https://github.com/Unimakers/Docs-Unimakers-CDR-2024/blob/main/docs/images/ShematicPAMI_V1.png?raw=true)
