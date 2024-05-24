@@ -25,6 +25,6 @@ title: PCB_V1
 
   
   PCB:
-  ![Image pcb1](docs/images/PCBPAMI_V1.png)
+  ![Image pcb1](./PCBPAMI_V1.png)
   
   
