@@ -2,7 +2,7 @@
 layout: default
 parent: PAMI
 nav_order: 1
-title: Hardware
+title: Electronique
 has_children: true
 ---
 
