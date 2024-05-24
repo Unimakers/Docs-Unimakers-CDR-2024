@@ -46,7 +46,7 @@ La logique fonctionnelle du PAMI repose sur une séquence d'actions précises po
 3. **Pollinisation :** Une fois arrivé à destination, le PAMI établit le contact avec la plante jusqu'à la fin du match.
 4. **Désactivation :** Après un peu moins de 10 secondes passées, l'ESP32 désactive les steppers ainsi que le servomoteur. Ainsi, nous empêchons une potentielle disqualification due à une erreur de déplacement du PAMI.
 
-![Algorigramme PAMI](https://raw.githubusercontent.com/Unimakers/Docs-Unimakers-CDR-2024/main/docs/images/algorigramme_pami.drawio.svg)
+![Algorigramme PAMI](../images/algorigramme_pami.drawio.svg)
 
 Cela constitue donc la base programmable pour notre robot que l'on va implémenter.
 
@@ -61,6 +61,6 @@ Pour bien appréhender la programmation de l'[ESP32-S3](https://www.espressif.co
 
 ### Bibliothèques
 
-- **[AccelStepper](https://github.com/waspinator/AccelStepper) :** Contrôle des moteurs pas à pas avec des fonctionnalités avancées comme l'accélération et la décélération. Nous l'utilisons pour la partie [steppers](https://unimakers.fr/).
+- **[AccelStepper](https://github.com/waspinator/AccelStepper) :** Contrôle des moteurs pas à pas avec des fonctionnalités avancées comme l'accélération et la décélération. Nous l'utilisons pour la partie [steppers](https://unimakers.fr/Docs-Unimakers-CDR-2024/Pami/Steppers_Pamis.html).
 - **[Ultrasonic](https://github.com/ErickSimoes/Ultrasonic) :** Interfaçage et contrôle des capteurs à ultrasons afin de mesurer des distances avec précision. Nous l'utilisons pour la partie [obstacles](https://unimakers.fr/).
 - **[ESP32Servo](https://github.com/jkb-git/ESP32Servo) :** Contrôle des servomoteurs en utilisant les broches PWM de l'ESP32. Nous l'utilisons pour la partie [pollenisation](https://unimakers.fr/).
