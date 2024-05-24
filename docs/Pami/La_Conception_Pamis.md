@@ -15,7 +15,7 @@ Les **PAMI** ou **P**etits **A**ctionneurs **M**obile **I**ndépendant, sont des
 ### P.O.C ( Proof Of Concept )
 
 Avant toute conception des PAMI il fallait savoir qu'elle moteur utilisé pour pouvoir concevoir le corps du robot.
-Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche j'ai donc trouvée les settepers que je cherchait des [Nema 14 rond](https://www.omc-stepperonline.com/fr/rond-nema-14-bipolaire-0-9deg-9-ncm-12-75-oz-in-1-0a-36-5x17-5mm-4-fils-14hr07-1004vrn?search=nema%2014%20rond) ou pancake.
+Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche j'ai donc trouvée les settepers que je cherchait des <a href="https://www.omc-stepperonline.com/fr/rond-nema-14-bipolaire-0-9deg-9-ncm-12-75-oz-in-1-0a-36-5x17-5mm-4-fils-14hr07-1004vrn?search=nema%2014%20rond">Nema 14 rond</a> ou pancake.
 
 
 A la suite de ce choix j'ai donc réalisé rapidement une petite pièce pour validé les moteurs et commencé a imaginée les volumes du PAMI.
