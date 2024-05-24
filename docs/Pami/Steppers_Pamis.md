@@ -6,6 +6,8 @@ nav_order: 3
 title: Steppers
 ---
 
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js"></script>
+
 # Steppers
 
 ## Déplacements
