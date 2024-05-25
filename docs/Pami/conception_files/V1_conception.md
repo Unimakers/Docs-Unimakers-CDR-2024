@@ -1,6 +1,6 @@
 ---
 layout: technicals
-grand_parent: Pami
+grand_parent: PAMI
 parent: Conception_Pami
 nav_order: 1
 title: Version 1
