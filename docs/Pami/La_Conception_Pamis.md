@@ -3,6 +3,7 @@ layout: technicals
 parent: PAMI
 nav_order: 1
 title: Conception
+has_children : true
 ---
 
 # Conception & Modélisation des PAMI
@@ -44,4 +45,4 @@ J'ai réitere les processus d'intégres les moteurs au mieux dans le corps (body
 
 
 
-<model-viewer disable-zoom src="../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="../models/poster_pamiv1.webp" shadow-intensity="1"> </model-viewer>
+<model-viewer disable-zoom src="../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="../models/poster_pamiv1.webp" shadow-intensity="1" height="150%" weight="150%"> </model-viewer>
