@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: technicals
 parent: PAMI
 nav_order: 1
 title: Conception
