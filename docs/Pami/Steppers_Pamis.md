@@ -64,3 +64,21 @@ Dans l'exemple ci-dessus, nous donnons l'ordre aux steppers d'avancer en ligne d
 <div class="video-container"><video muted autoplay loop><source src="../images/pami-move.webm" type="video/webm" /></video></div>
 
 *La vidéo ci-dessus illustre bien la façon dont se déplacent les PAMI et comment la détection d'obstacle est implémentée.*
+
+## Axes d'amélioration
+
+En l'état actuel, nous sommes mitigés quant à l'utilisation des steppers. Lors de leur utilisation, il pouvait nous arriver de sauter des pas lors de la détection d'obstacle car l'arrêt des moteurs était brutal. Cela s'explique par la façon dont nous les avons utilisés : 
+
+- La fonction `run()` d'AccelStepper fournit d'origine un mouvement fluide sur les steppers.
+- Nous interrompions l'exécution de cette fonction quand un obstacle était présent.
+- Quand le PAMI se trouvait à une certaine vitesse, interrompre son déplacement tentait de faire passer les steppers de la vitesse actuelle à une vitesse nulle.
+- Les steppers, ne pouvant réaliser une telle chose, devenaient instables et sautaient des pas.
+- Le déplacement (en coordonnées relatives) se retrouvait donc faussé.
+
+Après avoir constaté cela en pratique, quelques axes d'amélioration nous sont venus à l'esprit :
+
+1. Passer à des coordonnées absolues serait bien mieux pour pouvoir déplacer le PAMI à un endroit exact (POI).
+2. Avoir une fonction d'arrêt adaptée nous éviterait de sauter des pas et permettrait un ralentissement en douceur.
+3. Intégrer des encodeurs nous permettrait de corriger les déplacements dans le cas où les steppers sauteraient des pas.
+
+Étudier ces trois points pourrait nous aider à fiabiliser davantage le système de déplacement du PAMI.

@@ -50,3 +50,12 @@ Maintenant que la valeur de notre capteur est utilisable, nous devons interprét
 Au moment où la variable `obstacle` est à l'état **VRAI**, nous envoyons un signal à notre buzzer piézoélectrique afin d'avoir un retour sonore de la détection d'obstacles. Tant que l'obstacle est présent, le buzzer émet une note aiguë. Cela a pour avantage une visualisation simplifiée de la lecture du capteur et de l'exécution du code associé.
 
 ![Buzzer piézoélectrique](../images/buzzer.webp)
+
+## Axes d'amélioration
+
+En l'état actuel, nous sommes satisfaits de l'utilisation du capteur ultrasonique. Lors de son utilisation, nous n'avons jamais rencontré de soucis, il était rapide et très simple à implémenter. Le choix de ce capteur était donc judicieux. Mais après avoir pu mettre le PAMI en pratique, quelques axes d'amélioration nous sont venus à l'esprit :
+
+1. Le choix d'un capteur ultrasonique fournissant déjà un filtrage parasite sur la partie hardware peut être plus fiable à utiliser. Cela nous évite de mettre en place une moyenne mobile qui ralentit la détection d'obstacle.
+2. Avoir au moins deux capteurs ultrasoniques positionnés à différentes hauteurs pourrait aider à discerner les obstacles négligeables des obstacles critiques (voir l'image du PAMI qui s'arrête face à une plante).
+
+Étudier ces deux points pourrait nous aider à fiabiliser davantage le système de détection d'obstacles.
