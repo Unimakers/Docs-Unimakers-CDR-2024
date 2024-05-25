@@ -82,3 +82,6 @@ Après avoir constaté cela en pratique, quelques axes d'amélioration nous sont
 3. Intégrer des encodeurs nous permettrait de corriger les déplacements dans le cas où les steppers sauteraient des pas.
 
 Étudier ces trois points pourrait nous aider à fiabiliser davantage le système de déplacement du PAMI.
+
+{: .note}
+Un système de *Point Of Interest* (POI) permet de définir des points spécifiques que le robot doit atteindre ou surveiller, facilitant la navigation et les déplacements précis dans un environnement donné.
