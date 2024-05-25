@@ -30,7 +30,7 @@ Cela constitue donc la base programmable pour notre robot que l'on va implément
 
 ## Timers hardware
 
-Les opérations d'initialisation et de désactivation du PAMI sont possibles grâce à l'utilisation de timers hardware présents sur l'ESP32. Ils permettent de compter le temps passé avec une grande précision, tout en étant indépendants du CPU. Ainsi, lors de la mise sous tension de la carte électronique, le microcontrôleur traite les instructions demandées dans le code au démarrage. Il définit ensuite un timer comptant jusqu'à 99 secondes. Au déploiement de la tirette, le timer débute. Après avoir compté 90,5 secondes, il lance la stratégie du PAMI. Lorsque les 99 secondes sont atteintes, le timer expire et force l'exécution d'une fonction désactivant les steppers et le servomoteur. À ce moment-là, la carte a terminé l'exécution du code.
+Les opérations d'initialisation et de désactivation du PAMI sont possible grâce à l'utilisation de timers hardware présents sur l'ESP32. Ils permettent de compter le temps passé avec une grande précision, tout en étant indépendants du CPU. Ainsi, lors de la mise sous tension de la carte électronique, le microcontrôleur traite les instructions demandées dans le code au démarrage. Il définit ensuite un timer comptant jusqu'à 99 secondes. Au déploiement de la tirette, le timer débute. Après avoir compté 90,5 secondes, il lance la stratégie du PAMI. Lorsque les 99 secondes sont atteintes, le timer expire et force l'exécution d'une fonction désactivant les steppers et le servomoteur. À ce moment-là, la carte a terminé l'exécution du code.
 
 ## Outils de développement utilisés
 
