@@ -1,9 +1,9 @@
 ---
 layout: technicals
 parent: PAMI
-nav_order: 1
+nav_order: 2
 title: Conception
-has_children : true
+has_children: true
 ---
 
 # Conception & Modélisation des PAMI
@@ -21,7 +21,7 @@ Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche 
 
 A la suite de ce choix j'ai donc réalisé rapidement une petite pièce pour validé les moteurs et commencé a imaginée les volumes du PAMI.
 
-![POC](../../images/POC.jpg)
+<img src="../../images/poc.webp" height="50%" weight="50%">
 
 La première version est idée pour les PAMI était de faire un maximun de PAMI dans une zone la plus compactre possible. Après plusieur heure de conception j'ai obtenu un premiers modéles 3D. 
 
