@@ -1,7 +1,7 @@
 ---
 layout: technicals
 grand_parent: PAMI
-parent: Conception_Pami
+parent: Conception
 nav_order: 3
 title: Version Final
 ---
