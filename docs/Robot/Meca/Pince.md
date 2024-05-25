@@ -11,9 +11,9 @@ title: Système de Manipulation des éléments de jeu
 
 ### Objectifs du système
 
-La pince vise à manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments de jeu se composent de petits pots ronds métalliques (d'environ 6*6.5) et de fleurs en plastique légèrement plus petites. Des petits panneaux solaires sont également manipulés, mais avec un autre système.
+La pince vise à manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments de jeu se composent de petits pots ronds métalliques (d'environ 6*6.5) et de fleurs en plastique légèrement plus petites. De petits panneaux solaires sont également à manipuler, ceux-ci doivent uniquement être tourné dans un sens.
 
-Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu et stockés dans le robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près.
+Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu puis être amené dans une zone de dépose. La stratégie de l'équipe visait à stockée les éléments de jeu à l'intérieur du robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près.
 
 Ce système doit également être rapide car le temps est très limité (90 secondes), il est presque impossible de réaliser toutes les tâches sur le terrain de jeu. Plus le système sera rapide, plus le robot pourra marquer de points et aura donc de chances de remporter la compétition. 
 
@@ -23,15 +23,15 @@ Pour répondre à ces objectifs, plusieurs modèles ont été conçus et testés
 
 [Image de la pince]
 
-Le rôle de la pince est d'ouvrir et de fermer les mâchoires de manière à ce que les éléments de jeu soient bloqués à l'intérieur. Une fois bloqués, les mâchoires peuvent se lever avec l'élément de jeu et s'orienter vers l'intérieur du robot pour libérer ses mâchoires. L'élément de jeu peut alors tomber dans un barillet où seront stockés les éléments de jeu, que ce soit des plantes ou des pots. La pince représente la liaison entre le terrain de jeu et le robot.
+Le rôle de la pince est d'ouvrir et de fermer les mâchoires de manière à ce que les éléments de jeu soient bloqués à l'intérieur. Une fois fermées, les mâchoires peuvent se lever avec l'élément de jeu et s'orienter vers l'intérieur du robot pour libérer ses mâchoires. L'élément de jeu peut alors être posé dans un barillet où seront stockés les éléments de jeu, que ce soit des plantes ou des pots. En résumé, la pince représente la liaison entre les éléments de jeu et le robot.
 
 ## Spécification technique 
 
 ### Contraintes et exigences spécifiques à la Coupe de France de Robotique 2024
 
-Les contraintes spécifiques à la Coupe de France de Robotique sont principalement la taille du robot et de ses systèmes embarqués, ainsi que la vitesse d'exécution des tâches à accomplir. Pour mieux répondre à la contrainte de taille, le système doit être le plus petit possible ou exploiter au mieux les espaces disponibles dans le châssis. En revanche, un robot rapide nécessite plus de puissance des moteurs pour être le plus rapide possible même en contraintes.
+Les contraintes spécifiques à la Coupe de France de Robotique sont principalement la taille du robot et de ses systèmes embarqués, ainsi qu'une execution des tâches rapides du au peu de temps que dure l'épreuve (90 secondes pour le robots principale). Pour mieux répondre à la contrainte de taille, le système doit être le plus petit possible ou exploiter au mieux les espaces disponibles dans le châssis. En revanche, un robot rapide nécessite plus de puissance de la part des moteurs.
 
-Parmi les contraintes de la CDR, il y a également la nécessité d'avoir un robot entièrement autonome. Cela implique de pouvoir connaître en temps réel la position des moteurs et donc de la pince, ainsi que de pouvoir automatiser ces mouvements via une carte programmée. Le robot doit posséder sa propre source d'alimentation électrique, étant donné que les objets à manipuler restent très légers et que les pièces mécaniques sont faites en PLA. Il n'y a donc pas d'exigence particulière en termes d'alimentation ; de simples batteries pourront alimenter tout le robot.
+Parmi les contraintes de la CDR, il y a également la nécessité d'avoir un robot entièrement autonome. Cela implique de pouvoir connaître en temps réel la position des moteurs et donc de la pince, ainsi que de pouvoir automatiser ces mouvements via une carte programmée. Le robot doit posséder sa propre source d'alimentation électrique. Etant donné que les objets à manipuler restent très légers et que les pièces mécaniques sont faites en PLA (matériaux assez léger), il n'y a pas d'exigence particulière en termes d'alimentation ; de simples batteries pourront alimenter tout le robot.
 
 ### Exigences de performance et de précision
 
@@ -72,14 +72,12 @@ Pour valider le système de pinces, à chaque itération du système, les diffé
 
 ### Résultats
 
-En attente des résultats finaux lol
+Lors de la compétition, le système à partiellement répondu à son cahier des charges. En effet, il a pu manipuler les plantes en étant assez précis pour les prendres et déposer aux endroits souhaités. Le système c'est parfaitement comporté avec le barrilet et était relativement rapide. En revanche lors de la compétitions, nous avons constaté que d'autres systèmes etaient beaucoups plus adaptés que celui-ci. La différente était que c'est autres système avaient la capacité de prendre plusieurs plantes en même temps, ils étaientt certe beaucoups moins précis et aurait abimés de vrai plantes. Mais il n'en reste que ce type de système répondait mieux au cahier des charges que le nôtre. 
+De plus lors de la compétitions, les températures étaient assez élevées, cela à provoqué une déformation majeur des machoires les rendant moins efficace qu'à l'origine.    
 
-## Conclusion
-
-### Récapitulatif des points clés
-
-Finalement, le mécanisme est passé par trois grandes étapes clés : le mécanisme de levier pour les mâchoires, l'ajout du deuxième servomoteur puis l'empilement des servomoteurs pour les mâchoires ainsi que celui de rotation du système. Chacun de ces systèmes a été testé et a nécessité plusieurs itérations et échecs avant d'arriver à leurs versions finales.   
 
 ### Perspectives pour l'avenir 
 
-Dans une perspective d'avenir, il pourrait être envisageable de revoir le système de levier pour la hauteur des mâchoires avec un système de tige filetée et un moteur brushless. Ce système aurait pour avantage d'être très rapide, sûrement plus que le système actuel, tout en restant compact grâce au bon rapport puissance/taille des moteurs brushless. De plus, il n'y aurait pas besoin d'encodeur pour connaître la position de la pince. Comme mentionné précédemment sur cet axe, il n'est pas nécessaire d'avoir une grande précision. Un simple capteur de fin de course de part et d'autre du système serait suffisant. Ce système nécessite tout de même de développer un réducteur et d'intégrer une tige filetée sur le robot.
+Dans une perspective d'avenir, il pourrait être envisageable de revoir le système de levier pour la hauteur des mâchoires avec un système de tige filetée et un moteur brushless. Ce système aurait pour avantage d'être très rapide, sûrement plus que le système actuel, tout en restant compact grâce au bon rapport puissance/taille des moteurs brushless. De plus, il n'y aurait pas besoin d'encodeur pour connaître la position de la pince. Comme mentionné précédemment sur cet axe, il n'est pas nécessaire d'avoir une grande précision. Un simple capteur de fin de course de part et d'autre du système serait suffisant. Ce système nécessite tout de même de développer un réducteur et d'intégrer une tige filetée sur le robot ainsi que de pouvoir les alimenter, de simple batterie n'aurait pas suffit. 
+
+Une deuxième amélioration possible serait de remplacer le barrilet par deux autres pinces presque identiques à celles actuels sur le robots. Ainsi, le moteurs pour l'orientation vers le barrilet n'aurait plus était nécéssaires faisant gagner du temps. De plus, cela aurait permis de manipuler les plantes par 4, la programmation aurait égalements était plus simple ainsi que la fiabilité du système.  
