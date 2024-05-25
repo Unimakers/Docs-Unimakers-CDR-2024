@@ -21,26 +21,12 @@ Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche 
 
 A la suite de ce choix j'ai donc réalisé rapidement une petite pièce pour validé les moteurs et commencé a imaginée les volumes du PAMI.
 
-<img src="../../images/poc.webp" height="50%" weight="50%">
+<img src="../../images/poc.webp" height="25%" weight="25%">
 
 La première version est idée pour les PAMI était de faire un maximun de PAMI dans une zone la plus compactre possible. Après plusieur heure de conception j'ai obtenu un premiers modéles 3D. 
 
 
-### V1 
 
-<img src="../../images/PAMI-V1.png" height="50%" weight="50%">
-
-La premiers version était uniquement théorique car elle n'a jamais était imprimé. Cette version n'a jamais été concrétisée car mom objectif de faire des PAMI les plus petits possible était compliquées et surtout mal abordé. 
-
-#### Etalonnage
-
-Les Nema 14 sont équipe d'un engrenage directement soudée sur l'arbre du moteur il m'a donc fallut modélisée unue roue aillant le négatif de cette engrenage pour une intégration obtimal. 
-Les marges d'erreur étant trés petit j'ai donc réaliser une pièce d'etalonnage pour test différente valeur. 
-Pour une présision maximale j'ai décider d'imprimé les roue en résine. 
-J'ai réitere les processus d'intégres les moteurs au mieux dans le corps (body) du robots.
-
-<img src="../../images/etalonnage_reel.webp" >
-<img src="../../images/etalonnage_3d.webp" >
 
 
 
