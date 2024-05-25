@@ -41,4 +41,4 @@ Pour bien appréhender la programmation de l'[ESP32-S3](https://www.espressif.co
 
 - **[AccelStepper](https://github.com/waspinator/AccelStepper) :** Contrôle des moteurs pas à pas avec des fonctionnalités avancées comme l'accélération et la décélération. Nous l'utilisons pour la partie [steppers](./Steppers_Pamis.html).
 - **[Ultrasonic](https://github.com/ErickSimoes/Ultrasonic) :** Interfaçage et contrôle des capteurs à ultrasons afin de mesurer des distances avec précision. Nous l'utilisons pour la partie [obstacles](./Obstacles_Pamis.html).
-- **[ESP32Servo](https://github.com/jkb-git/ESP32Servo) :** Contrôle des servomoteurs en utilisant les broches PWM de l'ESP32. Nous l'utilisons pour la partie [pollenisation](./Pollenisation_Pamis.html).
+- **[ESP32Servo](https://github.com/jkb-git/ESP32Servo) :** Contrôle des servomoteurs en utilisant les broches PWM de l'ESP32. Nous l'utilisons pour la partie [pollinisation](./Pollinisation_Pamis.html).
