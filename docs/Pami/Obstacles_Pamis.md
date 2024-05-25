@@ -19,9 +19,10 @@ Le capteur ultrasonique applique la formule `distance = (temps * vitesse_son) / 
 
 ## Lecture des valeurs du capteur
 
-### Identification d'un problème
+### Identification de problèmes
 
 En testant le capteur, nous nous sommes vite rendus compte que des valeurs parasites étaient retournées. Le PAMI s'arrête seulement si la distance retournée est inférieure à 31 cm. Le fait d'avoir des valeurs fausses rendait ses déplacements erratiques qui, par la même occasion, sautaient des pas sur les steppers.
+Également, le capteur ne peut faire la différence entre une plante ou un robot. De ce fait, le PAMI s'arrête face à n'importe quel obstacle.
 
 ### Solution logicielle
 
@@ -34,6 +35,18 @@ Après un certain moment de réflexion, nous avons essayé d'implémenter une mo
 
 Nous surveillons en continu la proximité d'obstacles en moyennant sur 5 valeurs et obtenons ainsi une unique valeur filtrée. La solution fonctionnant assez bien pour nous, nous l'avons adoptée.
 
-## Intégration de la détection dans les déplacements
+## Intégration de la détection
+
+### Dans les déplacements
 
 Maintenant que la valeur de notre capteur est utilisable, nous devons interpréter la distance des obstacles. Dans notre cas, nous avons juger qu'une tolérance de 31 cm et plus était acceptable. Le PAMI réagit assez rapidement et cela lui permet de s'arrêter en premier dans le cas d'un choc frontal avec un autre robot. Ainsi, quand le capteur retourne une valeur inférieure à 31 cm, il signale la présence d'un obstacle en passant la variable booléenne globale `obstacle` à l'état **VRAI**. Dans le cas contraire, cette variable est à l'état **FAUX**. De cette façon, nous savons si les [steppers](./Steppers_Pamis.html) ont le droit d'exécuter leurs pas en consultant tout simplement l'état de la variable.
+
+![Un PAMI, détectant un obstacle, ne bouge plus](../images/pami-detect-obstacles.webp)
+
+***Hélas, comme nous ne pouvions pas faire la différence entre une plante ou un robot, le PAMI sur l'image ci-dessus s'arrête face à une plante.***
+
+### En retour sonore
+
+Au moment où la variable `obstacle` est à l'état **VRAI**, nous envoyons un signal à notre buzzer piézoélectrique afin d'avoir un retour sonore de la détection d'obstacles. Tant que l'obstacle est présent, le buzzer émet une note aiguë. Cela a pour avantage une visualisation simplifiée de la lecture du capteur et de l'exécution du code associé.
+
+![Buzzer piézoélectrique](../images/buzzer.webp)
