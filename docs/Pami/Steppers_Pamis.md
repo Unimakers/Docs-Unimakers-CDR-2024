@@ -6,6 +6,25 @@ nav_order: 1
 title: Steppers
 ---
 
+<style>
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* Ratio 16:9 */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+	}
+
+	.video-container video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
 # Steppers
 
 ## Déplacements
@@ -42,6 +61,6 @@ Dans l'exemple ci-dessus, nous donnons l'ordre aux steppers d'avancer en ligne d
 
 ### Exemple lors d'un match
 
-<video muted autoplay loop><source src="../images/pami-move.webm" type="video/webm" /></video>
+<div class="video-container"><video muted autoplay loop><source src="../images/pami-move.webm" type="video/webm" /></video></div>
 
 La vidéo ci-dessus illustre bien la façon dont se déplacent les PAMI et comment la détection d'obstacle est implémentée.
