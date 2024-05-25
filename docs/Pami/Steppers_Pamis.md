@@ -57,10 +57,10 @@ void moveExample() {
 }
 ```
 
-Dans l'exemple ci-dessus, nous donnons l'ordre aux steppers d'avancer en ligne droite de `100 * STEP_PER_MM` pas. Ensuite, nous exécutons ces pas tant que les steppers n'ont pas atteint leur position finale. Une petite subtilité est présente sur la dernière partie : nous vérifions la présence d'obstacle. En effet, il y a plus de chance de rencontrer un obstacle sur un déplacement d'un mètre, nous devons donc être sûrs de l'arrêt de l'avancement dans le cas où un obstacle est présent face au PAMI. Pour comprendre comment cette variable booléenne `obstacle` est définie, vous pouvez lire la partie [obstacles](./Obstacles_Pamis.html). Lorsqu'un obstacle est présent, les pas ne sont plus exécutés. Le PAMI ne fait ainsi plus rien tant qu'un obstacle est présent.
+Dans l'exemple ci-dessus, nous donnons l'ordre aux steppers d'avancer en ligne droite de `100 * STEP_PER_MM` pas. Ensuite, nous exécutons ces pas tant que les steppers n'ont pas atteint leur position finale. C'est vérifiable en appelant la fonction `target_reached()` qui retourne **VRAI** ou **FAUX** selon si les pas restants sont différents de zéro. Une petite subtilité est présente sur la dernière partie : nous vérifions la présence d'obstacle. En effet, il y a plus de chance de rencontrer un obstacle sur un déplacement d'un mètre, nous devons donc être sûrs de l'arrêt de l'avancement dans le cas où un obstacle est présent face au PAMI. Pour comprendre comment cette variable booléenne `obstacle` est définie, vous pouvez lire la partie [obstacles](./Obstacles_Pamis.html). Lorsqu'un obstacle est présent, les pas ne sont plus exécutés. Le PAMI ne fait ainsi plus rien tant qu'un obstacle est présent.
 
 ### Exemple lors d'un match
 
 <div class="video-container"><video muted autoplay loop><source src="../images/pami-move.webm" type="video/webm" /></video></div>
 
-La vidéo ci-dessus illustre bien la façon dont se déplacent les PAMI et comment la détection d'obstacle est implémentée.
+*La vidéo ci-dessus illustre bien la façon dont se déplacent les PAMI et comment la détection d'obstacle est implémentée.*

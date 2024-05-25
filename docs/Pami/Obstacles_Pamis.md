@@ -43,7 +43,7 @@ Maintenant que la valeur de notre capteur est utilisable, nous devons interprét
 
 ![Un PAMI, détectant un obstacle, ne bouge plus](../images/pami-detect-obstacles.webp)
 
-***Hélas, comme nous ne pouvions pas faire la différence entre une plante ou un robot, le PAMI sur l'image ci-dessus s'arrête face à une plante.***
+*Hélas, comme nous ne pouvions pas faire la différence entre une plante ou un robot, le PAMI sur l'image ci-dessus s'arrête face à une plante.*
 
 ### En retour sonore
 
