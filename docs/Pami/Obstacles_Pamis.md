@@ -32,4 +32,8 @@ Après un certain moment de réflexion, nous avons essayé d'implémenter une mo
 3. Elle met à jour l'index pour garder une trace de la position dans le tableau des lectures.
 4. Elle calcule la distance moyenne en divisant la somme totale par le nombre de mesures (dans notre cas, 5).
 
-Nous surveillons en continu la proximité d'obstacles en moyennant sur 5 valeurs et obtenons ainsi une unique valeur filtrée. La solution fonctionnant assez bien pour nous, nous l'avons adopté.
+Nous surveillons en continu la proximité d'obstacles en moyennant sur 5 valeurs et obtenons ainsi une unique valeur filtrée. La solution fonctionnant assez bien pour nous, nous l'avons adoptée.
+
+## Intégration de la détection dans les déplacements
+
+
