@@ -10,9 +10,9 @@ title: Obstacles
 
 ## Choix du capteur
 
-Afin de donner la possibilité au PAMI de s'arrêter face à un obstacle et ainsi éviter la collision, nous devons choisir un capteur capable de mesurer avec une précision correcte la distance entre le PAMI et l'obstacle. Notre choix s'est naturellement porté sur le [HC-SR05](https://www.kubii.com/fr/modules-capteurs/2042-capteur-ultrason-hc-sr05-kubii-3272496009028.html), un capteur ultrasonique utilisé pour mesurer des distances en émettant des ondes sonores et en calculant le temps que met l'écho à revenir. C'est une solution peu onéreuse et fiable à implémenter.
+Afin de donner la possibilité au PAMI de s'arrêter face à un obstacle et ainsi éviter la collision, nous devons choisir un capteur capable de mesurer avec une précision correcte la distance entre le PAMI et l'obstacle. Notre choix s'est naturellement porté sur le [HC-SR04](https://www.gotronic.fr/art-module-de-detection-us-hc-sr04-20912.htm), un capteur ultrasonique utilisé pour mesurer des distances en émettant des ondes sonores et en calculant le temps que met l'écho à revenir. C'est une solution peu onéreuse et fiable à implémenter.
 
-![Capteur ultrasonique HC-SR05](../images/hc-sr05.webp)
+![Capteur ultrasonique HC-SR04](../images/hc-sr04.webp)
 
 {: .note}
 Le capteur ultrasonique applique la formule `distance = (temps * vitesse_son) / 2`. La vitesse du son dans l'air est de 340 mètres par seconde.
