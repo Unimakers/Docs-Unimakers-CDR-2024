@@ -6,6 +6,8 @@ has_children: true
 ---
 
 # Le Robot Principale
+En Cours
+{: .label .label-yellow }
 
 <model-viewer src="./RobotModels/Robot.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./RobotModels/Robot.webp" shadow-intensity="0" exposure="0.62" shadow-softness="0" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
     <div class="progress-bar hide" slot="progress-bar">
@@ -15,8 +17,6 @@ has_children: true
 
 ## Introduction
 
-En Cours
-{: .label .label-yellow }
 
 ### Missions
 Le robot commence dès le démarrage d'un match, quittant sa zone de départ, il a le choix de faire 3 taches:
