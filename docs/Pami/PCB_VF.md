@@ -1,7 +1,7 @@
 ---
 layout: default
 grand_parent: PAMI
-parent: Electronique
+parent: Électronique
 nav_order: 2
 title: PCB_VF
 ---
@@ -16,7 +16,7 @@ title: PCB_VF
 
 +Actionneur de LED néopixel
 
-![shema](./SchematicPAMIVF.png)
+![shema](../images/SchematicPAMIVF.png)
 
 ## Adaptation du design
 
@@ -26,4 +26,4 @@ title: PCB_VF
 
 -Intégration d'une légende
 
-![pcb](./PCBPAMIVF.png)
+![pcb](../images/PCBPAMIVF.png)

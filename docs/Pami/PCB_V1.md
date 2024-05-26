@@ -1,7 +1,7 @@
 ---
 layout: default
 grand_parent: PAMI
-parent: Electronique
+parent: Électronique
 nav_order: 1
 title: PCB_V1
 ---
@@ -21,10 +21,10 @@ title: PCB_V1
 
   Schéma:
     
-  ![Illustration shématique](./ShematicPAMI_V1.png)
+  ![Illustration shématique](../images/ShematicPAMI_V1.png)
 
   
   PCB:
-  ![Image pcb1](./PCBPAMI_V1.png)
+  ![Image pcb1](../images/PCBPAMI_V1.png)
   
   
