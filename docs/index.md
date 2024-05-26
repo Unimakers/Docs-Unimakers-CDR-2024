@@ -18,9 +18,13 @@ La coupe de robotique est un événement qui prend lieu chaque année à La Roch
 de nombreux équipes de robtiques de différentes écoles d'ingénieurs ainsi que de lycées se 
 rendent sur le lieu pendant 4 jours pour mettre au défi leurs robots, qu'ils auronts conçue lors de 9 mois préalable 
 
-## Poster
+## Poster du robot principal
 
 ![Poster projet](images/PosterBon.png)
+
+## Poster du PAMI
+
+![Poster PAMI](./images/pami-poster.webp)
 
 ## Vidéo
 
