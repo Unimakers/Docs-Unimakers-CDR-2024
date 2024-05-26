@@ -3,6 +3,8 @@ layout: home
 nav_order: 1
 title: Accueil
 ---
+Terminée
+{: .label .label-green }
 
 # Les Docs de l'équipe I3 de la coupe de france de robotique 2024
 

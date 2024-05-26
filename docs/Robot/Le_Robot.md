@@ -9,6 +9,9 @@ has_children: true
 
 ## Introduction
 
+En Cours
+{: .label .label-yellow }
+
 ### Missions
 Le robot commence dès le démarrage d'un match, quittant sa zone de départ, il a le choix de faire 3 taches:
 
@@ -20,7 +23,8 @@ A la fin du match, le robot doit se trouver dans une zone differentes de sa zone
 
 ### Contraintes
 
-Le robot 
+Le robot
+
 Est autorisée de:
 - Manipuler les éléments
 - voler des plantes des zones non protégé

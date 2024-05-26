@@ -4,6 +4,9 @@ nav_order: 2
 title: Objectifs du projet
 ---
 
+Terminée
+{: .label .label-green }
+
 <div>
   <img src="images/CDR-Web-Logo_Footer-Retina.png" alt="Logo de la coupe de france de robotique" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
@@ -23,7 +26,7 @@ Toute au long du projet, nous étions ammenée a faire des recherches pluridicip
 
 ## Objectifs du Projet
 
-En 9 mois, les équipes ont construit un robot capable de réaliser plusieurs taches :
+En 9 mois, l'équipe a construit un robot capable de réaliser plusieurs taches :
 
 
   - prendre une plante et la planter dans un potager ou jardiniere suivant la couleur
@@ -31,7 +34,7 @@ En 9 mois, les équipes ont construit un robot capable de réaliser plusieurs ta
   - Tourner Le panneau solaire vers la couleur de son camps
   - Etre actif pendant 90s
 
-Particularité de cette année, lors de la compétition des petits robot appelé P.A.M.I, qui éfectuent plusieurs taches également
+Particularité de cette année, lors de la compétition, des petits robot appelé P.A.M.I, peuvent également effectuer plusieurs taches.
 
   - se déplacer a la 90iéme seconde, et s'eteindre au bout de 100s
   - être dans une zone
@@ -43,9 +46,8 @@ De nombreuses robot existent déja, le robot actuelle est basée sur des robot a
 
 # Cahier des Charges
 
-Le cahier des charges est en partie imposée par le règlement de le coupe de france de robotique, que vous pouvez retrouver sur le lien suivant.
+Le cahier des charges est en partie imposée par le règlement de le coupe de france de robotique, que vous pouvez retrouver sur le pdf suivant.
 
 <embed src="files/Eurobot2024_Rules.pdf" type="application/pdf" width="100%" height="600px" />
-
 
 [Reglement de la coupe de france de robotique](https://www.coupederobotique.fr/wp-content/uploads/Eurobot2024_Rules_CUP_FR_FINAL.pdf)
