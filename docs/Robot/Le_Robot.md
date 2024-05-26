@@ -7,6 +7,13 @@ has_children: true
 
 # Le Robot Principale
 
+
+<model-viewer src="./RobotModels/Robot.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./RobotModels/Robot.webp" shadow-intensity="0" exposure="0.62" shadow-softness="0">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+
 ## Introduction
 
 En Cours
