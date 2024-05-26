@@ -21,7 +21,7 @@ Le capteur ultrasonique applique la formule `distance = (temps * vitesse_son) / 
 
 ### Identification de problèmes
 
-En testant le capteur, nous nous sommes vite rendus compte que des valeurs parasites étaient retournées. Le PAMI s'arrête seulement si la distance retournée est inférieure à 31 cm. Le fait d'avoir des valeurs fausses rendait ses déplacements erratiques qui, par la même occasion, sautaient des pas sur les steppers.
+En testant le capteur, nous nous sommes vite rendus compte que des valeurs parasites étaient retournées. Le PAMI s'arrête seulement si la distance retournée est inférieure ou égale à 31 cm. Le fait d'avoir des valeurs fausses rendait ses déplacements erratiques qui, par la même occasion, sautaient des pas sur les steppers.
 Également, le capteur ne peut faire la différence entre une plante ou un robot. De ce fait, le PAMI s'arrête face à n'importe quel obstacle.
 
 ### Solution logicielle
@@ -35,11 +35,34 @@ Après un certain moment de réflexion, nous avons essayé d'implémenter une mo
 
 Nous surveillons en continu la proximité d'obstacles en moyennant sur 5 valeurs et obtenons ainsi une unique valeur filtrée. La solution fonctionnant assez bien pour nous, nous l'avons adoptée.
 
+#### Extrait du code
+
+```c
+int readings[SONAR_ITERATIONS], sonar_index = 0, total = 0, average;
+
+for (;;) { // loop cœur n°2
+	total -= readings[sonar_index];
+	readings[sonar_index] = sonar.read();
+	total += readings[sonar_index];
+
+	sonar_index = (sonar_index + 1) % SONAR_ITERATIONS;
+
+	average = total / SONAR_ITERATIONS;
+
+	if (average <= 31) {
+		obstacle = true;
+		tone(BUZZER, 444);
+	} else {
+		obstacle = false;
+	}
+}
+```
+
 ## Intégration de la détection
 
 ### Dans les déplacements
 
-Maintenant que la valeur de notre capteur est utilisable, nous devons interpréter la distance des obstacles. Dans notre cas, nous avons juger qu'une tolérance de 31 cm et plus était acceptable. Le PAMI réagit assez rapidement et cela lui permet de s'arrêter en premier dans le cas d'un choc frontal avec un autre robot. Ainsi, quand le capteur retourne une valeur inférieure à 31 cm, il signale la présence d'un obstacle en passant la variable booléenne globale `obstacle` à l'état **VRAI**. Dans le cas contraire, cette variable est à l'état **FAUX**. De cette façon, nous savons si les [steppers](./Steppers_Pamis.html) ont le droit d'exécuter leurs pas en consultant tout simplement l'état de la variable.
+Maintenant que la valeur de notre capteur est utilisable, nous devons interpréter la distance des obstacles. Dans notre cas, nous avons juger qu'une tolérance de 32 cm et plus était acceptable. Le PAMI réagit assez rapidement et cela lui permet de s'arrêter en premier dans le cas d'un choc frontal avec un autre robot. Ainsi, quand le capteur retourne une valeur inférieure ou égale à 31 cm, il signale la présence d'un obstacle en passant la variable booléenne globale `obstacle` à l'état **VRAI**. Dans le cas contraire, cette variable est à l'état **FAUX**. De cette façon, nous savons si les [steppers](./Steppers_Pamis.html) ont le droit d'exécuter leurs pas en consultant tout simplement l'état de la variable.
 
 ![Un PAMI, détectant un obstacle, ne bouge plus](../images/pami-detect-obstacles.webp)
 
