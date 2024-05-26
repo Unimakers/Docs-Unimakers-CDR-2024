@@ -7,23 +7,21 @@ has_children: true
 ---
 ## Sans élement, on ira pas loin
 
-Les robots en génerale comportent plusieurs sytèmes de natures differentes, si liste ceux qui sont présent dans le robot c'est :
+Les robots en génerale comportent plusieurs sytèmes de natures differentes, si on liste ceux qui sont présent dans le robot c'est :
 
 - systèmes mécanique
 - systèmes électronique
 - systèmes luminéux
 
-chaqu'un des ces systèmes ont des rôles differentes dans le robot, mais chaque système n'est pas indépendant, il sont soigneusement interfacé l'un a l'autre pour que tout le composants 
-aient une fonction dans le robot
+Chaqu'un des ces systèmes ont des rôles differentes dans le robot, mais chaque système n'est pas indépendant, il sont soigneusement interfacé l'un a l'autre pour que tout les composants aient une fonction dans le robot
 
-## Le mouvement, on y va de pas en pas
+## Le mouvement, on y va de "pas en pas"
 
 Pour le mouvement, on a voulu opter pour des Stepper Nema17, ces stepper sont communement trouvé dans des imprimantes 3D et ont un couple acceptable pour des systèmes léger.
 
 <model-viewer disable-zoom src="./Hardware_files/Nema17.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/poster.webp" shadow-intensity="1"> </model-viewer>
 
-Un stepper est un moteur electrique qui fonctionne de pas en pas, un changement de l'orde de la polarité permet de passer d'une postion a une autre. cette changement est, dans notre cas, gérée par notre 
-programme qui se trouve dans le robot 
+Un stepper est un moteur electrique qui fonctionne de pas en pas, un changement de l'orde de la polarité permet de passer d'une postion a une autre. cette changement est, dans notre cas, gérée par notre programme qui se trouve dans le robot en passant par un driver nommé TMC2209.
 
 On avait choisi ce modéle de stepper en utilisant le calculateur disponible sur le makerspace sur le lien suivant et le cahier des charges prévisionel qui suit.
 
@@ -54,10 +52,8 @@ l'arbre moteur (plus sur le sujet dans la partie méca)
 </model-viewer>
 
 
- 
-
 Pour les mouvement d'actioneurs, on a opté d'utiliser principalement des servo moteurs, ce sont des moteur DC (Direct current) qui intégrent un reglutateur de postion.
-En envoyant un signal PMW (pulse width modulation) en français MLI (Modulation largeur d'impulsion), on peut commander le moteur a se regeler a une certaine angle.
+En envoyant un signal PMW (pulse width modulation) en français MLI (Modulation largeur d'impulsion), on peut commander le moteur a se regler a une certaine angle.
 
 
 <model-viewer src="./Hardware_files/MG996RServo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/posterServo.webp" shadow-intensity="1">
