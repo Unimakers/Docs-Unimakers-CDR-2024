@@ -41,6 +41,9 @@ rendent sur le lieu pendant 4 jours pour mettre au défi leurs robots, qu'ils au
 
 ![Poster projet](images/PosterBon.png)
 
+<video src="images/Robot.webm" controls title="Title"  style="width: 100%;"></video>
+
+
 ## Poster & vidéo - PAMI
 
 ![Poster PAMI](./images/pami-poster.webp)
