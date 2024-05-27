@@ -21,7 +21,7 @@ Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche 
 
 A la suite de ce choix j'ai donc réalisé rapidement une petite pièce pour validé les moteurs et commencé a imaginée les volumes du PAMI.
 
-<img src="../../images/poc.webp" height="25%" weight="25%">
+<img src="../../images/poc.webp" style="height: 25% weight: 25%">
 
 La première version est idée pour les PAMI était de faire un maximun de PAMI dans une zone la plus compactre possible. Après plusieur heure de conception j'ai obtenu un premiers modéles 3D. 
 
