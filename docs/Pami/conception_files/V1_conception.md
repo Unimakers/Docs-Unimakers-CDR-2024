@@ -11,7 +11,7 @@ title: Version 1
 ## V1
 
 
-<model-viewer disable-zoom src="../../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
+<model-viewer disable-zoom src="../../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
 
 
 <img src="../../images/PAMI-V1.png" height="50%" weight="50%">
