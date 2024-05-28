@@ -8,7 +8,7 @@ title: La Programmation
 
 # La Programmation
 
-## Logiciels
+La programmation du robot s'est fait sous platformio, une extention de vscode qui permet de faire de la programmation emarquée.
 
 La programmation est fait sous VS-code, avec l'extention Platformio, une système qui permet de faire de la programmation embarquée.
 
@@ -29,6 +29,7 @@ Le démarrage du robot se passe comme suit:
 - Demmarage
 
 ## Le loop
+
 
 
 
