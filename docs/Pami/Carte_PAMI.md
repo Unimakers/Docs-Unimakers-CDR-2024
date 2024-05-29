@@ -8,56 +8,48 @@ has_children: true
 
 ## Contexte
 
-La carte du PAMI doit permettre a un chassi sur roue de se deplacer vers son objectif(plantes) sur un terrain de 2m*3m Pendant 10 secondes,
-en respectant les mesures de sécuritées.
+La carte du PAMI doit permettre à un châssis sur roues de se déplacer vers son objectif (plantes) sur un terrain de 2m x 3m pendant 10 secondes, en respectant les mesures de sécurité.
 
 ## Cahier des charges
    
-  -Controle de trajectoire:
-       -Atteindre les plantes rapidement et éfficacement
+- **Contrôle de trajectoire :**
+  - Atteindre les plantes rapidement et efficacement.
 	
-   -Arret d'urgence:
-       -Avoir un bouton d'arret d'urgence a disposition
+- **Arrêt d'urgence :**
+  - Avoir un bouton d'arrêt d'urgence à disposition.
 	
-   -Detection d'obstacle
-        -Etre capable de s'arreter automatiquement a l'approche d'un obstacle
+- **Détection d'obstacle :**
+  - Être capable de s'arrêter automatiquement à l'approche d'un obstacle.
 
- ## Contraintes
-   -Dimensions: 80mm X 80mm
-   -Quantitée de couches de circuits électriques possibles: 2 couches
-   -Points de fixations: 4 trous de 3mm de diametres
+## Contraintes
 
- ## Conception
-	
-Choix des composants:
-		
- -Esp32-S3-VROOM: Microcontroleur standardisé suffisament récent
+- **Dimensions :** 80mm x 80mm
+- **Quantité de couches de circuits électriques possibles :** 2 couches
+- **Points de fixation :** 4 trous de 3mm de diamètre
 
- -Port USB_OTG
-		
- -TMC2209 SILENTSTEPSTICK: Drivers de moteur stepper a disposition du club
-		
- -Traco TSR_2-2433: Régulateur abaisseur de tension 5V/3.3V a disposition du club
-		
- -Intérrupteurs:
+## Conception
 
-   Intéruption d'urgence de l'alimentation
-   Activation du microcontroleur
-   Changement de stratégie	
-       
- -Buzzer_Beeper: Feedback sonore des actions du PAMI
-		
- -Screen: FeedBack visuel de l'état du PAMI	
-		
- -LEDs de vérification: Feedback électrique de l'etat des circuits
+### Choix des composants
 
-Choix de l'alimentation 5V/3.3V:
-    
- 5V: Utilisé pour les moteurs steppers/ servomoteurs
- 3.3V: Utilisé pour le transfert de données au seins de la carte
+- **ESP32-S3-VROOM :** Microcontrôleur standardisé suffisamment récent.
+- **Port USB_OTG**
+- **TMC2209 SILENTSTEPSTICK :** Drivers de moteur pas à pas à disposition du club.
+- **Traco TSR_2-2433 :** Régulateur abaisseur de tension 5V/3.3V à disposition du club.
+- **Interrupteurs :**
+  - Interruption d'urgence de l'alimentation.
+  - Activation du microcontrôleur.
+  - Changement de stratégie.
+- **Buzzer/Beeper :** Feedback sonore des actions du PAMI.
+- **Écran :** Feedback visuel de l'état du PAMI.
+- **LEDs de vérification :** Feedback électrique de l'état des circuits.
 
-Determinasion du design: 
-   
- Antenne: Besoin que l'antenne ne soit pas obstruée
- Cable management: Besoin de passages pour organiser les cables
+### Choix de l'alimentation 5V/3.3V
+
+- **5V :** Utilisé pour les moteurs pas à pas et les servomoteurs.
+- **3.3V :** Utilisé pour le transfert de données au sein de la carte.
+
+### Détermination du design
+
+- **Antenne :** Besoin que l'antenne ne soit pas obstruée.
+- **Gestion des câbles :** Besoin de passages pour organiser les câbles.
  

@@ -6,7 +6,7 @@ nav_order: 4
 title: V4 Carte
 ---
 
-# le temps est écoulé, le 4e candidat est retenue
+# Le temps est écoulé, le 4e candidat est retenu
 
 <kicanvas-embed controls="full">
     <kicanvas-source src="./V4_carte_files/MainBoardV4.kicad_sch"></kicanvas-source>
@@ -16,9 +16,6 @@ title: V4 Carte
     <kicanvas-source src="./V4_carte_files/Logic.kicad_sch"></kicanvas-source>
     <kicanvas-source src="./V4_carte_files/steppers.kicad_sch"></kicanvas-source>
     <kicanvas-source src="./V4_carte_files/MainBoardV4.kicad_pcb"></kicanvas-source>
-
 </kicanvas-embed>
 
-Voici la dernier carte a jour qui partipera a la coupe
-
-
+Voici la dernière carte à jour qui participera à la coupe.
