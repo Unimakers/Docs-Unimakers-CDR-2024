@@ -13,7 +13,7 @@ La pince vise à manipuler les éléments de jeu de la Coupe de France de Roboti
 
 Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu puis être amené dans une zone de dépose. La stratégie choisie par l'équipe vise à stocker les éléments de jeu à l'intérieur du robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près dans les emplacement dédiés à l'intérieur du robot.
 
-Ce système doit également être rapide car le temps est très limité (90 secondes). Plus le système sera rapide, plus le robot pourra marquer de points et aura donc de chances de remporter la compétition. 
+Ce système se doit également être rapide car le temps est très limité (90 secondes). Plus le système sera rapide, plus le robot pourra marquer de points et aura donc de chances de remporter la compétition. 
 
 ## Aperçu de la pince et de son rôle 
 
@@ -45,9 +45,11 @@ En ce qui concerne la précision, seule la rotation autour de l'axe Y doit être
 
 ### Conception des machoires 
 
-Un premier modèle de pince a été longuement travaillé avant le modèle final. Celui-ci avait la particularité de n'avoir qu'un seul moteur pour les mâchoires. Le moteur tirait sur un axe faisant office de levier pour les mâchoires. Cependant, ce système ne permettait pas de contrôler indépendamment chaque mâchoire mais était plus léger. De plus, il nécessitait un grand empattement pour peu de force de serrage.
+Le système permettant de manipuler les élèments s'est orienté dès les POC (proof of concept) vers un système de pince dans le but de pouvoir s'adapter à la fois a la taille des plantes et des pots métalique. Cela grâce au TPU qui est un matériaux plus souple et qui permetant de se déformer. Ainsi peut importe l'objet la pince pouvait s'adpter à celui-ci pour avoir une prise adéquat et ne pas les faire tomber lors des déplacements.   
 
-Ensuite, un deuxième moteur a été introduit pour les mâchoires, ce qui a grandement simplifié le système et accru la force de serrage. En revanche, le système est devenu beaucoup plus lourd. Les moteurs étant désormais plus près des plantes, ils les touchaient lorsque les éléments étaient dans les mâchoires. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a toutefois permis de placer le système de mâchoires au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot. 
+Un premier modèle de pince a été longuement travaillé avant le modèle final. Celui-ci avait la particularité de n'avoir qu'un seul moteur pour les mâchoires. Le moteur tirait sur un axe faisant office de levier pour celles-ci. Cependant, ce système ne permettait pas de contrôler indépendamment chaque mâchoire mais était plus léger. De plus, il nécessitait un grand empattement pour peu de force de serrage.
+
+Ensuite, un deuxième moteur a été introduit pour les mâchoires, ce qui a grandement simplifié le système et accru la force de serrage. En revanche, le système est devenu beaucoup plus lourd et les moteurs se sont rapprochés des éléments de jeu créant ainsi un contact entre les deux. Ce contact empechait de pouvoir manipuler correctement les objects du terrain. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a alors permis de placer le système au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot. 
 
 ### Conception de l'ascenseur
 
