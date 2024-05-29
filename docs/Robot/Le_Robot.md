@@ -19,29 +19,29 @@ En Cours
 
 
 ### Missions
-Le robot commence dès le démarrage d'un match, quittant sa zone de départ, il a le choix de faire 3 taches:
+Le robot commence dès le démarrage d'un match. En quittant sa zone de départ, il a le choix de réaliser trois tâches :
 
-- prendre des plantes
-- prendre des pots 
-- tourner les panneaux solaires
+- Prendre des plantes.
+- Prendre des pots.
+- Tourner les panneaux solaires.
 
-A la fin du match, le robot doit se trouver dans une zone differentes de sa zone de départ.
+À la fin du match, le robot doit se trouver dans une zone différente de sa zone de départ.
 
 ### Contraintes
 
-Le robot
+Le robot est autorisé à :
 
-Est autorisée de:
-- Manipuler les éléments
-- voler des plantes des zones non protégé
-- tourner les panneau solaires de sa couleur de match et les panneau partagé
+- Manipuler les éléments.
+- Voler des plantes des zones non protégées.
+- Tourner les panneaux solaires de sa couleur de match et les panneaux partagés.
 
-N'est pas autorisée de:
-- Nuire a l'adversaire
-- Défendre une zone volontairement
-- Voler des plantes dans les jardinieres
-- Heurter l'adversaire
+Le robot n'est pas autorisé à :
 
-Dans la suite du documentation, vous verez les differentes actionneurs, capteurs, microcontrolleurs utilisée pour le Robot.
+- Nuire à l'adversaire.
+- Défendre une zone volontairement.
+- Voler des plantes dans les jardinières.
+- Heurter l'adversaire.
+
+Dans la suite de la documentation, vous verrez les différents actionneurs, capteurs et microcontrôleurs utilisés pour le robot.
 
 [Return Bloc](https://unimakers.fr/Docs-Unimakers-CDR-2024/)
