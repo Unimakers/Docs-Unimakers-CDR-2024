@@ -11,9 +11,7 @@ title: Système de Manipulation des éléments de jeu
 
 La pince vise à manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments de jeu se composent de petits pots ronds métalliques (d'environ 6 cm x 6,5 cm) et de fleurs en plastique légèrement plus petites. De petits panneaux solaires doivent également être manipulés ; ceux-ci doivent uniquement être tournés dans un sens, mais le mécanisme dédié sera détaillé dans une autre section.
 
-Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu puis amenés dans une zone de dépose. La stratégie choisie par l'équipe vise à stocker les éléments de jeu à l'intérieur du robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près dans les emplacements dédiés à l'intérieur du robot.
-
-Ce système doit également être rapide car le temps est très limité (90 secondes). Plus le système sera rapide, plus le robot pourra marquer de points et aura donc plus de chances de remporter la compétition.
+Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu puis amenés dans une zone de dépose. La stratégie choisie par l'équipe vise à stocker les éléments de jeu à l'intérieur du robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près dans les emplacements dédiés à l'intérieur du robot.Ce système doit également être rapide car le temps est très limité (90 secondes). Plus le système sera rapide, plus le robot pourra marquer de points et aura donc plus de chances de remporter la compétition.
 
 ## Aperçu de la pince et de son rôle
 
@@ -21,7 +19,7 @@ Pour répondre à ces objectifs, plusieurs modèles ont été conçus et testés
 
 [Image de la pince]
 
-L'objectif de la pince est de pouvoir manipuler les éléments de jeu. Une fois en prise, les mâchoires peuvent se lever avec l'élément de jeu et s'orienter vers l'intérieur du robot pour y déposer les plantes. L'élément de jeu peut alors être stocké dans un barillet, que ce soit une plante ou un pot. En résumé, la pince représente la liaison entre les éléments de jeu et le robot.
+L'objectif de la pince est de pouvoir manipuler les éléments de jeu. Une fois en prise, les mâchoires peuvent se lever avec l'élément de jeu et s'orienter vers l'intérieur du robot pour y déposer les plantes. L'élément de jeu peut alors être stocké dans un barillet, que ce soit une plante ou un pot métallique. Le barillet peut contenir plusieurs éléments de jeu, réduisant ainsi le nombre de manipulations nécessaires.
 
 # Spécifications techniques
 
@@ -43,11 +41,30 @@ En ce qui concerne la précision, seule la rotation autour de l'axe Y doit être
 
 ### Conception des mâchoires
 
-Le système permettant de manipuler les éléments s'est orienté dès les POC (proof of concept) vers un système de pince afin de pouvoir s'adapter à la fois à la taille des plantes et des pots métalliques. Grâce au TPU, un matériau plus souple et capable de se déformer, la pince peut s'adapter à n'importe quel objet pour avoir une prise adéquate et éviter de les faire tomber lors des déplacements.
+Le système permettant de manipuler les éléments s'est orienté dès les POC (proof of concept) vers un système de pince afin de pouvoir s'adapter à la fois à la taille des plantes et des pots métalliques. Grâce au TPU, un matériau plus souple et capable de se déformer, permettant à la pince peut s'adapter à n'importe quel objet pour avoir une prise adéquate et éviter de les faire tomber lors des déplacements.
 
-Un premier modèle de pince a été longuement travaillé avant le modèle final. Celui-ci avait la particularité de n'avoir qu'un seul moteur pour les mâchoires. Le moteur tirait sur un axe faisant office de levier pour celles-ci. Cependant, ce système ne permettait pas de contrôler indépendamment chaque mâchoire mais était plus léger. De plus, il nécessitait un grand empattement pour peu de force de serrage.
+La forme de celles-ci est resté assez similaire au fur et a mesure des versions mais à tout de même subut de nombreux changement. 
 
-Ensuite, un deuxième moteur a été introduit pour les mâchoires, ce qui a grandement simplifié le système et accru la force de serrage. En revanche, le système est devenu beaucoup plus lourd et les moteurs se sont rapprochés des éléments de jeu, créant ainsi un contact entre les deux. Ce contact empêchait de pouvoir manipuler correctement les objets du terrain. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a permis de placer le système au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot.
+[ImageVersionPince]
+
+Comme l'on peut le voir les machoires se sont affinées au fur et à mesure des essais toujours dans une optique de gains de place. Différentes combinaisons ont égalements permis de trouver la souplesse la plus adéquat. 
+
+Les premières versions avait également la particularité de part leur forme de s'enrouler autour de l'objet lorsque celui ci était serré. 
+
+Un premier mécanisme permettant le serrage a été longuement travaillé avant le modèle final. Celui-ci avait la particularité de n'avoir qu'un seul moteur pour les mâchoires. Le moteur tirait sur un axe faisant office de levier pour celles-ci. Cependant, ce système ne permettait pas de contrôler indépendamment chaque mâchoire mais était plus léger car ne nécéssitait qu'un seul moteur. 
+En revanche, il nécessitait un grand empattement pour peu de force de serrage du à l'axe sur lequel le moteur agissait. 
+
+[ImagePremierSystemMeca]
+
+Ensuite, un deuxième moteur a été introduit pour les mâchoires, ce qui a grandement simplifié le système et accru la force de serrage. Il y avait désormas le moteur branché en direct sur la machoire. 
+En revanche, le système est devenu beaucoup plus lourd du au rajout d'un moteur, ils se sont dans un même temps rapprochés des éléments de jeu, créant ainsi un contact entre les deux. 
+
+[IMG_Seonc_MEca]
+
+Ce contact empêchait de pouvoir manipuler correctement les objets du terrain. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a permis de placer le système au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot.
+
+
+[IMG_entretoise]
 
 ### Conception de l'ascenseur
 
@@ -75,14 +92,13 @@ Pour valider le système de pinces, à chaque itération du système, les diffé
 
 Lors de la compétition, le système a partiellement répondu à son cahier des charges. En effet, il a pu manipuler les plantes avec assez de précision pour les prendre et les déposer aux endroits souhaités. Le système s'est parfaitement comporté avec le barillet et était relativement rapide. En revanche, nous avons constaté que d'autres systèmes étaient beaucoup plus adaptés que le nôtre. Ces autres systèmes avaient la capacité de prendre plusieurs plantes en même temps ; ils étaient certes beaucoup moins précis et auraient abîmé de vraies plantes, mais ils répondaient mieux aux exigences de la compétition.
 
-De plus, lors de la compétition, les températures étaient assez élevées, ce qui a provoqué une déformation majeure des mâchoires, les rendant moins efficaces qu'à l'origine.
+De plus, lors de la compétition, les températures étaient assez élevées, ce qui a provoqué une déformation majeure des mâchoires en TPU, les rendant moins efficaces qu'à l'origine.
 
 ## Perspectives pour l'avenir
 
-Dans une perspective d'avenir, il pourrait être envisageable de revoir le système de levier pour la hauteur des mâchoires avec un système de tige filetée et un moteur brushless. Ce système aurait l'avantage d'être très rapide, sûrement plus que le système actuel, tout en restant compact grâce au bon rapport puissance/taille des moteurs brushless. De plus, il n'y aurait pas besoin d'encodeur pour connaître la position de la pince. Comme mentionné précédemment, sur cet axe, il n'est pas nécessaire d'avoir une grande précision. Un simple capteur de fin de course de part et d'autre du système serait suffisant. Ce système nécessite tout de même de développer un réducteur et d'intégrer une tige filetée sur le robot ainsi que de pouvoir les alimenter ; de simples batteries n'auraient pas suffi.
+Une première amélioration possible serait de remplacer le barillet par deux autres pinces presque identiques à celles actuellement sur le robot. Ainsi, le moteur pour l'orientation vers le barillet n'aurait plus été nécessaire, ce qui aurait fait gagner du temps. Cela permettait dans un même temps de manipuler les plantes par quatre, simplifiant la programmation et améliorant la fiabilité du système. L'utilisation de se système avait également comme avantage de ne pas nécéssité beaucoup de modification à celui actuels n'engagent pas à beaucoups d'investissements en terme de temps passé. 
 
-Une deuxième amélioration possible serait de remplacer le barillet par deux autres pinces presque identiques à celles actuellement sur le robot. Ainsi, le moteur pour l'orientation vers le barillet n'aurait plus été nécessaire, ce qui aurait fait gagner du temps. De plus, cela aurait permis de manipuler les plantes par quatre, simplifiant la programmation et améliorant la fiabilité du système.
+Dans une perspective d'avenir, il pourrait aussi être envisageable d'utiliser un système de pince permettant de saisir plusieurs éléments de jeu en même temps, de supprimer le barrilet actuels et le remplacer par une deuxième pince équivalentes pour multipié par deux le nombres d'éléments de jeux manipulable avant chaque dépot dans les zones prévue a cet effets. 
 
----
 
-En conclusion, la pince développée pour la Coupe de France de Robotique 2024 a montré des capacités intéressantes en termes de précision et de rapidité dans des conditions contrôlées. Toutefois, les performances réelles en compétition ont mis en lumière plusieurs axes d'amélioration, notamment en matière de résistance à la chaleur et d'optimisation du temps de cycle. Ces enseignements seront précieux pour les développements futurs, permettant de concevoir des systèmes encore plus performants et adaptés aux exigences de la compétition.
+
