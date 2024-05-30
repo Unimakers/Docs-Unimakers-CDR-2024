@@ -78,16 +78,16 @@ Le passage de Solidworks à OnShape s'est fait pour plusieurs raisons pratiques 
 #### <ins>Problèmes de Licence :</ins>  
 Solidworks posait des problèmes de licence, ce qui limitait son utilisation. OnShape, en revanche, est gratuit pour les étudiants, rendant le logiciel accessible à toute l'équipe sans coûts supplémentaires.
 
-####<ins>Travail Collaboratif :</ins>  
+#### <ins>Travail Collaboratif :</ins>  
 OnShape permet le travail collaboratif en temps réel, facilitant la communication et la coordination entre les membres de l'équipe. Cette fonctionnalité est particulièrement utile pour des projets complexes nécessitant des ajustements fréquents et une collaboration constante.
 
-####<ins>Redéveloppement et Optimisation :</ins>  
+#### <ins>Redéveloppement et Optimisation :</ins>  
 Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant l'opportunité d'améliorer et d'optimiser les composants. Par exemple, la pince ajoutée a nécessité la suppression des Makerbeam à l'avant, permettant des mouvements plus libres.
 
-####<ins>Consolidation et Amélioration du Châssis :</ins>  
+#### <ins>Consolidation et Amélioration du Châssis :</ins>  
 Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
 
-####<ins>Réorganisation Interne :</ins>  
+#### <ins>Réorganisation Interne :</ins>  
 La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
 
 En résumé, le passage à OnShape a permis de surmonter les limitations de Solidworks, d'améliorer la collaboration et de redévelopper le robot de manière plus efficace et fonctionnelle.
