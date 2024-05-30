@@ -1,7 +1,7 @@
 ---
 layout: default
 grand_parent: Robot
-parent: La Mécanique du robot
+parent: La Mécanique du robo
 nav_order: 4
 title: La conception du chassis
 ---
