@@ -9,6 +9,8 @@ title: La conception du chassis
 
 # Le châssis
 
+## Comment fabriquer un bon châssis ?
+
 Le châssis constitue la pièce maîtresse des robots, ayant pour rôle de supporter l'ensemble de leur masse tout en fournissant une structure robuste et rigide.
 Un châssis de qualité est indispensable pour assurer la stabilité et la résistance du robot pendant ses déplacements et ses interactions avec l'environnement.
 
@@ -19,7 +21,6 @@ Il doit être capable de supporter les forces et les vibrations générées par 
 Pour garantir la performance, la stabilité et la durabilité d'un robot, un châssis de qualité est essentiel.
 Sa conception doit être minutieuse, en prenant en compte les contraintes mécaniques auxquelles le robot sera soumis et les exigences spécifiques de la tâche à accomplir.
 
-## Comment fabriquer un bon châssis ?
 
 La première étape consiste à identifier tous les éléments qui devront être fixés sur le châssis. Pour ce robot, la liste est la suivante :
 
