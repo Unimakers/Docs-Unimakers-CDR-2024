@@ -11,7 +11,7 @@ title: Version 2
 
 ## V2
 
-Les **PAMI** ou (**P**etits **A**ctionneurs **M**obile **I**ndépendant), sont des petits robots qui sont soumis à plusieurs régle pour la conception ce sont les contraintes volumétriques qui nous intéresse le plus. En effets il n'y a pas de nombre limite de PAMI présent sur la table de jeu cependant l'ensemble des PAMI doit tenir dans une zone de 150mm*450mm et 150mm de hauteur. Il ont également une limite de poids fixé a 1.5kg dans le réglement final. Cependant le premiers réglement (béta) limité le poids des PAMI à 1kg. Afin d'être sur de respecté les contrainte volumétriques la conceptin de base sur un volume carré ou rectangulaire que l'on perce afin d'y intégres nos composants.
+Les **PAMI** (Petits Actionneurs Mobiles Indépendants) sont de petits robots soumis à plusieurs règles de conception, dont les contraintes volumétriques sont les plus importantes. En effet, il n'y a pas de nombre limite de PAMI présents sur la table de jeu, cependant, l'ensemble des PAMI doit tenir dans une zone de 150mm x 450mm et 150mm de hauteur. Ils ont également une limite de poids fixée à 1,5kg dans le règlement final. Cependant, le premier règlement (béta) limitait le poids des PAMI à 1kg. Afin de respecter les contraintes volumétriques, la conception de base repose sur un volume carré ou rectangulaire dans lequel nous intégrons nos composants.
 
 
 ### PoC (Proof of Concept)

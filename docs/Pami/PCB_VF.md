@@ -6,24 +6,19 @@ nav_order: 2
 title: PCB_VF
 ---
 
-## Ajouts de fonctionnalitées
+## Ajouts de fonctionnalités
 
-+Buzzer_Beeper: Feedback sonore des actions du PAMI
+- **Buzzer_Beeper** : Feedback sonore des actions du PAMI.
+- **Screen** : Feedback visuel de l'état du PAMI.
+- **Interrupteur de changement de stratégie**.
+- **Actionneur de LED néopixel**.
 
-+Screen: FeedBack visuel de l'état du PAMI
-
-+Intérupteur de changement de stratégie
-
-+Actionneur de LED néopixel
-
-![shema](../images/SchematicPAMIVF.png)
+![Schéma](../images/SchematicPAMIVF.png)
 
 ## Adaptation du design
 
--Passage a un formmat 80*80mm
+- Passage à un format 80x80 mm.
+- Ajout de trous pour le passage de câbles.
+- Intégration d'une légende.
 
--Ajout de trous pour le passage de cables
-
--Intégration d'une légende
-
-![pcb](../images/PCBPAMIVF.png)
+![PCB](../images/PCBPAMIVF.png)

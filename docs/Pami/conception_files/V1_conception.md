@@ -10,32 +10,26 @@ title: Version 1
 
 ## V1
 
-
 <model-viewer disable-zoom src="../../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/poster.webp" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
 
-<img src="../../images/PAMI-V1.png" height="50%" weight="50%">
+<img src="../../images/PAMI-V1.png" height="50%" width="50%">
 
-La premiers version était uniquement théorique car elle n'a jamais était imprimé. 
-Cette version n'a jamais été concrétisée car mom objectif de faire des PAMI les plus petits possible était compliquées et surtout mal abordé.
-Cependant elle m'as permis de mettre sur table tout les élements nessesaire au PAMI est de mieux visualiser par  la suite l'ensemble des élements a modélisée 
+La première version était uniquement théorique car elle n'a jamais été imprimée. Cette version n'a jamais été concrétisée car mon objectif de faire des PAMI les plus petits possible était compliqué et surtout mal abordé. Cependant, elle m'a permis de mettre sur table tous les éléments nécessaires au PAMI et de mieux visualiser par la suite l'ensemble des éléments à modéliser.
 
-### Etalonnage
+### Étalonnage
 
-Les Nema 14 rond sont équipe d'un engrenage directement soudée sur l'arbre du moteur il m'a donc fallut modélisée unue roue aillant le négatif de cette engrenage pour une intégration obtimal. 
-Les marges d'erreur étant trés petit j'ai donc réaliser une pièce d'etalonnage pour test différente valeur. 
-Pour une présision maximale j'ai décider d'imprimé les roue en résine. 
-J'ai réitere les processus d'intégres les moteurs au mieux dans le corps (body) du robots.
+Les Nema 14 ronds sont équipés d'un engrenage directement soudé sur l'arbre du moteur. Il m'a donc fallu modéliser une roue ayant le négatif de cet engrenage pour une intégration optimale. Les marges d'erreur étant très petites, j'ai donc réalisé une pièce d'étalonnage pour tester différentes valeurs. Pour une précision maximale, j'ai décidé d'imprimer les roues en résine. J'ai réitéré le processus pour intégrer les moteurs au mieux dans le corps (body) du robot.
 
-<img src="../../images/etalonnage_reel.webp" height="50%" weight="50%">
-<img src="../../images/etalonnage_3d.webp" height="50%" weight="50%">
+<img src="../../images/etalonnage_reel.webp" height="50%" width="50%">
+<img src="../../images/etalonnage_3d.webp" height="50%" width="50%">
 
-Cette étalonnage fait également partie d'une démarche écologique car elle permet de test plusieur valeur avec un minimun de plastique utilisée.
+Cet étalonnage fait également partie d'une démarche écologique car il permet de tester plusieurs valeurs avec un minimum de plastique utilisé.
 
 ### Conclusion
 
-Après avoir passer plusieur heure sur cette modélisation et pris en note plusieur point : 
+Après avoir passé plusieurs heures sur cette modélisation et pris en note plusieurs points :
 
-    - Il faut une surface pour fixé les composant
-    - Le robot est trop petit
-    - Il faut trouvée une vrai batterie, celle-ci n'est que théorique et trouvé comment l'attacher
-    - Le robot a besoins d'au moins une bille folle d'éqilibrage avant arriére.  
+- Il faut une surface pour fixer les composants.
+- Le robot est trop petit.
+- Il faut trouver une vraie batterie, celle-ci n'étant que théorique, et déterminer comment l'attacher.
+- Le robot a besoin d'au moins une bille folle pour l'équilibrage avant/arrière.

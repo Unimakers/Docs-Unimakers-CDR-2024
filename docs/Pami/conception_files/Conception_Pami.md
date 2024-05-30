@@ -10,25 +10,14 @@ has_children: true
 
 ## Introduction
 
-Les **PAMI** ou (**P**etits **A**ctionneurs **M**obile **I**ndépendant), sont des petits robots qui sont soumis à plusieurs régle pour la conception ce sont les contraintes volumétriques qui nous intéresse le plus. En effets il n'y a pas de nombre limite de PAMI présent sur la table de jeu cependant l'ensemble des PAMI doit tenir dans une zone de 150mm*450mm et 150mm de hauteur. Il ont également une limite de poids fixé a 1.5kg dans le réglement final. Cependant le premiers réglement (béta) limité le poids des PAMI à 1kg. Afin d'être sur de respecté les contrainte volumétriques la conceptin de base sur un volume carré ou rectangulaire que l'on perce afin d'y intégres nos composants.
-
+Les **PAMI** (Petits Actionneurs Mobiles Indépendants) sont de petits robots soumis à plusieurs règles de conception, dont les contraintes volumétriques sont les plus importantes. En effet, il n'y a pas de nombre limite de PAMI présents sur la table de jeu, cependant, l'ensemble des PAMI doit tenir dans une zone de 150mm x 450mm et 150mm de hauteur. Ils ont également une limite de poids fixée à 1,5kg dans le règlement final. Cependant, le premier règlement (béta) limitait le poids des PAMI à 1kg. Afin de respecter les contraintes volumétriques, la conception de base repose sur un volume carré ou rectangulaire dans lequel nous intégrons nos composants.
 
 ### PoC (Proof of Concept)
 
-Avant toute conception des PAMI il fallait savoir qu'elle moteur utilisé pour pouvoir concevoir le corps du robot.
-Pour ça j'ai utilisé un outils de calcul de couple, ses informations en poche j'ai donc trouvée les settepers que je cherchait des <a href="https://www.omc-stepperonline.com/fr/rond-nema-14-bipolaire-0-9deg-9-ncm-12-75-oz-in-1-0a-36-5x17-5mm-4-fils-14hr07-1004vrn?search=nema%2014%20rond" target="_blank">Nema 14 rond</a> ou pancake.
+Avant toute conception des PAMI, il était crucial de choisir le moteur adéquat pour concevoir le corps du robot. Pour cela, j'ai utilisé un outil de calcul de couple. Avec ces informations en main, j'ai trouvé les moteurs steppers nécessaires : des [Nema 14 rond](https://www.omc-stepperonline.com/fr/rond-nema-14-bipolaire-0-9deg-9-ncm-12-75-oz-in-1-0a-36-5x17-5mm-4-fils-14hr07-1004vrn?search=nema%2014%20rond) ou pancake.
 
-
-A la suite de ce choix j'ai donc réalisé rapidement une petite pièce pour validé les moteurs et commencé a imaginée les volumes du PAMI.
+Suite à ce choix, j'ai rapidement réalisé une petite pièce pour valider les moteurs et commencer à imaginer les volumes du PAMI.
 
 <img src="../../images/poc.webp" style="height: 35%; width: 35%;">
 
-La première version est idée pour les PAMI était de faire un maximun de PAMI dans une zone la plus compactre possible. Après plusieur heure de conception j'ai obtenu un premiers modéles 3D. 
-
-
-
-
-
-
-
-
+La première version de la conception des PAMI visait à créer un maximum de PAMI dans une zone la plus compacte possible. Après plusieurs heures de conception, j'ai obtenu un premier modèle 3D.
