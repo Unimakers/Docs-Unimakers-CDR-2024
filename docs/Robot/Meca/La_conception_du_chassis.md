@@ -8,11 +8,9 @@ title: La conception du chassis
 
 # La conception du châssis
 
-## Conception du robot
+## Différentes étapes de développement
 
-### Différentes étapes de développement
-
-#### <ins>Holonome ou Différentiel ?</ins>
+### <ins>Holonome ou Différentiel ?</ins>
 
 La première étape du développement a consisté à décider entre une base roulante holonome et une transmission différentielle.
 
@@ -38,23 +36,23 @@ Le premier prototype utilisait une base roulante holonome pour permettre au robo
 
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
 
-#### <ins>La transmission</ins>
+### <ins>La transmission</ins>
 
 Le choix d'une transmission différentielle pour la base roulante de notre projet présente plusieurs avantages importants, particulièrement dans le contexte d'optimisation de l'espace de stockage des plantes. Voici une argumentation détaillée :
 
-<ins>Maniabilité et Précision :</ins> Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
+****<ins>Maniabilité et Précision :</ins>**** Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
 
-<ins>Efficacité de l'Espace :</ins> L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
+****<ins>Efficacité de l'Espace :</ins>**** L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
 
-<ins>Simplicité Mécanique et Maintenance :</ins> Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
+****<ins>Simplicité Mécanique et Maintenance :</ins>**** Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
 
-<ins>Adaptabilité et Flexibilité :</ins> Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.
+****<ins>Adaptabilité et Flexibilité :</ins>**** Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.
 
-<ins>Répartition du Poids :</ins> La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.
+****<ins>Répartition du Poids :</ins>**** La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.
 
 En conclusion, le choix d'une transmission différentielle pour la base roulante est justifié par sa capacité à optimiser l'espace de stockage des plantes grâce à une maniabilité supérieure, une utilisation efficace de l'espace, une simplicité mécanique, une adaptabilité élevée et une répartition optimale du poids. Ces avantages combinés permettent de créer un système de stockage plus efficace, flexible et facile à maintenir, répondant parfaitement aux exigences d'un environnement de stockage de plantes.
 
-#### <ins>Optimisation de la forme et de l'espace de stockage</ins>
+### <ins>Optimisation de la forme et de l'espace de stockage</ins>
 
 Un prototype a été développé pour respecter le périmètre maximal de 1200 mm lorsque les actionneurs sont rétractés. Le robot devait avoir un centre creux pour stocker les plantes et les pots, pouvant accueillir trois pots alignés.
 
@@ -62,13 +60,13 @@ Un prototype a été développé pour respecter le périmètre maximal de 1200 m
 
 Le châssis de cette version était constitué de Makerbeam et équipé de moteurs Nema 17 et de roues.
 
-#### <ins>Symétrie pour une meilleure stabilité</ins>
+### <ins>Symétrie pour une meilleure stabilité</ins>
 
 La troisième version du châssis présente une symétrie avec un espace central traversant. Un carter a été créé pour loger la carte électronique, la batterie, les boutons et le bouton d'arrêt d'urgence. Des billes folles ont été installées aux quatre coins du robot pour stabiliser les déplacements, car les roues placées au centre provoquaient un basculement avant-arrière. Les supports des billes folles peuvent également accueillir des roulements pour ne pas endommager la table.
 
 *(cf : 3D V3)*
 
-#### <ins>Passage à OnShape</ins>
+### <ins>Passage à OnShape</ins>
 
 Le passage de Solidworks à OnShape s'est fait pour plusieurs raisons pratiques :
 
@@ -86,7 +84,7 @@ En résumé, le passage à OnShape a permis de surmonter les limitations de Soli
 
 *(cf : 3D V4)*
 
-#### <ins>Prototype fonctionnel avec Nema 23</ins>
+### <ins>Prototype fonctionnel avec Nema 23</ins>
 
 Les tests ont révélé que les moteurs Nema 17 étaient insuffisants. Les moteurs Nema 23 en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
 
@@ -95,7 +93,7 @@ Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière
 <img src="../../images/Robot-21-02-2024.png" max-width="100%">
 *(cf : 3D V5 (V21))*
 
-#### <ins>Version finale</ins>
+### <ins>Version finale</ins>
 
 La version finale respecte une charte visuelle définissant les couleurs : l'acrylique est noir ou gris fumé transparent et les pièces imprimées en 3D sont rouges. Les actionneurs, les pinces et le barillet ont été finalisés. Des poignées ont été ajoutées pour faciliter le transport, et les roues ont été modifiées pour s'incruster dans des roulements fixés
 
