@@ -40,15 +40,20 @@ Suite à divers tests, une base roulante en transmission différentielle a été
 
 Le choix d'une transmission différentielle pour la base roulante de notre projet présente plusieurs avantages importants, particulièrement dans le contexte d'optimisation de l'espace de stockage des plantes. Voici une argumentation détaillée :
 
-****<ins>Maniabilité et Précision :</ins>**** Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
+#### <ins>Maniabilité et Précision :</ins>  
+Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
 
-****<ins>Efficacité de l'Espace :</ins>**** L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
+#### <ins>Efficacité de l'Espace :</ins>  
+L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
 
-****<ins>Simplicité Mécanique et Maintenance :</ins>**** Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
+#### <ins>Simplicité Mécanique et Maintenance :</ins>  
+Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
 
-****<ins>Adaptabilité et Flexibilité :</ins>**** Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.
+#### <ins>Adaptabilité et Flexibilité :</ins>  
+Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.
 
-****<ins>Répartition du Poids :</ins>**** La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.
+#### <ins>Répartition du Poids :</ins>  
+La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.
 
 En conclusion, le choix d'une transmission différentielle pour la base roulante est justifié par sa capacité à optimiser l'espace de stockage des plantes grâce à une maniabilité supérieure, une utilisation efficace de l'espace, une simplicité mécanique, une adaptabilité élevée et une répartition optimale du poids. Ces avantages combinés permettent de créer un système de stockage plus efficace, flexible et facile à maintenir, répondant parfaitement aux exigences d'un environnement de stockage de plantes.
 
@@ -70,15 +75,20 @@ La troisième version du châssis présente une symétrie avec un espace central
 
 Le passage de Solidworks à OnShape s'est fait pour plusieurs raisons pratiques :
 
-<ins>Problèmes de Licence :</ins> Solidworks posait des problèmes de licence, ce qui limitait son utilisation. OnShape, en revanche, est gratuit pour les étudiants, rendant le logiciel accessible à toute l'équipe sans coûts supplémentaires.
+#### <ins>Problèmes de Licence :</ins>  
+Solidworks posait des problèmes de licence, ce qui limitait son utilisation. OnShape, en revanche, est gratuit pour les étudiants, rendant le logiciel accessible à toute l'équipe sans coûts supplémentaires.
 
-<ins>Travail Collaboratif :</ins> OnShape permet le travail collaboratif en temps réel, facilitant la communication et la coordination entre les membres de l'équipe. Cette fonctionnalité est particulièrement utile pour des projets complexes nécessitant des ajustements fréquents et une collaboration constante.
+####<ins>Travail Collaboratif :</ins>  
+OnShape permet le travail collaboratif en temps réel, facilitant la communication et la coordination entre les membres de l'équipe. Cette fonctionnalité est particulièrement utile pour des projets complexes nécessitant des ajustements fréquents et une collaboration constante.
 
-<ins>Redéveloppement et Optimisation :</ins> Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant l'opportunité d'améliorer et d'optimiser les composants. Par exemple, la pince ajoutée a nécessité la suppression des Makerbeam à l'avant, permettant des mouvements plus libres.
+####<ins>Redéveloppement et Optimisation :</ins>  
+Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant l'opportunité d'améliorer et d'optimiser les composants. Par exemple, la pince ajoutée a nécessité la suppression des Makerbeam à l'avant, permettant des mouvements plus libres.
 
-<ins>Consolidation et Amélioration du Châssis :</ins> Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
+####<ins>Consolidation et Amélioration du Châssis :</ins>  
+Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
 
-<ins>Réorganisation Interne :</ins> La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
+####<ins>Réorganisation Interne :</ins>  
+La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
 
 En résumé, le passage à OnShape a permis de surmonter les limitations de Solidworks, d'améliorer la collaboration et de redévelopper le robot de manière plus efficace et fonctionnelle.
 
