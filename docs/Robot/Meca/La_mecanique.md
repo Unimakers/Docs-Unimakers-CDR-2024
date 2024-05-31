@@ -24,6 +24,27 @@ Les contraintes spécifiques à la Coupe de France de Robotique sont principalem
 
 Lors de la conception du robot, l'objectif était d'obtenir un robot suffisamment compact pour respecter les contraintes dimensionnelles. Le robot doit être capable de transporter au moins 6 plantes ou 4 pots, justifiant le choix d'un barillet. Pour les déplacements, il est nécessaire de disposer d'une vitesse adéquate et d'un moyen de connaître la position de manière relativement précise. Les moteurs pas à pas ont été choisis à cet effet.
 
-## Test et validation
+## Plan des parties suivantes
+
+### Système de manipulation des éléments de jeu
+
+Cette section abordera les différentes stratégies et mécanismes utilisés pour manipuler et transporter les éléments de jeu.
+Nous analyserons les dispositifs de préhension, les mécanismes de levage et les systèmes de stockage, en mettant l'accent sur leur efficacité et leur fiabilité.
+
+### Conception du châssis
+
+Nous détaillerons ici le processus de conception du châssis, en expliquant les choix structuraux et les décisions prises pour assurer une répartition optimale des charges et des contraintes.
+Cette partie inclura également une discussion sur les techniques de fabrication utilisées pour obtenir un châssis robuste et léger.
+
+### Choix des matériaux
+
+Dans cette section, nous examinerons les différents matériaux sélectionnés pour la construction du robot.
+Nous comparerons les avantages et les inconvénients des matériaux utilisés, en tenant compte des critères de résistance, de poids et de coût.
+Une attention particulière sera portée aux innovations matérielles permettant d'améliorer les performances globales du robot.
 
 ## Conclusion
+
+La conception et la réalisation d'un robot performant pour la Coupe de France de Robotique 2024 impliquent une réflexion approfondie sur plusieurs aspects clés.
+Dans cette introduction, nous avons présenté l'objectif principal du robot ainsi que les spécifications techniques et les exigences de performance nécessaires pour réussir cette compétition.
+Les sections suivantes détailleront le système de manipulation des éléments de jeu, la conception du châssis et le choix des matériaux, offrant une vue d'ensemble complète des défis et des solutions apportées pour optimiser les capacités du robot.
+Cette approche holistique garantit que tous les aspects critiques sont soigneusement considérés, permettant ainsi de maximiser les chances de succès lors de la compétition.

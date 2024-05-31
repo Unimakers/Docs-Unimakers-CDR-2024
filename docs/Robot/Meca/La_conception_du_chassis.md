@@ -47,7 +47,9 @@ Un <ins>robot holonome</ins> est un type de robot dont les systèmes de déplace
 - Contrôle de mouvement précis : Les systèmes de commande peuvent calculer et exécuter des trajectoires complexes, facilitant les manœuvres dans des espaces restreints.
 - Complexité mécanique et algorithmique : Nécessite des algorithmes avancés pour coordonner les mouvements des roues et garantir des déplacements fluides et précis.  
 
-Les robots holonomes sont souvent utilisés dans des applications où la capacité à se déplacer librement dans toutes les directions est cruciale, comme dans la robotique de service, la logistique intérieure, et les compétitions de robotique.  
+Les robots holonomes sont souvent utilisés dans des applications où la capacité à se déplacer librement dans toutes les directions est cruciale, comme dans la robotique de service, la logistique intérieure, et les compétitions de robotique.
+
+<img src="../../images/robot-différentiel.JPEG" max-width="100%">
 
 Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les roues motrices sont fixées de manière indépendante, généralement sur les côtés gauche et droit du robot. La direction et la vitesse du mouvement sont contrôlées en variant les vitesses relatives de ces roues. Les caractéristiques techniques et les avantages d'un robot différentiel incluent :  
 
@@ -56,6 +58,8 @@ Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les 
 - Fiabilité et robustesse : Moins de composants mécaniques complexes réduisent les points de défaillance potentiels, ce qui améliore la robustesse et la maintenance.  
 
 Les robots différentiels sont largement utilisés dans la robotique mobile.
+
+<img src="../../images/robot-holonome.jpg" max-width="60%">
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
 
