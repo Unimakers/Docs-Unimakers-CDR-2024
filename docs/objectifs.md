@@ -8,7 +8,7 @@ Terminée
 {: .label .label-green }
 
 <div>
-  <img src="images/CDR-Web-Logo_Footer-Retina.png" alt="Logo de la coupe de france de robotique" style="display: block; margin-left: auto; margin-right: auto;">
+  <img src="./images/coupe_de_robotique_color.webp" alt="Logo de la coupe de france de robotique" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 La Coupe de France de Robotique, existant depuis plus de 30 ans, est une compétition annuelle qui rassemble des équipes d'étudiants de toute la France autour d'un défi technologique : concevoir, réaliser et faire concourir un robot autonome selon un cahier des charges précis.
