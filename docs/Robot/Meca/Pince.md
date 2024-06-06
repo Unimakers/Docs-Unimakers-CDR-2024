@@ -11,7 +11,10 @@ title: Système de Manipulation des éléments de jeu
 
 La pince vise à manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments de jeu se composent de petits pots ronds métalliques (d'environ 6 cm x 6,5 cm) et de fleurs en plastique légèrement plus petites. De petits panneaux solaires doivent également être manipulés ; ceux-ci doivent uniquement être tournés dans un sens, mais le mécanisme dédié sera détaillé dans une autre section.
 
-![image_éléments_jeu]()
+![image_éléments_jeu](../../images/pince/plante.png)
+
+![image_éléments_jeu](../../images/pince/pot_plante.png)
+
 
 Les mâchoires doivent être capables de saisir à la fois les pots en métal et les plantes malgré leurs différences de taille et de poids. Ensuite, ces éléments doivent pouvoir être déplacés pour être pris sur le terrain de jeu puis amenés dans une zone de dépose. La stratégie choisie par l'équipe vise à stocker les éléments de jeu à l'intérieur du robot. Pour ce faire, le système doit être capable de monter ou descendre et de s'orienter dans un angle d'environ 120° par rapport au point de saisie de l'élément. Il est à noter que l'élément sera saisi en face ou sur le côté du robot. En termes de précision, elle doit être suffisante pour positionner les éléments de jeu à quelques millimètres près dans les emplacements dédiés à l'intérieur du robot.Ce système doit également être rapide car le temps est très limité (90 secondes). Plus le système sera rapide, plus le robot pourra marquer de points et aura donc plus de chances de remporter la compétition.
 
@@ -67,12 +70,12 @@ En revanche, il nécessitait un grand empattement pour peu de force de serrage d
 
 ![ImagePremierSystemMeca](../../images/pince/actionneur1.jpg)
 
-<video width="640" height="360" controls autoplay muted>
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images\pince/video1_actionneur1.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
-<video width="640" height="360" controls autoplay muted>
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/video2_actionneur1.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
@@ -82,7 +85,7 @@ En revanche, le système est devenu beaucoup plus lourd du au rajout d'un moteur
 
 Ce contact empêchait de pouvoir manipuler correctement les objets du terrain. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a permis de placer le système au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot.
 
-<video width="640" height="360" controls autoplay muted>
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/MOUVEMENT MACHOIRE.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
@@ -96,7 +99,7 @@ Le système permettant aux mâchoires de monter et descendre s'est donc orienté
 
 Le rail linéaire est composé de deux éléments, un rail en aluminium et un patin en plastique autolubrifié, les deux viennent s'emboiter pour glisser l'un sur l'autre. Ce produit vient de notre sponsor IGUS. Ce type de produit à la particularité d'avoir peu de perte du au frottement tout en ayant une durée de vie proche de système équivalent entièrement métalique, le tout sans nécéssité de lubrification. 
 
-<video width="640" height="360" controls autoplay muted>
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/RAIL LINEAIRE.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
@@ -107,7 +110,7 @@ Le système de machoire à alors été fixé sur le patin pour lui permettre de 
 
 Ainsi en fixant le bras de levier, le système devient entièrement controlable sur 3 axes. 
 
-<video width="640" height="360" controls autoplay muted>
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/Mouvement rail Igus.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
