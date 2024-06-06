@@ -11,10 +11,8 @@ title: Version 2
 
 ## V2
 
-Les **PAMI** (Petits Actionneurs Mobiles Indépendants) sont de petits robots soumis à plusieurs règles de conception, dont les contraintes volumétriques sont les plus importantes. En effet, il n'y a pas de nombre limite de PAMI présents sur la table de jeu, cependant, l'ensemble des PAMI doit tenir dans une zone de 150mm x 450mm et 150mm de hauteur. Ils ont également une limite de poids fixée à 1,5kg dans le règlement final. Cependant, le premier règlement (béta) limitait le poids des PAMI à 1kg. Afin de respecter les contraintes volumétriques, la conception de base repose sur un volume carré ou rectangulaire dans lequel nous intégrons nos composants.
-
-
-### PoC (Proof of Concept)
+La V2, ne ce base pas sur l'ancienne version mais tient plutot d'un recommencement complet. En effets j'ai changer de fichier pour repartir sur une base saine. En commencant par un rectangle fixe ce 120mm par 120mm, cette contraine établie le probleme numero 1 est résolue. Ensuite une extrusion de 65mm donne vie au volume qui sera la base imprimé en 3d par dépot de fileament.
+Puis le porblement de fixation des moteurs, de comment plaque la roue contre ce dernimers et comment attacher la plque qui viens proteger tout ça. La réponses étant de creusée ce volume pour y interger toute les pieces au fur est a messure. La premiere les moteur 
 
 
 <model-viewer disable-zoom src="../../models/PAMI_v2.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
