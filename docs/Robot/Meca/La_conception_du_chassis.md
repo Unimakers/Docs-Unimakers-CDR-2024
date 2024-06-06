@@ -6,6 +6,24 @@ nav_order: 2
 title: La conception du chassis
 ---
 
+<style>
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* Ratio 16:9 */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+	}
+
+	.video-container video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
 
 # Le châssis
 
@@ -163,5 +181,8 @@ Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant
 
 #### <ins>Consolidation et Amélioration du Châssis :</ins>  
 Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
+
+## Assemblage du robot
+<div class="video-container"><video muted autoplay loop><source src="../images/assemblage-Robot.mp4" type="video/webm" /></video></div>
 
 ## Conclusion
