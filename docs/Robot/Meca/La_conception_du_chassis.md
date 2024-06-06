@@ -81,7 +81,6 @@ Les robots différentiels sont largement utilisés dans la robotique mobile.
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
 
-*(cf : V1 modulable 3D)*
 
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
 
@@ -188,3 +187,25 @@ Le châssis a été consolidé en une seule pièce pour réduire la flexibilité
 <div class="video-container"><video muted autoplay loop><source src="../../images/assemblage-Robot.mp4" type="video/mp4" /></video></div>
 
 ## Conclusion
+
+La conception du robot est le résultat d’une approche méthodique et réfléchie visant à équilibrer efficacité, fonctionnalité et esthétique.
+Chaque aspect du robot a été soigneusement planifié pour assurer une performance optimale et une facilité d'utilisation.
+
+L'architecture du robot intègre une structure robuste et bien organisée, garantissant la protection et le bon fonctionnement des composants électroniques.
+Le carter joue un rôle central en offrant une protection contre les impacts et les débris, tout en facilitant l'accès aux boutons et aux écrans pour une interaction aisée.
+
+L’organisation interne permet un câblage ordonné, réduisant les risques de court-circuit et simplifiant la maintenance et les réparations.
+De plus, la disposition des éléments internes contribue à la stabilité et à la rigidité de l’ensemble, améliorant ainsi la précision et la fiabilité du robot.
+
+En termes d’esthétique, le design du robot assure une apparence professionnelle et moderne, masquant les composants internes tout en offrant une surface lisse et attrayante.
+Cette attention à l’esthétique est particulièrement importante pour les robots destinés à des environnements visibles par le public.
+
+En somme, la conception du robot combine ingénieusement protection, organisation, accessibilité et esthétique, résultant en un dispositif performant, durable et évolutif.
+Cette réalisation témoigne de l’importance d’une planification minutieuse et d’une conception réfléchie pour créer des solutions technologiques innovantes et pratiques.
+
+
+
+
+
+
+
