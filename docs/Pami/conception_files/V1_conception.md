@@ -35,8 +35,8 @@ Notre étalonnage fut concluant : c'est l'offset de -0.05 qui convenait le mieux
 
 Après avoir passé plusieurs heures sur cette modélisation, bien que les composants soient modélisés très simplement, les différents volumes mis en place nous ont permis de noter les points suivants :
 
-- Il faut une surface pour fixer les composants.
 - Le robot est trop petit.
+- Il faut une surface pour fixer les composants.
 - Il faut trouver une vraie batterie, au voltage et à l'intensité adaptés, et déterminer comment l'accrocher au corps.
 - Le robot a besoin d'au moins une bille folle pour l'équilibrage avant/arrière.
 - Il faut percer la carte dans au moins deux coins pour pouvoir la fixer.
