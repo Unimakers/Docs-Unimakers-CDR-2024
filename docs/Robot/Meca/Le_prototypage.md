@@ -27,22 +27,27 @@ La troisième version du châssis présente une symétrie avec un espace central
 
 *(cf : 3D V3).*
 
+#### <ins>Réorganisation Interne :</ins>  
+La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
 
-Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et ajouter un système de fixation pour le stockage des plantes. La batterie a été déplacée à l'arrière, libérant ainsi de l'espace dans le carter pour une carte électronique plus grande.
+En résumé, le passage à OnShape a permis de surmonter les limitations de Solidworks, d'améliorer la collaboration et de redévelopper le robot de manière plus efficace et fonctionnelle.
 
-*(cf : 3D V4).*
+*(cf : 3D V4)*
 
-## Prototype fonctionnel avec Nema 23
+### <ins>Prototype fonctionnel avec Nema 23</ins>
 
 Les tests ont révélé que les moteurs Nema 17 étaient insuffisants. Les moteurs Nema 23 en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
 
 Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière. Le carter repose sur quatre pièces imprimées en 3D accueillant l'électro-aimant pour la tirette, un connecteur pour l'alimentation, une prise USB pour l'ESP32 et divers boutons.
+
 <img src="../../images/Robot-21-02-2024.png" max-width="100%">
-*(cf : 3D V5 (V21)).*
+*(cf : 3D V5 (V21))*
 
-## Version finale
+### <ins>Version finale</ins>
 
-La version finale respecte une charte visuelle définissant les couleurs : l'acrylique est noir ou gris fumé transparent et les pièces imprimées en 3D sont rouges. Les actionneurs, les pinces et le barillet ont été finalisés. Des poignées ont été ajoutées pour faciliter le transport, et les roues ont été modifiées pour s'incruster dans des roulements fixés dans la plaque d'acrylique. Des roulements ont été placés aux quatre coins pour protéger la table de jeu, et des cales ont été ajoutées à l'arrière pour limiter les chocs lors des recalages en bordure.
-<img src="../../images/Robot-Vf2.png" max-width="100%">
+La version finale respecte une charte visuelle définissant les couleurs : l'acrylique est noir ou gris fumé transparent et les pièces imprimées en 3D sont rouges. Les actionneurs, les pinces et le barillet ont été finalisés. Des poignées ont été ajoutées pour faciliter le transport, et les roues ont été modifiées pour s'incruster dans des roulements fixés
+
+ dans la plaque d'acrylique. Des roulements ont été placés aux quatre coins pour protéger la table de jeu, et des cales ont été ajoutées à l'arrière pour limiter les chocs lors des recalages en bordure.
+
+<img src="../../images/Robot-Vf1.png" max-width="100%">
 *(cf : 3D VF)*
-

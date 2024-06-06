@@ -67,7 +67,6 @@ Le premier prototype utilisait une base roulante holonome pour permettre au robo
 
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
 
-### <ins>La transmission</ins>
 
 Le choix d'une transmission différentielle pour la base roulante de notre projet présente plusieurs avantages importants, particulièrement dans le contexte d'optimisation de l'espace de stockage des plantes. Voici une argumentation détaillée :
 
@@ -88,19 +87,66 @@ La transmission différentielle permet une meilleure répartition du poids sur l
 
 En conclusion, le choix d'une transmission différentielle pour la base roulante est justifié par sa capacité à optimiser l'espace de stockage des plantes grâce à une maniabilité supérieure, une utilisation efficace de l'espace, une simplicité mécanique, une adaptabilité élevée et une répartition optimale du poids. Ces avantages combinés permettent de créer un système de stockage plus efficace, flexible et facile à maintenir, répondant parfaitement aux exigences d'un environnement de stockage de plantes.
 
-### <ins>Optimisation de la forme et de l'espace de stockage</ins>
+### <ins>Les roues</ins>
 
-Un prototype a été développé pour respecter le périmètre maximal de 1200 mm lorsque les actionneurs sont rétractés. Le robot devait avoir un centre creux pour stocker les plantes et les pots, pouvant accueillir trois pots alignés.
+La conception des roues est une étape primordiale pour les déplacements du robot.
+La forme et la fonctionnalité des roues influencent directement la mobilité, la stabilité et l'efficacité énergétique du robot.
+À mesure que nos besoins et exigences ont évolué, la conception des roues a également subi plusieurs itérations.
+En conséquence, un total de quatre versions distinctes de roues ont été créées, chacune présentant des formes et caractéristiques uniques adaptées aux divers défis rencontrés.
 
-*(cf : V2 arc de triomphe)*
+La conception des roues a été un processus évolutif, chaque version apportant des améliorations significatives basées sur les retours des tests et les exigences opérationnelles.
+Cette approche itérative a permis de développer des roues optimisées pour une performance maximale, garantissant ainsi la mobilité efficace et fiable du robot dans diverses conditions.
 
-Le châssis de cette version était constitué de Makerbeam et équipé de moteurs Nema 17 et de roues.
+
 
 ### <ins>Symétrie pour une meilleure stabilité</ins>
 
 La troisième version du châssis présente une symétrie avec un espace central traversant. Un carter a été créé pour loger la carte électronique, la batterie, les boutons et le bouton d'arrêt d'urgence. Des billes folles ont été installées aux quatre coins du robot pour stabiliser les déplacements, car les roues placées au centre provoquaient un basculement avant-arrière. Les supports des billes folles peuvent également accueillir des roulements pour ne pas endommager la table.
 
 *(cf : 3D V3)*
+
+### <ins>Les élements de stabilité</ins>
+
+Afin d'assurer la stabilité du robot lors de ses déplacements, des billes folles ont été installées à l'arrière du robot et des roulements ont été fixés au support moteur à l'avant.
+Cette configuration présente plusieurs avantages significatifs.
+
+Les billes folles à l'arrière permettent une grande liberté de mouvement dans toutes les directions.
+Elles réduisent la friction avec le sol et facilitent les manœuvres, surtout lors des virages serrés ou des changements de direction rapides.
+De plus, elles contribuent à une meilleure répartition du poids, ce qui aide à maintenir l'équilibre du robot, notamment sur des surfaces inégales.
+
+Les roulements fixés au support moteur à l'avant assurent une rotation fluide et stable des roues motrices.
+Ils minimisent la résistance et les pertes d'énergie, ce qui améliore l'efficacité des déplacements du robot.
+En fournissant un support stable et robuste pour les roues avant, les roulements aident à maintenir une trajectoire rectiligne et à réduire les vibrations, contribuant ainsi à la précision et à la fiabilité des mouvements.
+
+En combinant des billes folles à l'arrière et des roulements à l'avant, on obtient une solution efficace pour stabiliser le robot.
+Cette approche permet de maximiser la maniabilité et la réactivité du robot tout en assurant une stabilité optimale, ce qui est essentiel pour les applications exigeant une précision élevée et une adaptabilité à différents environnements. 
+
+### <ins>Dispositif pare-chocs</ins>
+
+Afin de se conformer au règlement, des dispositifs pare-chocs ont été installés à l'arrière du robot et des roulements ont été placés tout autour de celui-ci pour éviter d'endommager la table de jeu.
+
+Les pare-chocs jouent un rôle crucial dans la protection du robot et de l'environnement de jeu. En absorbant les chocs lors des recalage bordure, ils minimisent les risques de dommages à la structure du robot. De plus, en répartissant l'impact, ils contribuent à la stabilité globale du robot, permettant un fonctionnement plus fluide et fiable pendant les compétitions.
+
+Les roulements, quant à eux, assurent une interaction douce entre le robot et la surface de la table de jeu. Ils réduisent la friction et préviennent les rayures ou autres dommages sur la surface de jeu, garantissant ainsi un environnement de compétition équitable et préservé. En protégeant à la fois le robot et la table de jeu, ces dispositifs sont essentiels pour maintenir l'intégrité et la durabilité de l'équipement, tout en respectant les exigences du règlement.
+
+### <ins>Le carter</ins>
+
+Afin de pouvoir fixer la carte électronique ainsi que les différents boutons et écrans, un carter a été créé à cet effet.
+
+Le carter joue un rôle essentiel dans la protection et l’organisation des composants internes du robot.
+Il offre plusieurs avantages majeurs :
+
+- **Protection des composants électroniques** : Le carter protège la carte électronique et autres composants sensibles des impacts, de la poussière et des débris, prolongeant ainsi leur durée de vie et assurant leur bon fonctionnement.
+
+- **Organisation interne** : En maintenant les boutons, les écrans et la carte électronique en place, le carter facilite le câblage et réduit les risques de court-circuit. Une disposition ordonnée des composants rend également la maintenance et les réparations plus simples et plus rapides.
+
+- **Accessibilité** : Avec des ouvertures et des supports bien placés, le carter permet un accès facile aux boutons et aux écrans, améliorant ainsi l'interaction avec le robot. Cette accessibilité est cruciale pour effectuer des ajustements rapides et pour un contrôle efficace de l’appareil.
+
+- **Esthétique et design** : Un carter bien conçu contribue à l'apparence professionnelle du robot. Il masque les composants internes tout en offrant une surface lisse et attrayante, ce qui est particulièrement important pour les robots destinés à des environnements visibles par le public.
+
+- **Stabilité structurelle** : En intégrant le carter à la structure du robot, on peut améliorer la rigidité et la stabilité de l’ensemble, permettant ainsi un fonctionnement plus précis et fiable.
+
+En résumé, le carter est une composante indispensable pour la protection, l'organisation et la fonctionnalité des éléments électroniques du robot, tout en contribuant à son apparence et à sa solidité globale.
 
 ### <ins>Passage à OnShape</ins>
 
@@ -118,27 +164,4 @@ Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant
 #### <ins>Consolidation et Amélioration du Châssis :</ins>  
 Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
 
-#### <ins>Réorganisation Interne :</ins>  
-La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
-
-En résumé, le passage à OnShape a permis de surmonter les limitations de Solidworks, d'améliorer la collaboration et de redévelopper le robot de manière plus efficace et fonctionnelle.
-
-*(cf : 3D V4)*
-
-### <ins>Prototype fonctionnel avec Nema 23</ins>
-
-Les tests ont révélé que les moteurs Nema 17 étaient insuffisants. Les moteurs Nema 23 en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
-
-Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière. Le carter repose sur quatre pièces imprimées en 3D accueillant l'électro-aimant pour la tirette, un connecteur pour l'alimentation, une prise USB pour l'ESP32 et divers boutons.
-
-<img src="../../images/Robot-21-02-2024.png" max-width="100%">
-*(cf : 3D V5 (V21))*
-
-### <ins>Version finale</ins>
-
-La version finale respecte une charte visuelle définissant les couleurs : l'acrylique est noir ou gris fumé transparent et les pièces imprimées en 3D sont rouges. Les actionneurs, les pinces et le barillet ont été finalisés. Des poignées ont été ajoutées pour faciliter le transport, et les roues ont été modifiées pour s'incruster dans des roulements fixés
-
- dans la plaque d'acrylique. Des roulements ont été placés aux quatre coins pour protéger la table de jeu, et des cales ont été ajoutées à l'arrière pour limiter les chocs lors des recalages en bordure.
-
-<img src="../../images/Robot-Vf1.png" max-width="100%">
-*(cf : 3D VF)*
+## Conclusion
