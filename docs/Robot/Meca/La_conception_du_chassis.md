@@ -183,6 +183,6 @@ Le passage à OnShape a entraîné le redéveloppement complet du robot, offrant
 Le châssis a été consolidé en une seule pièce pour réduire la flexibilité et augmenter la robustesse. Cette consolidation a également permis l'ajout d'un système de fixation pour le stockage des plantes, améliorant la fonctionnalité globale du robot.
 
 ## Assemblage du robot
-<div class="video-container"><video muted autoplay loop><source src="../images/assemblage-Robot.mp4" type="video/webm" /></video></div>
+<div class="video-container"><video muted autoplay loop><source src="../images/assemblage-Robot.mp4" type="video/mp4" /></video></div>
 
 ## Conclusion
