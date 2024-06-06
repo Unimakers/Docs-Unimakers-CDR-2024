@@ -166,6 +166,8 @@ Il offre plusieurs avantages majeurs :
 
 En résumé, le carter est une composante indispensable pour la protection, l'organisation et la fonctionnalité des éléments électroniques du robot, tout en contribuant à son apparence et à sa solidité globale.
 
+<img src="../../images/carter électronique.png" max-width="100%">
+
 ### <ins>Passage à OnShape</ins>
 
 Le passage de Solidworks à OnShape s'est fait pour plusieurs raisons pratiques :
