@@ -13,9 +13,11 @@ La pince vise à manipuler les éléments de jeu de la Coupe de France de Roboti
 
 <div style="display: flex; justify-content: space-around;">
 
-![image_éléments_jeu](../../images/pince/plante.png)
 
-![image_éléments_jeu](../../images/pince/pot_plante.png)
+<img src="../../images/pince/plante.png" >
+
+<img src="../../images/pince/pot_plante.png" >
+
 
 </div>
 
