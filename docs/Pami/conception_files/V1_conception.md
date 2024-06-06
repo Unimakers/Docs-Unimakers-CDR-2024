@@ -21,10 +21,10 @@ La première version était uniquement théorique car elle n'a jamais été impr
 ### Étalonnage
 
 Les Nema 14 ronds sont équipés d'un engrenage directement soudé sur l'arbre du moteur. Il m'a donc fallu modéliser une roue ayant le négatif de cet engrenage pour une intégration optimale. Les marges d'erreur étant très petites, j'ai donc réalisé une pièce d'étalonnage pour tester différentes valeurs. Pour une précision maximale, j'ai décidé d'imprimer les roues en résine. J'ai réitéré le processus pour intégrer les moteurs au mieux dans le corps (body) du robot.
-
+<div>
 <img src="../../images/etalonnage_reel.webp" height="50%" width="50%">
 <img src="../../images/etalonnage_3d.webp" height="50%" width="50%">
-
+</div>
 Cet étalonnage fait également partie d'une démarche écologique car il permet de tester plusieurs valeurs avec un minimum de plastique utilisé.
 
 ### Conclusion
