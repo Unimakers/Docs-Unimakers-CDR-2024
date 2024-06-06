@@ -12,6 +12,9 @@ title: Version 1
 
 <model-viewer disable-zoom src="../../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
 
+<model-viewer disable-zoom src="./3d_files/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./3d_files/poster1.webp" shadow-intensity="1" style="height: 150%; width: 150%;"> </model-viewer>
+
+
 <img src="../../images/PAMI-V1.png" height="50%" width="50%">
 
 La première version était uniquement théorique car elle n'a jamais été imprimée. Cette version n'a jamais été concrétisée car mon objectif de faire des PAMI les plus petits possible était compliqué et surtout mal abordé. Cependant, elle m'a permis de mettre sur table tous les éléments nécessaires au PAMI et de mieux visualiser par la suite l'ensemble des éléments à modéliser.
