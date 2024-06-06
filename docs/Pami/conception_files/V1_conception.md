@@ -23,8 +23,8 @@ Cependant, l'impression 3D par dépôt de filament manquait cruellement de préc
 ### Étalonnage
 
 <div style="display: flex; justify-content: space-around;">
-<img src="../../images/etalonnage_reel.webp" height="40%">
-<img src="../../images/etalonnage_3d.webp" height="40%">
+<img src="../../images/etalonnage_reel.webp" height="40%" width="40%">
+<img src="../../images/etalonnage_3d.webp" height="40%" width="40%">
 </div>
 
 La forme en anneaux olympiques nous a permis de déterminer, quel que soit le sens de la pièce, la valeur pour chaque trou.
