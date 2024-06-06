@@ -19,7 +19,7 @@ Les mâchoires doivent être capables de saisir à la fois les pots en métal et
 
 Pour répondre à ces objectifs, plusieurs modèles ont été conçus et testés. Ci-dessous, vous trouverez le modèle retenu :
 
-![Image de la pince](../images/pince\syst_pince.png)
+![Image de la pince](../../images/pince/syst_pince.png)
 
 L'objectif de la pince est de pouvoir manipuler les éléments de jeu. Une fois en prise, les mâchoires peuvent se lever avec l'élément de jeu et s'orienter vers l'intérieur du robot pour y déposer les plantes. L'élément de jeu peut alors être stocké dans un barillet, que ce soit une plante ou un pot métallique. Le barillet peut contenir plusieurs éléments de jeu, réduisant ainsi le nombre de manipulations nécessaires.
 
@@ -46,15 +46,15 @@ Le système permettant de manipuler les éléments s'est orienté dès les POC (
 
 La forme de celles-ci est resté assez similaire au fur et a mesure des versions mais à tout de même subut de nombreux changement. 
 
-![ImageVersionPince](../images/pince\V1_machoires.png)
+![ImageVersionPince](../../images/pince/V1_machoires.png)
 
 La première amélioration apporté à été d'incliner la surface en contact avec les éléments de jeu de sortes à pouvoir mieux épouser la forme de ceux-ci. Une rainure à églament été ajouté de sorte à pouvoir bloquer les éléments de jeu à l'intérieur de celle-ci. En effet, les pots à manipuler oavait une boursouflure sur leur dessus. La pince à égalements été vidé de ses renforts intérieur de sorte à la rendre plus souple. Ce besoin est apparue de par le changement de TPU des imprimantes 3D. Le nouveaux était bien plus rigide, le but était de s'adapter à celui-ci. 
 
-![ImageVersionPince](../images/pince\v2_machoire.png)
+![ImageVersionPince](../../images/pince/v2_machoire.png)
 
 La troisième version consister à rendre les machoires plus fine, car il n'y avait finalement pas l'utilité de garder une forme épaisse comme précédemment. 
 
-![ImageVersionPince](../images/pince\machoirev3.png)
+![ImageVersionPince](../../images/pince/machoirev3.png)
 
 Comme l'on peut le voir les machoires se sont affinées au fur et à mesure des essais toujours dans une optique de gains de place. Différentes combinaisons ont égalements permis de trouver la souplesse la plus adéquat. 
 
@@ -65,15 +65,15 @@ Les premières versions avait également la particularité de part leur forme de
 Un premier mécanisme permettant le serrage a été longuement travaillé avant le modèle final. Celui-ci avait la particularité de n'avoir qu'un seul moteur pour les mâchoires. Le moteur tirait sur un axe faisant office de levier pour celles-ci. Cependant, ce système ne permettait pas de contrôler indépendamment chaque mâchoire mais était plus léger car ne nécéssitait qu'un seul moteur. 
 En revanche, il nécessitait un grand empattement pour peu de force de serrage du à l'axe sur lequel le moteur agissait. 
 
-![ImagePremierSystemMeca](../images/pince\actionneur1.jpg)
+![ImagePremierSystemMeca](../../images/pince/actionneur1.jpg)
 
 <video width="640" height="360" controls autoplay muted>
-  <source src="../images\pince\video1_actionneur1.webm" type="video/webm">
+  <source src="../../images\pince/video1_actionneur1.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
 <video width="640" height="360" controls autoplay muted>
-  <source src="../images/pince\video2_actionneur1.webm" type="video/webm">
+  <source src="../../images/pince/video2_actionneur1.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
@@ -83,7 +83,7 @@ En revanche, le système est devenu beaucoup plus lourd du au rajout d'un moteur
 Ce contact empêchait de pouvoir manipuler correctement les objets du terrain. Pour éviter cela, des entretoises ont été ajoutées pour abaisser les mâchoires par rapport aux moteurs. Cela a permis de placer le système au-dessus du moteur permettant la rotation, réduisant ainsi grandement l'empattement à l'intérieur du robot.
 
 <video width="640" height="360" controls autoplay muted>
-  <source src="../images/pince\MOUVEMENT MACHOIRE.webm" type="video/webm">
+  <source src="../../images/pince/MOUVEMENT MACHOIRE.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
@@ -97,18 +97,18 @@ Le système permettant aux mâchoires de monter et descendre s'est donc orienté
 Le rail linéaire est composé de deux éléments, un rail en aluminium et un patin en plastique autolubrifié, les deux viennent s'emboiter pour glisser l'un sur l'autre. Ce produit vient de notre sponsor IGUS. Ce type de produit à la particularité d'avoir peu de perte du au frottement tout en ayant une durée de vie proche de système équivalent entièrement métalique, le tout sans nécéssité de lubrification. 
 
 <video width="640" height="360" controls autoplay muted>
-  <source src="../images/pince\RAIL LINEAIRE.webm" type="video/webm">
+  <source src="../../images/pince/RAIL LINEAIRE.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
 Le système de machoire à alors été fixé sur le patin pour lui permettre de monter et descendre librement. 
 
-![Fixation Rail Lineaire](../images/pince\fixation_rail_lineaire.png)
+![Fixation Rail Lineaire](../../images/pince/fixation_rail_lineaire.png)
 
 Ainsi en fixant le bras de levier, le système devient entièrement controlable sur 3 axes. 
 
 <video width="640" height="360" controls autoplay muted>
-  <source src="../images/pince\Mouvement rail Igus.webm" type="video/webm">
+  <source src="../../images/pince/Mouvement rail Igus.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
