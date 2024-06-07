@@ -31,7 +31,8 @@ Plusieur essaie on ete nessesaire pour ajouster different paramettre :
 
  Pour les premiers test l'utilisation d'une bille folle non adapté rendait l'ajustement de hauteur impossible, en effet les billes étant trop grosse même encasstré au maximun elle touchait le sol avant les roues. Pour résoudre ce problemes nous somme passée sur des patins en PTFE beacoup plus petit est offrant un très faible frotement propice a la progression fkuide et rapide du robot.
 
- ### Départ du Prototype
+### Départ du Prototype
+
 
  <div class="video-container"><video autoplay loop><source src="./3d_files/Premier_Start.webm" type="video/webm" /></video></div>
 
