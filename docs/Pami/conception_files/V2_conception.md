@@ -52,7 +52,11 @@ Plusieur essaie on ete nessesaire pour ajouster different paramettre :
 ### Départ du Prototype
 
 
+
  <div class="video-container"><video controls><source src="./3d_files/Premier_start.webm" type="video/webm" /></video></div>
 
- text a corriger et  a finir 
+*La vidéo ci-dessus illustre la premières mise en route du PAMI.*
+
+Dans la vidéo on peut observé que au bout d'un certains temps le Pami tourne sur lui même à toute vitesse, ce probléme est du a une accélération trop grande qui sera corrigé dans le code. On entend aussi un bruit strident indiquant une surcharge des moteurs. Le probléme du bruit strident venant des steppers persistant malgré nos différent ajustement nous avons été contraint de changer pour des moteur plus puissant.
+
  
