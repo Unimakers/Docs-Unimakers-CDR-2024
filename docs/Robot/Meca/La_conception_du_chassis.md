@@ -67,7 +67,7 @@ Un <ins>robot holonome</ins> est un type de robot dont les systèmes de déplace
 
 Les robots holonomes sont souvent utilisés dans des applications où la capacité à se déplacer librement dans toutes les directions est cruciale, comme dans la robotique de service, la logistique intérieure, et les compétitions de robotique.
 
-<img src="../../images/robot-différentiel.JPEG" max-width="100%">
+<img src="../../images/robot-différentiel.JPEG" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les roues motrices sont fixées de manière indépendante, généralement sur les côtés gauche et droit du robot. La direction et la vitesse du mouvement sont contrôlées en variant les vitesses relatives de ces roues. Les caractéristiques techniques et les avantages d'un robot différentiel incluent :  
 
@@ -77,7 +77,7 @@ Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les 
 
 Les robots différentiels sont largement utilisés dans la robotique mobile.
 
-<img src="../../images/robot-holonome.jpg" max-width="60%">
+<img src="../../images/robot-holonome.jpg" max-width="60%" style="display: block; margin-left: auto; margin-right: auto;">
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
 
@@ -165,7 +165,7 @@ Il offre plusieurs avantages majeurs :
 
 En résumé, le carter est une composante indispensable pour la protection, l'organisation et la fonctionnalité des éléments électroniques du robot, tout en contribuant à son apparence et à sa solidité globale.
 
-<img src="../../images/carter électronique.png" max-width="100%">
+<img src="../../images/carter électronique.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 ### <ins>Passage à OnShape</ins>
 
