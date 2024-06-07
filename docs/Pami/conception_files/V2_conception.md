@@ -29,7 +29,11 @@ Plusieur essaie on ete nessesaire pour ajouster different paramettre :
   </model-viewer>
 
 
- Pour les premiers test l'utilisation d'une bille folle non adapté rendait l'ajustement de hauteur impossible, en effet les billes étant trop grosse même encasstré au maximun elle touchait le sol avant les roues. Pour résoudre ce problemes nous somme passée sur des patins en PTFE beacoup plus petit est offrant un très faible frotement propice a l'avancement du robot.
+ Pour les premiers test l'utilisation d'une bille folle non adapté rendait l'ajustement de hauteur impossible, en effet les billes étant trop grosse même encasstré au maximun elle touchait le sol avant les roues. Pour résoudre ce problemes nous somme passée sur des patins en PTFE beacoup plus petit est offrant un très faible frotement propice a la progression fkuide et rapide du robot.
+
+ ### Départ du Prototype
+
+ <div class="video-container"><video muted autoplay loop><source src="./3d_files/pami-move.webm" type="video/webm" /></video></div>
 
  text a corriger et  a finir 
  
