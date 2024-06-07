@@ -6,6 +6,24 @@ nav_order: 2
 title: Version 2
 ---
 
+<style>
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* Ratio 16:9 */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+	}
+
+	.video-container video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
 
 # Conception & Modélisation des PAMI
 
@@ -34,7 +52,7 @@ Plusieur essaie on ete nessesaire pour ajouster different paramettre :
 ### Départ du Prototype
 
 
- <div class="video-container"><video autoplay loop><source src="./3d_files/Premier_start.webm" type="video/webm" /></video></div>
+ <div class="video-container"><video controls><source src="./3d_files/Premier_start.webm" type="video/webm" /></video></div>
 
  text a corriger et  a finir 
  
