@@ -40,7 +40,7 @@ Plusieur essaie on ete nessesaire pour ajouster different paramettre :
 
 
 
- <model-viewer src="./3d_files/billes_folles.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster_billes.webp" shadow-intensity="1">
+ <model-viewer src="./3d_files/bille_folle.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster_billes.webp" shadow-intensity="1">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
