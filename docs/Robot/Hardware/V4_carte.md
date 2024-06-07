@@ -25,3 +25,12 @@ se prennent dans des fils.
 Voici une schématique résumant les foncitonalité de la carte!
 
 ![Pinout de carte electronique](./Hardware_files/CartePinouts.png)
+
+
+Quelques caratéristique de cette carte 
+
+| Eléments                 | Détail                              |
+|--------------------------|-------------------------------------|
+| Tension d'Alimentation   | Min: voir traco puissance, Max: 36V |
+| Type de MicroContrôleur  | Esp32-S3-WROOM-1-8MB                |
+| Type de Controleur Servo | PCA9685PW                           |
