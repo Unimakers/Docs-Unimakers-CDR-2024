@@ -119,13 +119,20 @@ Ce contact empêchait de pouvoir manipuler correctement les objets du terrain. P
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
+Ensuite pour déplacer les plantes jusqu'au barrilet, un servo moteur identique à ceux déjà utilisé à été ajouté pour tourner les actionneurs. Grâce à la proximité des moteurs contrôlant les machoires, il n'était pas nécéssaire d'ajouter un soutient à celui permettant la rotation. Autrement dit, les machoires ont été mises directement sur le palonnier du moteur permettant la rotation. 
+
+<video width="640" height="360"  autoplay muted loop>
+  <source src="../../images/pince/Rotation_actionneur.webm" type="video/webm">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
+
 
 ### Conception de l'ascenseur
 
 Le système d'ascenseur a été choisi parmi deux mécanismes différents. Le premier consistait à utiliser une tige filetée que l'on aurait fait tourner à l'aide d'un moteur brushless. Les positions haute et basse auraient été déterminées grâce à deux capteurs poussoirs. Ce système présentait néanmoins des inconvénients plus importants que celui choisi actuellement. Parmi ceux-ci, on peut retrouver l'alimentation des moteurs brushless et l'impossibilité de mettre en place plusieurs positions hautes à moins d'utiliser un encodeur, ce qui complexifie grandement la programmation.
 
-Le système permettant aux mâchoires de monter et descendre s'est donc orienté vers un servomoteur et un bras de levier sur un rail linéaire. En tournant, le moteur tire vers le haut le reste du système. La seule évolution de ce système à été de doubler le bras de levier pour le solidifier et d'ajouter de multiples perçages à des fins de test quant à la force du moteur en fonction de la longueur du bras. Ce système présente l'avantage d'être simple à piloter, assez rapide, compact et de ne prendre de la place qu'en hauteur (à l'endroit où se situe le servomoteur), l'espace le moins utilisé sur le robot.
-
+Le système permettant aux mâchoires de monter et descendre s'est donc orienté vers un servomoteur et un bras de levier sur un rail linéaire. 
 Le rail linéaire est composé de deux éléments, un rail en aluminium et un patin en plastique autolubrifié, les deux viennent s'emboiter pour glisser l'un sur l'autre. Ce produit vient de notre sponsor IGUS. Ce type de produit à la particularité d'avoir peu de perte du au frottement tout en ayant une durée de vie proche de système équivalent entièrement métalique, le tout sans nécéssité de lubrification. 
 
 <video width="640" height="360"  autoplay muted loop>
@@ -133,14 +140,16 @@ Le rail linéaire est composé de deux éléments, un rail en aluminium et un pa
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
-Le système de machoire à alors été fixé sur le patin pour lui permettre de monter et descendre librement. 
+Le système de machoire à alors été fixé sur le patin, ainsi celui-ci peut être monter ou descendu le long du rail sans nécéssité de grande force.  
+
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/pince/fixation_rail_lineaire.png" width="30%" >
+<img src="../../images/pince/fixation_rail_lineaire.png" width="80%" >
 
 </div>
 
+En tournant, le moteur tire vers le haut le reste du système. La seule évolution de ce système à été de doubler le bras de levier pour le solidifier et d'ajouter de multiples perçages à des fins de test quant à la force du moteur en fonction de la longueur du bras. Ce système présente l'avantage d'être simple à piloter, assez rapide, compact et de ne prendre de la place qu'en hauteur (à l'endroit où se situe le servomoteur), l'espace le moins utilisé sur le robot.
 
 Ainsi en fixant le bras de levier, le système devient entièrement controlable sur 3 axes. 
 
@@ -159,13 +168,13 @@ Pour valider le système de pinces, à chaque itération du système, les diffé
 
 ### Résultats
 
-Lors de la compétition, le système a partiellement répondu à son cahier des charges. En effet, il a pu manipuler les plantes avec assez de précision pour les prendre et les déposer aux endroits souhaités. Le système s'est parfaitement comporté avec le barillet et était relativement rapide. En revanche, nous avons constaté que d'autres systèmes étaient beaucoup plus adaptés que le nôtre. Ces autres systèmes avaient la capacité de prendre plusieurs plantes en même temps ; ils étaient certes beaucoup moins précis et auraient abîmé de vraies plantes, mais ils répondaient mieux aux exigences de la compétition.
+Lors de la compétition, le système à répondu à son cahier des charges. En effet, il a pu manipuler les plantes avec assez de précision pour les prendre et les déposer aux endroits souhaités. Le système s'est parfaitement comporté avec le barillet et était relativement rapide. En revanche, nous avons constaté que d'autres systèmes étaient beaucoup plus adaptés que le nôtre. Ces autres systèmes avaient la particularité de prendre plusieurs plantes en même temps. Ils étaient certes beaucoup moins précis et auraient abîmé de vraies plantes, mais ils répondaient tout de même mieux aux exigences de la compétition.
 
 De plus, lors de la compétition, les températures étaient assez élevées, ce qui a provoqué une déformation majeure des mâchoires en TPU, les rendant moins efficaces qu'à l'origine.
 
 ## Perspectives pour l'avenir
 
-Une première amélioration possible serait de remplacer le barillet par deux autres pinces presque identiques à celles actuellement sur le robot. Ainsi, le moteur pour l'orientation vers le barillet n'aurait plus été nécessaire, ce qui aurait fait gagner du temps. Cela permettait dans un même temps de manipuler les plantes par quatre, simplifiant la programmation et améliorant la fiabilité du système. L'utilisation de se système avait également comme avantage de ne pas nécéssité beaucoup de modification à celui actuels n'engagent pas à beaucoups d'investissements en terme de temps passé. 
+Une première amélioration possible serait de remplacer le barillet par deux autres pinces presque identiques à celles actuellement sur le robot. Ainsi, le moteur pour l'orientation vers le barillet ne serai plus nécessaire, ce qui aurait fait gagner du temps lors des actions de jeu. Cela permettait dans un même temps de manipuler les plantes par quatre, simplifiant la programmation et améliorant la fiabilité du système en réduisant le nombre de mouvement à action. L'utilisation de ce système avait également comme avantage de ne pas nécéssité beaucoup de modification à celui actuels n'engagent pas à beaucoups d'investissements important en terme de temps passé. 
 
 Dans une perspective d'avenir, il pourrait aussi être envisageable d'utiliser un système de pince permettant de saisir plusieurs éléments de jeu en même temps, de supprimer le barrilet actuels et le remplacer par une deuxième pince équivalentes pour multipié par deux le nombres d'éléments de jeux manipulable avant chaque dépot dans les zones prévue a cet effets. 
 
