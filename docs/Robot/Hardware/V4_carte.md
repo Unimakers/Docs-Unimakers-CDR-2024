@@ -29,8 +29,11 @@ Voici une schématique résumant les foncitonalité de la carte!
 
 Quelques caratéristique de cette carte 
 
-| Eléments                 | Détail                              |
-|--------------------------|-------------------------------------|
-| Tension d'Alimentation   | Min: voir traco puissance, Max: 36V |
-| Type de MicroContrôleur  | Esp32-S3-WROOM-1-8MB                |
-| Type de Controleur Servo | PCA9685PW                           |
+| Eléments                 | Détail                                                   |
+|--------------------------|----------------------------------------------------------|
+| Tension d'Alimentation   | Min: voir traco puissance, Max: 36V                      |
+| Type de MicroContrôleur  | Esp32-S3-WROOM-1-8MB                                     |
+| Type de Controleur Servo | PCA9685PW, Connecté en i²C                               |
+| Type driver              | Par défaut: TMC2209, configurable en DRV8825 ou A4988    |
+| Type de Relay            | Relay_SPST_TE_PCH-1xxx2M, ou a shunter en cas d'abscence |
+| Type de Gyroscope        | BNO_085 en I²C                                           |
