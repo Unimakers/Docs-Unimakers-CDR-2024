@@ -125,7 +125,7 @@ Pour déplacer les plantes jusqu'au barillet, un servo-moteur identique à ceux 
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/pince/rotation_1.png" width="30%" >
+<img src="../../images/pince/rotation_1.png" width="80%" >
 
 </div>
 
