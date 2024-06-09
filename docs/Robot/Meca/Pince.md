@@ -9,7 +9,7 @@ title: Système de Manipulation des éléments de jeu
 
 # Objectifs du système
 
-L'objectif de la pince est de manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments comprennent de petits pots ronds métalliques (environ 6 cm de diamètre et 6,5 cm de hauteur) et des fleurs en plastique légèrement plus petites. De petits panneaux solaires doivent également être manipulés ; ils doivent uniquement être tournés dans une direction spécifique, mais le mécanisme correspondant sera détaillé dans une autre section.
+L'objectif de la pince est de manipuler les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments comprennent de petits pots ronds métalliques (environ 6 cm de diamètre et 6,5 cm de hauteur) et des fleurs en plastique légèrement plus petites. De petits panneaux solaires doivent également être manipulés ; ils doivent uniquement être tournés dans une direction spécifique, mais le mécanisme correspondant sera détaillé dans une autre section dédiés à celui ci.
 
 <div style="display: flex; justify-content: space-around;">
 
