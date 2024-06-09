@@ -182,6 +182,13 @@ Pour valider le système de pinces, à chaque itération, les différentes pièc
 
 ### Résultats
 
+Voici une vidéo du robot utilisant la pince pour charger et decharger les plantes en plastique ainsi que les pots. Sur cette vidéo, une seule pince fonctionne pour montrer son fonctionnement. Elle à également été ralentie pour mieux vieux les différents mouvements. En réalité lors de lacompétitions, deux pinces fonctionné en même temps pour permettre au robot de prendre plus d'éléments de jeu dans un même temps. 
+
+<video width="640" height="360"  autoplay muted loop>
+  <source src="../../images/pince/fonc_pince.webm" type="video/webm">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
 Lors de la compétition, le système a répondu aux exigences du cahier des charges. En effet, il a pu manipuler les plantes avec suffisamment de précision pour les prendre et les déposer aux endroits souhaités. Le système s'est parfaitement comporté avec le barillet et s'est avéré relativement rapide. Cependant, nous avons constaté que d'autres systèmes étaient beaucoup plus adaptés que le nôtre. Ces autres systèmes avaient la particularité de prendre plusieurs plantes en même temps. Bien qu'ils étaient moins précis et auraient endommagé de vraies plantes, ils répondaient mieux aux exigences de la compétition.
 
 De plus, lors de la compétition, les températures élevées ont provoqué une déformation majeure des mâchoires en TPU, les rendant moins efficaces qu'à l'origine.
