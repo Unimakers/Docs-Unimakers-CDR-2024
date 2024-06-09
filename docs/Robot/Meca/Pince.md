@@ -173,7 +173,7 @@ Ainsi, en ajoutant le bras de levier, le système devient entièrement contrôla
 
 
 
-## Tests et validation
+# Tests et validation
 
 ### Procédure de validation
 
@@ -182,9 +182,10 @@ Pour valider le système de pinces, à chaque itération, les différentes pièc
 
 ### Résultats
 
-Voici une vidéo du robot utilisant la pince pour charger et decharger les plantes en plastique ainsi que les pots. Sur cette vidéo, une seule pince fonctionne pour montrer son fonctionnement. Elle à également été ralentie pour mieux vieux les différents mouvements. En réalité lors de lacompétitions, deux pinces fonctionné en même temps pour permettre au robot de prendre plus d'éléments de jeu dans un même temps. 
 
-<video width="640" height="360"  autoplay muted loop>
+Voici une vidéo du robot utilisant la pince pour charger et décharger les plantes en plastique ainsi que les pots. Dans cette vidéo, une seule pince est en fonctionnement pour illustrer son mécanisme. La vidéo a également été ralentie afin de mieux observer les différents mouvements. En réalité, lors de la compétition, deux pinces fonctionnaient simultanément pour permettre au robot de manipuler un plus grand nombre d'éléments de jeu en même temps.
+
+<video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/fonc_pince.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
