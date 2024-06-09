@@ -69,4 +69,5 @@ Le volume général du PAMI étant de bien meilleure conception que la V1, nous 
  - Un système de fixation pour le capteur ultrason, le capteur REED servant de "tirette" de démarrage.
  - Il faudra également penser à l'intégration du switch de stratégie, mais aussi du B.A.U.
  - Finalement, un système permettant au robot de toucher les plantes par-dessus les jardinières.
----
+
+
