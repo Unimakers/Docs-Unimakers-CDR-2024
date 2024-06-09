@@ -41,22 +41,37 @@ Le barillet doit en effet stocker le plus de pots possible de sorte à gagner du
 ## Les différents prototypes 
 
 Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont été imaginés : 
-    - Le premier système reposait sur un axe verticale en rotation autour duquel les éléments de jeu sont placés. 
-    - Le deuxième prototype lui se basé sur un axe horizontal autour duquel les éléments de jeu tourné autour. Ce système se rapproche de celui utilisé à l'avant des moissoneuse batteuse.  
+    - Le premier prototype lui se basé sur un axe horizontal autour duquel les éléments de jeu tourné autour. Ce système se rapproche de celui utilisé à l'avant des moissoneuse batteuse.  
+    - Le deuxième système reposait sur un axe verticale en rotation autour duquel les éléments de jeu sont placés. 
 
 ### Prototype n°1 
 
-Comme mentionné précédemment, le premier prototype reposait sur un axe horizontal autour duquel les éléments de jeu auraient tourné. Idéalement, ce prototype aurait comporté deux à trois étages, en fonction de l'espace disponible sur le robot. Les éléments de jeu auraient été déposés successivement au premier, au deuxième, puis au troisième étage afin de maximiser la capacité de stockage.
+Ce système permettait de faire tourner les éléments de jeu autour d'un axe horizontal comme le fait l'avant d'une moissonneuse. Grâce à deux emplacements côte à côte pour les éléments de jeu, il aurait été possible de faire passer entre six et huit plantes/pots. Hors le même problème que pour le système précédent a été rencontré, la place était très limitée. Ce qui n'a pas permis du tout d'implémenter ce système. Il aurait nécéssaire d'agrandir le chassis qui avait des dimensions à respecter. 
+
+Pour la rotation du mécanisme, il aurait été possible d'utiliser un stepper tout comme un servo moteur. Les deux possibilité aurait été valable. L'avantage du servo moteur été ça petite taille par rapport au stepper ainsi que ca facilité d'utilisation. 
+Le stepper aurait été plus gros et avait moins de puissance que le servo moteurs mais permettait de faire des tours à l'infinie.  
+
+
+### Prototype n°2 
+
+Comme mentionné précédemment, ce prototype reposait sur un axe horizontal autour duquel les éléments de jeu auraient tourné. Idéalement, ce prototype aurait comporté deux à trois étages, en fonction de l'espace disponible sur le robot. Les éléments de jeu auraient été déposés successivement au premier, au deuxième, puis au troisième étage afin de maximiser la capacité de stockage.
 
 Cependant, les tests ont démontré l'impossibilité d'inclure plusieurs étages en raison des dimensions du châssis, du positionnement des autres composants du robot et des pinces déjà construites. Par conséquent, il a été décidé de limiter le stockage des éléments de jeu à un seul étage. Pour compenser le manque d'étages, la possibilité de disposer le maximum de pots autour de l'axe a été étudiée. Celons les espacements théorique sur les logiciels de conception, il a été déterminé que le nombre maximal de pots se situait entre quatre et six.
 
 Les tests effectués en association avec la pince ont révélé que le nombre maximum de pots réalisable était de quatre. Bien qu'il soit théoriquement possible d'en placer six, des imprécisions dans le système de pince ont rendu cette configuration impraticable. En effet, la dépose des éléments de jeu n'était jamais parfaitement répétable en raison des déformations des mâchoires en TPU, qui variaient selon la position du pot lors de sa saisie. Par conséquent, il a été nécessaire d'élargir la zone de dépôt des pots, laquelle a été rendue ovale afin de compenser les imprécisions sur un seul axe.
 
-
-### Prototype n°2 
+La rotation du système se fait à l'aide d'un stepper qui permet de connaître en temps réel la position de celui-ci, en supposant qu'aucun pas n'a été sauté et que la position de départ été connu. Il aurait également été possible d'utiliser un servo moteur a 360° mais il n'y en avait pas dans le stock de l'association a contrario du stepper. Lors des essais premier essaies, le stepper qui avait été utlissé en premier lieu (nema 14) à été remplacer car il manquait de puissance. Le stepper à été remplacer par un nema 19 plus puissant est également disponible au seins de l'association. Ce n'était pas genant d'avoir un moteur une taille supérieur étant donner que l'idée d'utiliser plusieurs étage à été abandonné, beaucoup de place en hauteur été disponible.    
 
 # Tests et validation
 
-### Procédure de validation
+Finalement le système avec un axe horizontal à été choisie. Avant d'avoir un système fiable en association avec la pince, il a fallut faire de nombreux essaie de sorte à avoir la taille parfaite des emplacements pour les éléments de jeu.
+Pour permettre de connaitre la possition "zero" en terme de rotation, un capteur à été ajouté. Ainsi lors du démarage le système entre en rotation jusqu'à ce que le capteur renvoie un signal. Cela permet d'avoir une position de départ, à la suite la position sera toujours connu car le nombre de pas engendre une rotation proportionnelle à ce nombre. 
+
+## résultats 
+
+
 
 ## Perspectives pour l'avenir
+
+Pour améliorer ce système, il faudrait ajouté un étage de sorte à stockée plus de pot. Pour cela le système ne subirait pas de gros changement, les plus gros changement serait à effectuer sur le chassis ainsi que sur la pince pour gagner de la place en hauteur. Gagner de la place en hauteur est tout à fait possible car la hauteur du chassis est très largement inférieur au maximum autorisé par le reglement. Cela n'avait pas été fait du à la taille des makerbeam disponible au seins de l'association. 
+En somme, peu d'amélioration peuvent être apportées à ce système. 
