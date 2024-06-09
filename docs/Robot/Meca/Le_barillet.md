@@ -67,9 +67,13 @@ La rotation du système se fait à l'aide d'un stepper qui permet de connaître 
 Finalement le système avec un axe horizontal à été choisie. Avant d'avoir un système fiable en association avec la pince, il a fallut faire de nombreux essaie de sorte à avoir la taille parfaite des emplacements pour les éléments de jeu.
 Pour permettre de connaitre la possition "zero" en terme de rotation, un capteur à été ajouté. Ainsi lors du démarage le système entre en rotation jusqu'à ce que le capteur renvoie un signal. Cela permet d'avoir une position de départ, à la suite la position sera toujours connu car le nombre de pas engendre une rotation proportionnelle à ce nombre. 
 
-## résultats 
+## Résultats 
 
 
+<video width="640" height="360" controls autoplay muted loop>
+  <source src="../../images/pince/fonc_pince.webm" type="video/webm">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
 
 ## Perspectives pour l'avenir
 
