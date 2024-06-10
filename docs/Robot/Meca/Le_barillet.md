@@ -63,7 +63,7 @@ Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont 
 
 </div>
 
-### Système de stockage à axe horizontal
+## Système de stockage à axe horizontal
 
 Ce système permettait de faire tourner les éléments de jeu autour d'un axe horizontal comme le fait l'avant d'une moissonneuse. Grâce à deux emplacements côte à côte pour les éléments de jeu, il aurait été possible de faire passer entre six et huit plantes/pots. 
 
@@ -89,7 +89,7 @@ Le stepper aurait été plus gros et avait moins de puissance que le servo moteu
 Néanmoins ce sytème nécéssitait d'avoir soit un axe reliant les deux coté du rabatteur soit d'avoir un deuxième moteur pour éviter que les pièces en mouvements se bloque entre elles. L'utilisation d'un axe aurait nécéssitait d'agrandir le système ce qui n'était pas possible dans notre cas. Il aurait donc été nécéssaire d'utiliser deux moteurs. Quand bien même deux moteurs auraientt été utilisés, le système restait peu fiable. C'est pourquoi il à été choisie de garder le barillet avec un axe vertical.  
 
 
-### Système de stockage à axe vertical
+## Système de stockage à axe vertical
 
 Comme mentionné précédemment, ce prototype reposait sur un axe horizontal autour duquel les éléments de jeu auraient tourné. Idéalement, ce prototype aurait comporté deux à trois étages, en fonction de l'espace disponible sur le robot. Les éléments de jeu auraient été déposés successivement au premier, au deuxième, puis au troisième étage afin de maximiser la capacité de stockage.
 
@@ -111,7 +111,7 @@ Le fonctionnement est alors simple, un moteur pas a pas fait tourner une platine
 Un spaceur vient permettre la liaison entre le moteur et la platine en la surelevant dans un même temps. Cela permet aux éléments de jeu de ne pas toucher le moteur.   
 
 
-#### Prototype N°1 
+### Prototype N°1 
 
 
 <div style="display: flex; justify-content: space-around;">
@@ -122,7 +122,7 @@ Un spaceur vient permettre la liaison entre le moteur et la platine en la surele
 
  Lors des premiers essaies, le stepper qui avait été utlissé en premier lieu (nema 17 PANCAKE) à été remplacer car il manquait de puissance. Le stepper à été remplacer par un nema 17 plus puissant est également disponible au seins de l'association. Ce changement de taille n'était pas un problème car la différence entre les deux était assez faible. De plus l'utilisation d'un unique étage pour le stockage permettait de libérer de la place en hauteur.  
 
-#### Prototype N°2
+### Prototype N°2
 
 <div style="display: flex; justify-content: space-around;">
 
@@ -132,7 +132,7 @@ Un spaceur vient permettre la liaison entre le moteur et la platine en la surele
 
 Ce prototype repose donc sur un nouveau moteur plus gros. Sur cette version, le spaceur à été rendu plus petit et l'emplacement des éléments de jeu à été retrecie de sorte à pouvoir accueillir des plantes en plastique ainsi que des pots métaliques. 
 
-#### Prototype N°3
+### Prototype N°3
 
 <div style="display: flex; justify-content: space-around;">
 
