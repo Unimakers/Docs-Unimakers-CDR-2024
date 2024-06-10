@@ -44,11 +44,11 @@ La version 3, ou version finale, est une continuité et une amélioration du con
 
 Le body réadapté et la carte finale réalisée, nous avons pu continuer notre conception. Sur la plaque supérieure, il fallait intégrer plusieurs emplacements pour les différents composants qui s'y fixent :
 
-Un emplacement pour visser le bouton d'arrêt d'urgence
-Un support pour le capteur Reed
-Un emplacement pour le switch de stratégie (Bleu ou Jaune)
-Un support et une attache pour le capteur ultrason
-Un emplacement pour le servo-moteur pour toucher les plantes.
+- Un emplacement pour visser le bouton d'arrêt d'urgence
+- Un support pour le capteur Reed
+- Un emplacement pour le switch de stratégie (Bleu ou Jaune)
+- Un support et une attache pour le capteur ultrason
+- Un emplacement pour le servo-moteur pour toucher les plantes.
 
 
 <div style="display: flex; justify-content: space-around;">
