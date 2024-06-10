@@ -63,3 +63,8 @@ Une fois tous les prototypes validés, nous sommes passés au montage final des 
 
  <div class="video-container"><video muted autoplay loop><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
 
+
+## Conclusion
+
+Le développement du PAMI a été un projet évolutif marqué par de multiples améliorations et différents échecs.
+De la version initiale à la version finale, chaque étape a permis de résoudre des problèmes et d'optimiser la conception pour atteindre au fur et a mesure les objectic fixe en fonctionnalité et en performance.
