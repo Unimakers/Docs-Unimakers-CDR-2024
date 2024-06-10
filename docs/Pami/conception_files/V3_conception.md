@@ -23,6 +23,9 @@ title: Version Final
 		width: 100%;
 		height: 100%;
 	}
+    .belleimage:hover {
+        transform: scale(1.5);
+    }
 </style>
 
 # Conception & Modélisation des PAMI
@@ -41,8 +44,8 @@ Le body réadapté, la carte final réalisée nous avons pu continuer notre conc
  - Un emplacement pour le servo-moteut pour toucher les plantes.
 
 <div style="display: flex; justify-content: space-around;">
-<img src="./3d_files/plaque_fini.webp" height="30%" width="30%">
-<img src="./3d_files/ultrason.webp" height="30%" width="30%">
-<img src="./3d_files/reed.webp" height="30%" width="30%">
-<img src="./3d_files/canard_holder.webp" height="30%" width="30%">
+<img src="./3d_files/plaque_fini.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/ultrason.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/reed.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/canard_holder.webp" height="30%" width="30%" class="belleimage">
 </div>
