@@ -25,6 +25,11 @@ L'objectif du barillet est de stockée les éléments de jeu de la Coupe de Fran
 Durant les phases de match, le robot va se déplacer sur le terrain et prendre les pots et les plantes puis les amener à un autre endroit.
 Le but étant de stocker les pots et plantes à l'intérieur du robot via le barillet puis de les restituer une fois la zone de dépose atteinte de sorte à limiter les aller retour. Le tout en s'adaptant à la vitesse des pinces.
 
+<video width="640" height="360" controls autoplay muted loop>
+  <source src="../../images/barillet/animation_barillet.webm" type="video/webm">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
 # Spécifications techniques
 
 ## Contraintes et exigences spécifiques à la Coupe de France de Robotique 2024
@@ -42,6 +47,13 @@ Le barillet doit en effet stocker le plus de pots possible de sorte à gagner du
 
 Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont été imaginés : 
     - Le premier prototype lui se basé sur un axe horizontal autour duquel les éléments de jeu tourné autour. Ce système se rapproche de celui utilisé à l'avant des moissoneuse batteuse.  
+
+<div style="display: flex; justify-content: space-around;">
+
+<img src="../../images/barillet/rabateur_3B.png" width="50%" >
+
+</div>
+
     - Le deuxième système reposait sur un axe verticale en rotation autour duquel les éléments de jeu sont placés. 
 
 ### Prototype n°1 
