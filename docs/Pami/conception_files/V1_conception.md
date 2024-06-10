@@ -10,7 +10,7 @@ title: Version 1
 
 ## V1
 
-<model-viewer src="./3d_files/compressed (2).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster1.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
+<model-viewer src="./3d_files/pamiv1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster1.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
