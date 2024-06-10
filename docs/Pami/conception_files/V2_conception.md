@@ -40,7 +40,7 @@ La V2 ne se base pas sur l'ancienne version mais constitue plutôt une refonte c
 
 Ensuite, nous nous sommes attaqués au problème de fixation des moteurs, de la roue pressée contre les steppers et à la manière d'attacher la plaque qui vient protéger le tout. La solution la plus optimale étant de creuser le volume pour y intégrer toutes les pièces au fur et à mesure. La première intégration est celle des moteurs. En effet, nous avons d'abord creusé l'espace pour que le moteur soit correctement encastré, puis créé un espace en arc de cercle pour le mouvement libre de la roue. Enfin, la plaque qui vient protéger le tout s'intègre parfaitement pour ne pas modifier le volume maximal choisi de 120mm.
 <div>
-<img src="./3d_flies/v2body.webp" height="40%" width="40%"></div>
+<img src="./3d_files/v2body.webp" height="40%" width="40%"></div>
  
 *Voici le rendu du body*
 
