@@ -24,7 +24,7 @@ title: Version Final
 		height: 100%;
 	}
     .belleimage:hover {
-        transform: scale(1.5);
+        transform: scale(1.35);
     }
 </style>
 
@@ -32,9 +32,17 @@ title: Version Final
 
 ## Version Final
 
+
+<model-viewer src="./3d_files/Pami_v2_compress.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/Pami_v2_compress.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+
+
 La version 3 ou version final est une continuité, une amelioration du concepte de la V2. Le changement principale étant le changement dans la référence des steppers. La grande modification étant le modification complette de l'emplacement, en effet il passe d'un cercle a un carré.
 
-<img src="./3d_files/v3_body.webp" height="40%" width="40%">
+<img src="./3d_files/v3body.webp" height="40%" width="40%">
 
 Le body réadapté, la carte final réalisée nous avons pu continuer notre conception. La plaque suppérieur, il fallait y integrer plusieur emplacement pour les différent composant qui s'y fixe : 
  - Un emplacement pour visser le Boutton d'arrete d'urgence
@@ -53,5 +61,5 @@ Le body réadapté, la carte final réalisée nous avons pu continuer notre conc
 Un fois tout les prototypes validé nous sommes passée au montage final des Pami 2 et 3. 
 En voici le résultats. 
 
- <div class="video-container"><video controls><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
+ <div class="video-container"><video muted autoplay loop><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
 
