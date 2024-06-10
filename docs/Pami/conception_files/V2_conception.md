@@ -29,12 +29,9 @@ title: Version 2
 
 ## V2
 
-<model-viewer src="Pami_v2_compress.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="Pami_v2_compress.webp" shadow-intensity="1">
+<model-viewer src="./3d_files/Pami_v2_compress.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/Pami_v2_compress.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
-    </div>
-    <div id="ar-prompt">
-        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
     </div>
 </model-viewer>
 
