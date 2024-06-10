@@ -49,3 +49,9 @@ Le body réadapté, la carte final réalisée nous avons pu continuer notre conc
 <img src="./3d_files/reed.webp" height="30%" width="30%" class="belleimage">
 <img src="./3d_files/canard_holder.webp" height="30%" width="30%" class="belleimage">
 </div>
+
+Un fois tout les prototypes validé nous sommes passée au montage final des Pami 2 et 3. 
+En voici le résultats. 
+
+ <div class="video-container"><video controls><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
+
