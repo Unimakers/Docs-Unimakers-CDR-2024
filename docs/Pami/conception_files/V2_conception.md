@@ -29,6 +29,16 @@ title: Version 2
 
 ## V2
 
+<model-viewer src="Pami_v2_compress.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="Pami_v2_compress.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+
 La V2 ne se base pas sur l'ancienne version mais constitue plutôt une refonte complète. En effet, nous avons changé de fichier pour repartir sur une base saine. En commençant par un rectangle fixe de 120mm par 120mm, cette contrainte établie, le problème numéro 1 est résolu. Ensuite, une extrusion de 65mm donne vie au volume qui sera la base imprimée en 3D par dépôt de filament.
 
 Ensuite, nous nous sommes attaqués au problème de fixation des moteurs, de la roue pressée contre les steppers et à la manière d'attacher la plaque qui vient protéger le tout. La solution la plus optimale étant de creuser le volume pour y intégrer toutes les pièces au fur et à mesure. La première intégration est celle des moteurs. En effet, nous avons d'abord creusé l'espace pour que le moteur soit correctement encastré, puis créé un espace en arc de cercle pour le mouvement libre de la roue. Enfin, la plaque qui vient protéger le tout s'intègre parfaitement pour ne pas modifier le volume maximal choisi de 120mm.
