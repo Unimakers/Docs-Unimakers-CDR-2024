@@ -167,11 +167,12 @@ Finalement le système avec un axe horizontal à été choisie. Avant d'avoir un
 
 ## Résultats 
 
-
 <video width="640" height="360" controls autoplay muted loop>
   <source src="../../images/pince/fonc_pince.webm" type="video/webm">
   Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+
+Lors de la compétition, le barillet a pu garantir une fiabilité irréprochable dans les actions qu'il devait effectuer. Aucune modification n'a dû être apportée une fois sur place et aucun composant n'a posé de problème.
 
 ## Perspectives pour l'avenir
 
