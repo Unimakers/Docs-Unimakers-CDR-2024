@@ -126,7 +126,7 @@ Un spaceur vient permettre la liaison entre le moteur et la platine en la surele
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/nema17.png" width="30%" >
+<img src="../../images/barillet/NEMA17.png" width="30%" >
 
 </div>
 
