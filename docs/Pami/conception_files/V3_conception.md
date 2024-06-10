@@ -40,14 +40,16 @@ title: Version Final
 </model-viewer>
 
 
-La version 3 ou version final est une continuité, une amelioration du concepte de la V2. Le changement principale étant le changement dans la référence des steppers. La grande modification étant le modification complette de l'emplacement, en effet il passe d'un cercle a un carré.
+La version 3, ou version finale, est une continuité et une amélioration du concept de la V2. Le changement principal est le changement de référence des steppers. La grande modification est le changement complet de l'emplacement, passant d'un cercle à un carré.
 
-Le body réadapté, la carte final réalisée nous avons pu continuer notre conception. La plaque suppérieur, il fallait y integrer plusieur emplacement pour les différent composant qui s'y fixe : 
- - Un emplacement pour visser le Boutton d'arrete d'urgence
- - Un support pour le capteur reed
- - Un emplacment pour le switch de stratégie (Bleu ou Jaune)
- - Un supprt et une attache pour le capteur ultrason
- - Un emplacement pour le servo-moteut pour toucher les plantes.
+Le body réadapté et la carte finale réalisée, nous avons pu continuer notre conception. Sur la plaque supérieure, il fallait intégrer plusieurs emplacements pour les différents composants qui s'y fixent :
+
+Un emplacement pour visser le bouton d'arrêt d'urgence
+Un support pour le capteur Reed
+Un emplacement pour le switch de stratégie (Bleu ou Jaune)
+Un support et une attache pour le capteur ultrason
+Un emplacement pour le servo-moteur pour toucher les plantes.
+
 
 <div style="display: flex; justify-content: space-around;">
 <img src="./3d_files/plaque_fini.webp" height="30%" width="30%" class="belleimage">
@@ -56,8 +58,8 @@ Le body réadapté, la carte final réalisée nous avons pu continuer notre conc
 <img src="./3d_files/canard_holder.webp" height="30%" width="30%" class="belleimage">
 </div>
 
-Un fois tout les prototypes validé nous sommes passée au montage final des Pami 2 et 3. 
-En voici le résultats. 
+
+Une fois tous les prototypes validés, nous sommes passés au montage final des PAMI 2 et 3. En voici le résultat.
 
  <div class="video-container"><video muted autoplay loop><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
 
