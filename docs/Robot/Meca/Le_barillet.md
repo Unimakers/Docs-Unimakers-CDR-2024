@@ -63,6 +63,11 @@ Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont 
 
 </div>
 
+La rotation du système se fait à l'aide d'un stepper qui permet de connaître en temps réel la position de celui-ci, en supposant qu'aucun pas n'a été sauté et que la position de départ été connu. Il aurait également été possible d'utiliser un servo moteur a 360° mais ce type de moteur n'était pas dans le stock de l'association a contrario du stepper.
+
+Le fonctionnement est alors simple, un moteur pas a pas fait tourner une platine sur laquelle sont déposé les pots. Une fois un élément de jeu déposé/pris, le moteur tourne pour laisser l'accès à l'emplacement suivant. 
+
+
 ## Système de stockage à axe horizontal
 
 Ce système permettait de faire tourner les éléments de jeu autour d'un axe horizontal comme le fait l'avant d'une moissonneuse. Grâce à deux emplacements côte à côte pour les éléments de jeu, il aurait été possible de faire passer entre six et huit plantes/pots. 
@@ -95,11 +100,8 @@ Comme mentionné précédemment, ce prototype reposait sur un axe horizontal aut
 
 Cependant, les tests ont démontré l'impossibilité d'inclure plusieurs étages en raison des dimensions du châssis, du positionnement des autres composants du robot et des pinces déjà construites. Par conséquent, il a été décidé de limiter le stockage des éléments de jeu à un seul étage. Pour compenser le manque d'étages, la possibilité de disposer le maximum de pots autour de l'axe a été étudiée. Celons les espacements théorique sur les logiciels de conception, il a été déterminé que le nombre maximal de pots se situait entre quatre et six.
 
-Les tests effectués en association avec la pince ont révélé que le nombre maximum de pots réalisable était de quatre. Bien qu'il soit théoriquement possible d'en placer six, des imprécisions dans le système de pince ont rendu cette configuration impraticable. En effet, la dépose des éléments de jeu n'était jamais parfaitement répétable en raison des déformations des mâchoires en TPU, qui variaient selon la position du pot lors de sa saisie. Par conséquent, il a été nécessaire d'élargir la zone de dépôt des pots, laquelle a été rendue ovale afin de compenser les imprécisions sur un seul axe.
+Les esseais effectués en association avec la pince ont révélé que le nombre maximum de pots réalisable était de quatre. Bien qu'il soit théoriquement possible d'en placer six, des imprécisions dans le système de pince ont rendu cette configuration impraticable. En effet, la dépose des éléments de jeu n'était jamais parfaitement répétable en raison des déformations des mâchoires en TPU, qui variaient selon la position du pot lors de sa saisie.
 
-La rotation du système se fait à l'aide d'un stepper qui permet de connaître en temps réel la position de celui-ci, en supposant qu'aucun pas n'a été sauté et que la position de départ été connu. Il aurait également été possible d'utiliser un servo moteur a 360° mais ce type de moteur n'était pas dans le stock de l'association a contrario du stepper.
-
-Le fonctionnement est alors simple, un moteur pas a pas fait tourner une platine sur laquelle sont déposé les pots. Une fois un élément de jeu déposé/pris, le moteur tourne pour laisser l'accès à l'emplacement suivant. 
 
 
 <div style="display: flex; justify-content: space-around;">
@@ -146,9 +148,9 @@ Par la même occasion une petite cales à été ajouteé pour guider les éléme
 <div style="display: flex; justify-content: space-around;">
 
 
-<img src="../../images/barillet/forme_ovale.png" width="30%" >
+<img src="../../images/barillet/forme_ovale.png" width="40%" >
 
-<img src="../../images/barillet/bordure.png" width="30%" >
+<img src="../../images/barillet/bordure.png" width="40%" >
 
 
 </div>
