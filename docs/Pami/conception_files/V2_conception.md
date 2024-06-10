@@ -39,8 +39,8 @@ title: Version 2
 La V2 ne se base pas sur l'ancienne version mais constitue plutôt une refonte complète. En effet, nous avons changé de fichier pour repartir sur une base saine. En commençant par un rectangle fixe de 120mm par 120mm, cette contrainte établie, le problème numéro 1 est résolu. Ensuite, une extrusion de 65mm donne vie au volume qui sera la base imprimée en 3D par dépôt de filament.
 
 Ensuite, nous nous sommes attaqués au problème de fixation des moteurs, de la roue pressée contre les steppers et à la manière d'attacher la plaque qui vient protéger le tout. La solution la plus optimale étant de creuser le volume pour y intégrer toutes les pièces au fur et à mesure. La première intégration est celle des moteurs. En effet, nous avons d'abord creusé l'espace pour que le moteur soit correctement encastré, puis créé un espace en arc de cercle pour le mouvement libre de la roue. Enfin, la plaque qui vient protéger le tout s'intègre parfaitement pour ne pas modifier le volume maximal choisi de 120mm.
-
-<img src="./3d_flies/v2body.webp" height="40%" width="40%">
+<div>
+<img src="./3d_flies/v2body.webp" height="40%" width="40%"></div>
  *Voici le rendu du body*
 
 Plusieurs essais ont été nécessaires pour ajuster différents paramètres :
