@@ -1,0 +1,3 @@
+[submodule "project/PAMI_source_code"]
+	path = project/PAMI_source_code
+	url = https://github.com/Unimakers/CDR-2024-PAMI-FIRMWARE.git
