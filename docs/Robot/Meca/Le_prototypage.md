@@ -11,7 +11,7 @@ Le premier prototype utilisait une base roulante holonome pour permettre au robo
 
 <img src="../../images/Robot-V1.jpg" max-width="50%" style="display: block; margin-left: auto; margin-right: auto;">
 
-**(cf : V1 modulable 3D).**
+*(cf : V1 modulable 3D).*
 
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
 
@@ -20,7 +20,8 @@ Suite à divers tests, une base roulante en transmission différentielle a été
 Un prototype a été développé pour respecter le périmètre maximal de 1200 mm lorsque les actionneurs sont rétractés. Le robot devait avoir un centre creux pour stocker les plantes et les pots, pouvant accueillir 3 pots alignés.
 
 <img src="../../images/Robot-V2.jpg" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
-**(cf : V2 arc de triomphe).**
+
+*(cf : V2 arc de triomphe).*
 
 Le châssis de cette version était constitué de Makerbeam et équipé de moteurs Nema 17 et de roues.
 
@@ -30,7 +31,7 @@ La troisième version du châssis présente une symétrie avec un espace central
 
 <img src="../../images/Robot-23-11-2023.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
-**(cf : 3D V3).**
+*(cf : 3D V3).*
 
 #### <ins>Réorganisation Interne :</ins>  
 La batterie a été déplacée à l'arrière, libérant de l'espace pour une carte électronique plus grande. Cette réorganisation a optimisé l'utilisation de l'espace et amélioré la performance du robot.
@@ -39,7 +40,7 @@ En résumé, le passage à OnShape a permis de surmonter les limitations de Soli
 
 <img src="../../images/Robot-30-12-2023.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
-**(cf : 3D V4)**
+*(cf : 3D V4)*
 
 ### <ins>Prototype fonctionnel avec Nema 23</ins>
 
@@ -49,7 +50,7 @@ Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière
 
 <img src="../../images/Robot-21-02-2024.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
-**(cf : 3D V5)**
+*(cf : 3D V5)*
 
 ### <ins>Version finale</ins>
 
@@ -59,7 +60,7 @@ La version finale respecte une charte visuelle définissant les couleurs : l'acr
 
 <img src="../../images/Robot-Vf1.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
-**(cf : 3D VF)**
+*(cf : 3D VF)*
 
 #### Le carter 
 

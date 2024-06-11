@@ -40,6 +40,8 @@ Particularité de cette année, lors de la compétition, des petits robots appel
 - Être dans une zone spécifique.
 - Toucher une plante.
 
+<img src="images/table.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+
 # Existant
 
 De nombreux robots existent déjà. Le robot actuel est basé sur des robots à motorisation différentielle réalisés auparavant par l'ancien club A.R.E.A.

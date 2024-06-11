@@ -31,7 +31,7 @@ Bienvenue sur la page du projet de la Coupe de France de robotique. Vous y trouv
 
 ![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevantwide.jpg)
 
-## In a nutshell
+## À propos du Projet
 
 La Coupe de robotique est un événement qui a lieu chaque année à La Roche-sur-Yon. De nombreuses équipes de robotique provenant de différentes écoles d'ingénieurs ainsi que de lycées se rendent sur place pendant quatre jours pour mettre au défi leurs robots, qu'elles auront conçus au cours des neuf mois précédents.
 

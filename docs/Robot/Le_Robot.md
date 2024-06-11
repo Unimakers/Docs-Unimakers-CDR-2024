@@ -21,10 +21,13 @@ En Cours
 ### Missions
 Le robot commence dès le démarrage d'un match. En quittant sa zone de départ, il a le choix de réaliser trois tâches :
 
-- Prendre des plantes.
-- Prendre des pots.
-- Tourner les panneaux solaires.
+<div style="display: flex; justify-content: space-around;">
+<img src="../images/pince/plante.png" height="10%" width="20%">
+<img src="../images/pince/pot.png" height="30%" width="25%">
+<img src="../images/Panneaux_solaires.png" height="30%" width="35%">
+</div>
 
+Prendre des plantes.Prendre des pots.Tourner les panneaux solaires.  
 À la fin du match, le robot doit se trouver dans une zone différente de sa zone de départ.
 
 ### Contraintes
