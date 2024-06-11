@@ -6,14 +6,65 @@ nav_order: 3
 title: Version Final
 ---
 
+<style>
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* Ratio 16:9 */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+	}
+
+	.video-container video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+    .belleimage:hover {
+        transform: scale(1.35);
+    }
+</style>
+
 # Conception & Modélisation des PAMI
 
 ## Version Final
 
-Les **PAMI** (Petits Actionneurs Mobiles Indépendants) sont de petits robots soumis à plusieurs règles de conception, dont les contraintes volumétriques sont les plus importantes. En effet, il n'y a pas de nombre limite de PAMI présents sur la table de jeu, cependant, l'ensemble des PAMI doit tenir dans une zone de 150mm x 450mm et 150mm de hauteur. Ils ont également une limite de poids fixée à 1,5kg dans le règlement final. Cependant, le premier règlement (béta) limitait le poids des PAMI à 1kg. Afin de respecter les contraintes volumétriques, la conception de base repose sur un volume carré ou rectangulaire dans lequel nous intégrons nos composants.
+
+<model-viewer src="./3d_files/pami-vfinal.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/v3.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
 
 
-### PoC (Proof of Concept)
+La version 3, ou version finale, est une continuité et une amélioration du concept de la V2. Le changement principal est le changement de référence des steppers. La grande modification est le changement complet de l'emplacement, passant d'un cercle à un carré.
+
+Le body réadapté et la carte finale réalisée, nous avons pu continuer notre conception. Sur la plaque supérieure, il fallait intégrer plusieurs emplacements pour les différents composants qui s'y fixent :
+
+- Un emplacement pour visser le bouton d'arrêt d'urgence
+- Un support pour le capteur Reed
+- Un emplacement pour le switch de stratégie (Bleu ou Jaune)
+- Un support et une attache pour le capteur ultrason
+- Un emplacement pour le servo-moteur pour toucher les plantes.
 
 
-<!--<model-viewer disable-zoom src="../../models/PAMI_v1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="../../models/poster_pamiv1.webp" shadow-intensity="1" height="150%" weight="150%"> </model-viewer>  a modifier avec le bon fichier-->
+<div style="display: flex; justify-content: space-around;">
+<img src="./3d_files/plaque_fini.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/ultrason.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/reed.webp" height="30%" width="30%" class="belleimage">
+<img src="./3d_files/canard_holder.webp" height="30%" width="30%" class="belleimage">
+</div>
+
+
+Une fois tous les prototypes validés, nous sommes passés au montage final des PAMI 2 et 3. En voici le résultat.
+
+ <div class="video-container"><video muted autoplay loop><source src="./3d_files/pami-montage.webm" type="video/webm" /></video></div>
+
+
+## Conclusion
+
+Le développement du PAMI a été un projet évolutif marqué par de multiples améliorations et différents échecs.
+De la version initiale à la version finale, chaque étape a permis de résoudre des problèmes et d'optimiser la conception pour atteindre au fur et a mesure les objectic fixe en fonctionnalité et en performance.
