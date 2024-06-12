@@ -18,31 +18,27 @@ title: V4 Carte
     <kicanvas-source src="./V4_carte_files/MainBoardV4.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
 
-Voici la dernière carte à jour qui à participé a la coupe dans le robot, cette carte nous a permis d'avoir tout ce dont on avais besoin pour que le robot fonctionne correctement.
-Par rapport a la V3, cette carte a tout ses composant d'une seule coté du pcb, ce qui nous permetai de router tout les fils d'une coté du robot, minimisant les risque que les actioneurs
-se prennent dans des fils.
+Voici la dernière carte à jour qui a participé à la coupe dans le robot. Cette carte nous a permis d'avoir tout ce dont nous avions besoin pour que le robot fonctionne correctement. Par rapport à la V3, cette carte a tous ses composants d'un seul côté du PCB, ce qui nous permettait de router tous les fils d'un côté du robot, minimisant les risques que les actionneurs s'emmêlent dans les fils.
 
-Voici une schématique résumant les foncitonalité de la carte!
+Voici un schéma résumant les fonctionnalités de la carte !
 
-![Pinout de carte electronique](./Hardware_files/CartePinouts.webp)
+![Pinout de la carte électronique](./Hardware_files/CartePinouts.webp)
 
+Quelques caractéristiques de cette carte :
 
-Quelques caratéristique de cette carte 
-
-
-| **Eléments**             | **Détail**                                                                                                                                       |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tension d'Alimentation   | Min: voir traco puissance, Max: 36V                                                                                                              |
-| Type de MicroContrôleur  | Esp32-S3-WROOM-1-8MB                                                                                                                             |
-| Type de Controleur Servo | PCA9685PW, Connecté en i²C                                                                                                                       |
-| Emplacements Servo       | 16x allant jusqu'a 10A partagée                                                                                                                  |
-| Type driver              | Par défaut: TMC2209, configurable en DRV8825 ou A4988                                                                                            |
-| Configuration drivers    | TMC2209: pas de config DRV8825 A4988: souder les jumpers                                                                                         |
-| Type de Relais           | Relay_SPST_TE_PCH-1xxx2M, ou a shunter en cas d'abscence                                                                                         |
-| Configuration relais     | Choisir relais en fonction de la tension utilisée. Sinon shunter les connexion entre la COM et NO ! ne pas utiliser le BAU sur carte si shunté ! |
-| Type de Gyroscope        | BNO_085 en I²C                                                                                                                                   |
-| Tension de sortie 3,3V   | jusqu'a 2 ampères partagé avec l'esp32, Drivers et I²C                                                                                           |
-| Tension de sortie 5V     | jusqu'a 2 ampères partagé avec le LIDAR et neopixel                                                                                              |
-| Connecteurs I²C          | 3,3v partagé avec l'esp32.                                                                                                                       |
-| Connecteur Lidar         | 5v partagée avec Neopixel, UART 1, PWM                                                                                                           |
-| Connecteur Nappe         | Compatible avec Cartes AREA                                                                                                                      |
+| **Éléments**             | **Détail**                                                                                                                                            |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tension d'alimentation   | Min : voir Traco puissance, Max : 36V                                                                                                                 |
+| Type de microcontrôleur  | ESP32-S3-WROOM-1-8MB                                                                                                                                  |
+| Type de contrôleur Servo | PCA9685PW, connecté en I²C                                                                                                                            |
+| Emplacements Servo       | 16x, supportant jusqu'à 10A partagés                                                                                                                  |
+| Type de driver           | Par défaut : TMC2209, configurable en DRV8825 ou A4988                                                                                                |
+| Configuration drivers    | TMC2209 : pas de configuration nécessaire, DRV8825/A4988 : souder les jumpers                                                                         |
+| Type de relais           | Relay_SPST_TE_PCH-1xxx2M, ou à shunter en cas d'absence                                                                                               |
+| Configuration relais     | Choisir le relais en fonction de la tension utilisée. Sinon, shunter les connexions entre la COM et NO ! Ne pas utiliser le BAU sur carte si shunté ! |
+| Type de gyroscope        | BNO_085 en I²C                                                                                                                                        |
+| Tension de sortie 3,3V   | Jusqu'à 2 ampères, partagés avec l'ESP32, les drivers et l'I²C                                                                                        |
+| Tension de sortie 5V     | Jusqu'à 2 ampères, partagés avec le LIDAR et Neopixel                                                                                                 |
+| Connecteurs I²C          | 3,3V, partagés avec l'ESP32                                                                                                                           |
+| Connecteur Lidar         | 5V, partagés avec Neopixel, UART 1, PWM                                                                                                               |
+| Connecteur Nappe         | Compatible avec les cartes AREA                                                                                                                       |
