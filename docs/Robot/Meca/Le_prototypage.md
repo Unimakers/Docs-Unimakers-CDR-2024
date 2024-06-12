@@ -5,6 +5,7 @@ parent: La Mécanique du robot
 nav_order: 4
 title: Le prototypage du robot
 ---
+
 # Le prototypage du robot
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
@@ -29,7 +30,7 @@ Le châssis de cette version était constitué de Makerbeam et équipé de moteu
 
 La troisième version du châssis présente une symétrie avec un espace central traversant. Un carter a été créé pour loger la carte électronique, la batterie, les boutons et le bouton d'arrêt d'urgence. Des billes folles ont été installées aux quatre coins du robot pour stabiliser les déplacements, car les roues étant placées au centre provoquaient un basculement avant-arrière. Les supports des billes folles peuvent également accueillir des roulements pour ne pas endommager la table.
 
-<img src="../../images/Robot-23-11-2023.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/Robot-23-11-2023.webp" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 *(cf : 3D V3).*
 
@@ -38,17 +39,17 @@ La batterie a été déplacée à l'arrière, libérant de l'espace pour une car
 
 En résumé, le passage à OnShape a permis de surmonter les limitations de Solidworks, d'améliorer la collaboration et de redévelopper le robot de manière plus efficace et fonctionnelle.
 
-<img src="../../images/Robot-30-12-2023.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/Robot-30-12-2023.webp" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 *(cf : 3D V4)*
 
 ### <ins>Prototype fonctionnel avec Nema 23</ins>
 
-Les tests ont révélé que les moteurs Nema 17 étaient insuffisants. Les moteurs Nema 23 en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
+Les tests ont révélé que les moteurs [Nema 17](../Hardware/Hardware.html) étaient insuffisants. Les moteurs [Nema 23](../Hardware/Hardware.html) en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
 
 Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière. Le carter repose sur quatre pièces imprimées en 3D accueillant l'électro-aimant pour la tirette, un connecteur pour l'alimentation, une prise USB pour l'ESP32 et divers boutons.
 
-<img src="../../images/Robot-21-02-2024.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/Robot-21-02-2024.webp" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 *(cf : 3D V5)*
 
@@ -58,7 +59,7 @@ La version finale respecte une charte visuelle définissant les couleurs : l'acr
 
  dans la plaque d'acrylique. Des roulements ont été placés aux quatre coins pour protéger la table de jeu, et des cales ont été ajoutées à l'arrière pour limiter les chocs lors des recalages en bordure.
 
-<img src="../../images/Robot-Vf1.png" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/Robot-Vf1.webp" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 *(cf : 3D VF)*
 

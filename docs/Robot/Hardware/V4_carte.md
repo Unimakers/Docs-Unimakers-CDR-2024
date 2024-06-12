@@ -24,7 +24,7 @@ se prennent dans des fils.
 
 Voici une schématique résumant les foncitonalité de la carte!
 
-![Pinout de carte electronique](./Hardware_files/CartePinouts.png)
+![Pinout de carte electronique](./Hardware_files/CartePinouts.webp)
 
 
 Quelques caratéristique de cette carte 
