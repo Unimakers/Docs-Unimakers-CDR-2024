@@ -4,3 +4,6 @@
 [submodule "project/PAMI_electronique"]
 	path = project/PAMI_electronique
 	url = https://github.com/Unimakers/CDR-2024-PAMI-ELEC.git
+[submodule "project/Robot_principal_Firmware"]
+	path = project/Robot_principal_Firmware
+	url = https://github.com/Unimakers/CDR-2024-FIRMWARE.git

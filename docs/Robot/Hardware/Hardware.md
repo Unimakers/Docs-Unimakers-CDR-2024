@@ -25,7 +25,10 @@ voici la [documentation](https://www.omc-stepperonline.com/fr/nema-17-bipolaire-
 
 <embed src="./Hardware_files/17HS16-2004S1.pdf" type="application/pdf" width="100%" height="560px" />
 
-Un moteur pas à pas fonctionne en effectuant des rotations par pas. Un changement de polarité permet de passer d'une position à une autre. Dans notre cas, ce changement est géré par notre programme via un driver nommé TMC2209.
+Un moteur pas à pas fonctionne en effectuant des rotations par pas. Un changement de polarité permet de passer d'une position à une autre. Dans notre cas, ce changement est géré par notre programme via un driver nommé TMC2209, la [documentiation du tmc ici](https://www.analog.com/en/products/TMC2209.html)
+
+<embed src="./Hardware_files/TMC2209_datasheet_rev1.08.pdf" type="application/pdf" width="100%" height="600px" />
+
 
 Nous avons choisi ce modèle de moteur en utilisant le calculateur disponible sur le site du makerspace, en fonction du cahier des charges prévisionnel suivant :
 
