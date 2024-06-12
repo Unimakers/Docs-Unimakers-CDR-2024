@@ -17,7 +17,7 @@ On n'était pas satisfait de la première carte, notamment en raison de son manq
 
 Pour cette version, nous avons remplacé le module par un Devkit officiel, permettant de prototyper un circuit en dehors de la carte grâce à un breadboard.
 
-Beaucoup de choses restent inchangées par rapport à la première carte, à l'exception du grand transformateur 5V qui a été supprimé pour des raisons d'espace et le switch des selection entre le 5v et le 5v usb.
+Beaucoup de composants et circuits restent inchangées par rapport à la première carte, à l'exception du grand transformateur traco 5V qui a été supprimé pour des raisons d'espace, et le switch des selection entre le 5v et le 5v usb a également été suprimée.
 
 Sur les connecteurs I²C, il est désormais possible de sélectionner la tension d'alimentation. Cependant, un problème subsistait : que se passe-t-il si le composant alimenté en 5V fournit également une tension logique de 5V ? Ainsi, la sélection de tension n'était toujours pas une solution optimale, pusique ce dernier pourrais faire surgir une souci de courant.
 

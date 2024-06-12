@@ -68,3 +68,13 @@ Les réferences que nous avons utilisée sur le robot sont:
         <div class="update-bar"></div>
     </div>
 </model-viewer>
+
+## Une source d'energie, et ce n'est pas de la vapeur!
+
+Comme source d'energie nous avons opté pour des batteries déja disponible dans le club, notament les parkside A3
+
+![Batterie parkside](./Hardware_files/ParksideA3.webp)
+
+2 de ces batteries sont en serie dans le robot pour augmenter la tension vers 24V, ce qui permet de suivre les courbes de couple proposée par les nema 23.
+
+Pour l'autonomie de ces batteries, nous sommes au alentours de 1h30 voir 2h 
