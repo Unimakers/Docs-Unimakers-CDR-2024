@@ -91,7 +91,7 @@ Le choix d'une transmission différentielle pour la base roulante de notre proje
 Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
 
 #### <ins>Efficacité de l'Espace :</ins>  
-L'utilisation de deux moteurs pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
+L'utilisation de deux [moteur pas-à-pas](../Hardware/Hardware.html) pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
 
 #### <ins>Simplicité Mécanique et Maintenance :</ins>  
 Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
@@ -141,6 +141,12 @@ Cette approche permet de maximiser la maniabilité et la réactivité du robot t
 ### <ins>Dispositif pare-chocs</ins>
 
 Afin de se conformer au règlement, des dispositifs pare-chocs ont été installés à l'arrière du robot et des roulements ont été placés tout autour de celui-ci pour éviter d'endommager la table de jeu.
+<div style="display: flex; justify-content: space-around;">
+<img src="../../images/bumper_robot.png" height="30%" width="30%">
+<img src="../../images/roulements_latéreaux.png" height="20%" width="20%">
+
+</div>
+
 
 Les pare-chocs jouent un rôle crucial dans la protection du robot et de l'environnement de jeu. En absorbant les chocs lors des recalage bordure, ils minimisent les risques de dommages à la structure du robot. De plus, en répartissant l'impact, ils contribuent à la stabilité globale du robot, permettant un fonctionnement plus fluide et fiable pendant les compétitions.
 
