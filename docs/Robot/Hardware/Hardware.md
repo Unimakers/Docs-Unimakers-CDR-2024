@@ -77,6 +77,8 @@ Deux de ces batteries sont en série dans le robot pour augmenter la tension ver
 
 Pour l'autonomie de ces batteries, nous sommes aux alentours de 1h30 voire 2h.
 
+Nous avons pensée a prendre des parkside B3, mais ceux si etaient trop encombrant, ainsi qu'une tension non adapté au besoins
+
 
 ## Des yeux, il en faut pour ne pas etre aveugle
 
