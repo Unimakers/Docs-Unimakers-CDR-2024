@@ -141,12 +141,13 @@ Cette approche permet de maximiser la maniabilité et la réactivité du robot t
 ### <ins>Dispositif pare-chocs</ins>
 
 Afin de se conformer au règlement, des dispositifs pare-chocs ont été installés à l'arrière du robot et des roulements ont été placés tout autour de celui-ci pour éviter d'endommager la table de jeu.
+
 <div style="display: flex; justify-content: space-around;">
-<img src="../../images/bumper_robot.png" height="30%" width="30%">
-<img src="../../images/roulements_latéreaux.png" height="20%" width="20%">
+
+<img src="../../images/bumper_robot.webp" height="30%" width="30%">
+<img src="../../images/roulements_latéreaux.webp" height="20%" width="20%">
 
 </div>
-
 
 Les pare-chocs jouent un rôle crucial dans la protection du robot et de l'environnement de jeu. En absorbant les chocs lors des recalage bordure, ils minimisent les risques de dommages à la structure du robot. De plus, en répartissant l'impact, ils contribuent à la stabilité globale du robot, permettant un fonctionnement plus fluide et fiable pendant les compétitions.
 

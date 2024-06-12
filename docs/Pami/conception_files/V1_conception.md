@@ -10,7 +10,7 @@ title: Version 1
 
 ## V1
 
-<model-viewer src="./3d_files/pamiv1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster1.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width:600px;">
+<model-viewer src="./3d_files/pamiv1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="./3d_files/poster1.webp" shadow-intensity="1" style="display: block; margin-left: auto; margin-right: auto; height: 600px; width: 600px;">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
@@ -18,8 +18,8 @@ title: Version 1
 
 La première version était uniquement théorique car elle n'a jamais été imprimée. Cette version n'a jamais été concrétisée car notre objectif de faire des PAMI les plus petits possible était compliqué et surtout mal abordé. Cependant, elle nous a permis de mettre sur table tous les éléments nécessaires au PAMI et de mieux visualiser par la suite l'ensemble des éléments à modéliser.
 
-Notre premier défi était l'intégration des roues. En effet, l'arbre des steppers se termine par un engrenage que nous avons dû remodeler et créer en négatif afin que les roues, imprimées autour de ce négatif, s'intègrent parfaitement avec le moteur.
-Cependant, l'impression 3D par dépôt de filament manquait cruellement de précision pour un objet de cette taille. Nous nous sommes donc tournés vers l'impression résine. Les premiers tests avec les valeurs exactes de l'engrenage n'étant pas concluants, nous avons réalisé un étalonnage afin de déterminer quelle était la meilleure valeur d'agrandissement (offset) pour limiter les pertes.
+Notre premier défi était l'intégration des roues. En effet, l'arbre des steppers se termine par un engrenage que nous avons dû remodeler et créer en négatif afin que les roues, imprimées autour de ce négatif, s'intègrent parfaitement avec le moteur. Cependant, l'impression 3D par dépôt de filament manquait cruellement de précision pour un objet de cette taille. Nous nous sommes donc tournés vers l'impression résine. Les premiers tests avec les valeurs exactes de l'engrenage n'étant pas concluants, nous avons réalisé un étalonnage afin de déterminer quelle était la meilleure valeur d'agrandissement (offset) pour limiter les pertes.
+
 ### Étalonnage
 
 <div style="display: flex; justify-content: space-around;">
