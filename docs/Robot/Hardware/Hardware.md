@@ -69,7 +69,7 @@ Les références que nous avons utilisées sur le robot sont :
 
 ## Une source d'énergie, et ce n'est pas de la vapeur !
 
-Comme source d'énergie, nous avons opté pour des batteries déjà disponibles dans le club, notamment les Parkside A3.
+Comme source d'énergie, nous avons opté pour des batteries déjà disponibles dans l'association, notamment les Parkside A3.
 
 ![Batterie Parkside](./Hardware_files/ParksideA3.webp)
 
@@ -77,3 +77,10 @@ Deux de ces batteries sont en série dans le robot pour augmenter la tension ver
 
 Pour l'autonomie de ces batteries, nous sommes aux alentours de 1h30 voire 2h.
 
+
+## Des yeux, il en faut pour ne pas etre aveugle
+
+
+Nous avons opté pour un LIDAR RP A2 de slamtec, ce LIDAR est a déja disponible dans l'association
+
+Voici la page du lidar pour plus d'information [Page du lidar](https://www.slamtec.ai/product/slamtec-rplidar-a2/)

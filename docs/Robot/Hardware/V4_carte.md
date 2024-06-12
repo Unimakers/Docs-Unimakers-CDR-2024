@@ -43,3 +43,8 @@ Quelques caractéristiques de cette carte :
 | Connecteurs I²C          | 3,3V, partagés avec l'ESP32                                                                                                                           |
 | Connecteur Lidar         | 5V, partagés avec Neopixel, UART 1, PWM                                                                                                               |
 | Connecteur Nappe         | Compatible avec les cartes AREA                                                                                                                       |
+
+
+
+
+> je laisse un peu de santé physique ici -Dylan
