@@ -26,25 +26,26 @@ Lors de la conception du robot, l'objectif était d'obtenir un robot suffisammen
 
 ## Plan des parties suivantes
 
-### Système de manipulation des éléments de jeu
+### Choix des matériaux
 
-Cette section abordera les différentes stratégies et mécanismes utilisés pour manipuler et transporter les éléments de jeu.
-Nous analyserons les dispositifs de préhension, les mécanismes de levage et les systèmes de stockage, en mettant l'accent sur leur efficacité et leur fiabilité.
-
-### Système de stockage des éléments de jeu 
-
-Cette page présente les détails techniques du système de stockage, également appelé barillet, destiné aux plantes en plastique et aux pots. Elle explique en détail les différents prototypes ainsi que les améliorations apportées à ce système.
+Dans cette section, nous examinerons les différents matériaux sélectionnés pour la construction du robot.
+Nous comparerons les avantages et les inconvénients des matériaux utilisés, en tenant compte des critères de résistance, de poids et de coût.
+Une attention particulière sera portée aux innovations matérielles permettant d'améliorer les performances globales du robot.
 
 ### Conception du châssis
 
 Nous détaillerons ici le processus de conception du châssis, en expliquant les choix structuraux et les décisions prises pour assurer une répartition optimale des charges et des contraintes.
 Cette partie inclura également une discussion sur les techniques de fabrication utilisées pour obtenir un châssis robuste et léger.
 
-### Choix des matériaux
+### Système de stockage des éléments de jeu 
 
-Dans cette section, nous examinerons les différents matériaux sélectionnés pour la construction du robot.
-Nous comparerons les avantages et les inconvénients des matériaux utilisés, en tenant compte des critères de résistance, de poids et de coût.
-Une attention particulière sera portée aux innovations matérielles permettant d'améliorer les performances globales du robot.
+Cette page présente les détails techniques du système de stockage, également appelé barillet, destiné aux plantes en plastique et aux pots. Elle explique en détail les différents prototypes ainsi que les améliorations apportées à ce système.
+
+### Système de manipulation des éléments de jeu
+
+Cette section abordera les différentes stratégies et mécanismes utilisés pour manipuler et transporter les éléments de jeu.
+Nous analyserons les dispositifs de préhension, les mécanismes de levage et les systèmes de stockage, en mettant l'accent sur leur efficacité et leur fiabilité.
+
 
 ## Conclusion
 
