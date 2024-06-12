@@ -57,9 +57,24 @@ Parmi les autres contraintes, figure l'obligation de concevoir un robot entière
 
 ## Exigences de performance
 
-La performance du système sera principalement évaluée en fonction de sa vitesse. Sur le terrain de jeu, il y a 36 pots et 36 plantes répartis dans des zones prédéfinies. Pour transporter l'intégralité des pots avec les plantes à l'intérieur, il faut effectuer 72 mouvements pour les stocker et 72 mouvements pour les vider. En 90 secondes, cela laisse moins d'une seconde pour chaque mouvement de montée et de descente du système. Il est clair que le système ne pourra pas répondre pleinement à cette exigence, notamment en tenant compte du temps de déplacement jusqu'aux zones prévues. Cependant, l'objectif est de s'en rapprocher le plus possible.
+La performance du système sera principalement évaluée en fonction de sa vitesse. Sur le terrain de jeu, il y a 36 pots et 36 plantes répartis dans des zones prédéfinies. Pour transporter l'intégralité des pots avec les plantes à l'intérieur, il faut effectuer 72 mouvements pour les stocker et 72 mouvements pour les vider. En 90 secondes, cela laisse peu de temps pour chaque mouvement de montée et de descente du système. Il est clair que cette objectif sera difficile à atteindre, notamment en tenant compte du temps de déplacement jusqu'aux zones prévues. Cependant, l'objectif est de s'en rapprocher le plus possible.
 
 Quant à la précision, seule la rotation autour de l'axe Y doit être précise. La précision sur l'axe Z (la hauteur) est de moindre importance pour le système, une marge d'erreur de plusieurs milimètre est largement tolérable. De même, les mâchoires n'ont pas besoin d'une grande précision. Leur matériau souple (TPU) et leur forme permettent d'absorber les éventuels défauts de précision.
+
+Pour effectuer ces mouvements, des servos moteur ont été utilisés avaec deux référence différentes : 
+	- MG996R
+	- FS5115M
+
+C'est éléments ont été choisie pour leur rapport puissance/taille/prix/facilité d'utilisation qui est excellant pour notre application.
+
+Pour plus d'information, il est possible de consulter la partie adware de la documentation technique ou les documentation technique des produits concernés. 
+
+[Documentation technique FS5115M](https://www.pololu.com/product/3426)
+
+
+[Documentation technique MG996R](https://www.electronicoscaldas.com/datasheet/MG996R_Tower-Pro.pdf)
+
+[Hardware documentation technique](../Hardware/Hardware.html)
 
 # Conception du système de pince
 

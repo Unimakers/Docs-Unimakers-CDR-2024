@@ -31,6 +31,10 @@ Lors de la conception du robot, l'objectif était d'obtenir un robot suffisammen
 Cette section abordera les différentes stratégies et mécanismes utilisés pour manipuler et transporter les éléments de jeu.
 Nous analyserons les dispositifs de préhension, les mécanismes de levage et les systèmes de stockage, en mettant l'accent sur leur efficacité et leur fiabilité.
 
+### Système de stockage des éléments de jeu 
+
+Cette page présente les détails techniques du système de stockage, également appelé barillet, destiné aux plantes en plastique et aux pots. Elle explique en détail les différents prototypes ainsi que les améliorations apportées à ce système.
+
 ### Conception du châssis
 
 Nous détaillerons ici le processus de conception du châssis, en expliquant les choix structuraux et les décisions prises pour assurer une répartition optimale des charges et des contraintes.
