@@ -17,6 +17,11 @@ callouts:
     title: Note
     color: purple
 
+mermaid:
+  version : "9.1.3"
+
+
+
 # Plugins
 plugins:
   - jekyll-remote-theme

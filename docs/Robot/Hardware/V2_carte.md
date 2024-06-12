@@ -8,18 +8,18 @@ title: V2 Carte
 
 ## Carte N°2, ça prend forme
 
-Je n'étais pas satisfait de la première carte, notamment en raison de son manque d'adaptabilité, d'où la naissance de la carte V2 !
+On n'était pas satisfait de la première carte, notamment en raison de son manque d'adaptabilité, d'où la naissance de la carte V2 !
 
 <kicanvas-embed controls="full">
     <kicanvas-source src="./V2_carte_files/MainBoardV2.kicad_sch"></kicanvas-source>
     <kicanvas-source src="./V2_carte_files/MainBoardV2.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
 
-Pour cette version, j'ai remplacé le module par un Devkit officiel, permettant de prototyper un circuit en dehors de la carte grâce à un breadboard.
+Pour cette version, nous avons remplacé le module par un Devkit officiel, permettant de prototyper un circuit en dehors de la carte grâce à un breadboard.
 
-Beaucoup de choses restent inchangées par rapport à la première carte, à l'exception du grand transformateur 5V qui a été supprimé pour des raisons d'espace.
+Beaucoup de choses restent inchangées par rapport à la première carte, à l'exception du grand transformateur 5V qui a été supprimé pour des raisons d'espace et le switch des selection entre le 5v et le 5v usb.
 
-Sur les connecteurs I²C, il est désormais possible de sélectionner la tension d'alimentation. Cependant, un problème subsistait : que se passe-t-il si le composant alimenté en 5V fournit également une tension logique de 5V ? Ainsi, la sélection de tension n'était toujours pas une solution optimale.
+Sur les connecteurs I²C, il est désormais possible de sélectionner la tension d'alimentation. Cependant, un problème subsistait : que se passe-t-il si le composant alimenté en 5V fournit également une tension logique de 5V ? Ainsi, la sélection de tension n'était toujours pas une solution optimale, pusique ce dernier pourrais faire surgir une souci de courant.
 
 Des connecteurs de type Servo sont présents sur le schéma pour brancher des boutons, lumières, servomoteurs, Neopixels, tout cela avec une tension de 5V, qui peuvent ou non être utilisés selon l'application.
 

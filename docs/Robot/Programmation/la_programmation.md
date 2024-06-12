@@ -11,7 +11,7 @@ has_children: true
 
 La programmation du robot s'est faite sous PlatformIO, une extension de VSCode qui permet de faire de la programmation embarquée. Cette extension offre plus de liberté que l'IDE Arduino, en profitant notamment du système de visualisation d'arborescence de VSCode.
 
-## Setup
+## Intialisation
 
 Le démarrage du robot se passe comme suit :
 
@@ -25,5 +25,46 @@ Le démarrage du robot se passe comme suit :
 8. Attente de l'enlèvement de la tirette.
 9. Démarrage.
 
-## Loop
+# déroulée après départ 
 
+le code étant de consequent, nous allons proceder avec une diagramme d'état simplifiée pour comprendre le fonctionnement du code.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Initialisation
+
+    Initialisation --> AttenteTiretteNonPosee
+    state AttenteTiretteNonPosee {
+        [*] --> VerifierBouton
+        VerifierBouton --> CalibrationBarillet : Bouton appuyé
+        CalibrationBarillet --> VerifierBouton : calibrerBarillet()
+        VerifierBouton --> DefinirStrategie : Définir la stratégie
+        DefinirStrategie --> VerifierBouton
+        VerifierBouton --> TirettePosee : Tirette posée
+    }
+
+    TirettePosee --> EnAttenteEnlevementTirette
+    EnAttenteEnlevementTirette --> Execution : Tirette enlevée
+
+    state Execution {
+        [*] --> VerifierArmé
+        VerifierArmé --> VerifierObstacle : Armé == vrai
+        VerifierArmé --> PasExecution : Armé == faux
+
+        state VerifierObstacle {
+            [*] --> ObstacleDétecté
+            ObstacleDétecté --> AgirObstacle : Obstacle détecté
+            AgirObstacle --> ArreterRobot
+            ArreterRobot -->VerifierArmé
+            ObstacleDétecté --> PasObstacle : Pas d'obstacle détecté
+            PasObstacle --> VerifierEvenement
+        }
+
+        VerifierEvenement --> VerifierTimer
+        VerifierTimer --> FaireDesPas 
+        FaireDesPas --> VerifierArmé 
+    }
+
+    Execution --> [*] : Fin du programme
+
+``` 

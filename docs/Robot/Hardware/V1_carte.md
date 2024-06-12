@@ -14,6 +14,24 @@ title: V1 Carte
 
 Pour cette première carte, nous avons utilisé un module ESP32 S3. Ce module est un ensemble de composants sur un mini PCB, enfermé dans une cage de Faraday, permettant de réduire les interférences extérieures. Pour plus de détails sur ce microcontrôleur, consultez [la documentation de l'ESP32 S3](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf).
 
+### pourquoi l'esp32-s3?
+
+
+<div style="display: flex;">
+    <img src="./V1_carte_files/TEENSY40.jpeg" alt="Teensy4.0" class="image">
+    <img src="./V1_carte_files/ESP32S3.jpeg" alt="Esp32-S3" class="image">
+</div>
+
+|                             Teensy 4.0                              |                                   ESP32-S3                                   |
+| :-----------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| 40 GPIOs<br>14 ADC<br>7 Uarts<br> 3 i²C<br>Pas de Wifi ou Bluetooth | 45 GPIOs<br>20 ADC<br>3 Uarts<br>2 I²C<br>Wifi et Bluetooth LE ( 5 et Mesh) |
+|                               600 MHz                               |                                   240 MHz                                    |
+|                             Prix: 23.80                             |                                 Prix: 23,90                                  |
+
+
+
+Nous avons choisi l'esp32 s3 dans un but futur pour pouvoir communiquer avec un potentiel centre de calcul
+
 Le robot nécessite le contrôle de trois moteurs pas à pas, ce qui implique l'utilisation de trois contrôleurs pas à pas. Il existe de nombreux composants et BOB (breakout boards) sur le marché qui répondent à cette demande. Les plus couramment utilisés sont les DRV, TMC et A4988.
 
 Pour des raisons de disponibilité, nous avons commencé avec les DRV8825 car ils étaient déjà présents dans l'association Unimakers. Cependant, ces trois types de drivers sont interchangeables sous certaines conditions. Le circuit doit être adapté pour sélectionner un DRV8825 ou un TMC2209, ce qui sera étudié dans une future version de la carte.
@@ -31,6 +49,8 @@ La tension passe par un transformateur qui abaisse la tension d'entrée de 12V �
 On peut apercevoir un connecteur UART (Universal Asynchronous Receiver Transmitter) qui se connecte à l'UART 1 de l'ESP32. Ce connecteur permet de communiquer avec un lidar situé au-dessus du robot (voir lidar).
 
 Un interrupteur est présent pour alimenter l'ESP soit via l'USB, soit via l'alimentation de la batterie du robot, mais jamais les deux en même temps (cela pourrait causer des problèmes).
+
+
 
 **Sources :**
 - [Level shifter](https://www.digikey.com/en/blog/logic-level-shifting-basics)
