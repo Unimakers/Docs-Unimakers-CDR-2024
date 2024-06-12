@@ -76,3 +76,4 @@ Comme source d'énergie, nous avons opté pour des batteries déjà disponibles 
 Deux de ces batteries sont en série dans le robot pour augmenter la tension vers 24V, ce qui permet de suivre les courbes de couple proposées par les Nema 23.
 
 Pour l'autonomie de ces batteries, nous sommes aux alentours de 1h30 voire 2h.
+
