@@ -25,11 +25,6 @@ voici la [documentation](https://www.omc-stepperonline.com/fr/nema-17-bipolaire-
 
 <embed src="./Hardware_files/17HS16-2004S1.pdf" type="application/pdf" width="100%" height="560px" />
 
-Un moteur pas à pas fonctionne en effectuant des rotations par pas. Un changement de polarité permet de passer d'une position à une autre. Dans notre cas, ce changement est géré par notre programme via un driver nommé TMC2209, la [documentiation du tmc ici](https://www.analog.com/en/products/TMC2209.html)
-
-<embed src="./Hardware_files/TMC2209_datasheet_rev1.08.pdf" type="application/pdf" width="100%" height="600px" />
-
-
 Nous avons choisi ce modèle de moteur en utilisant le calculateur disponible sur le site du makerspace, en fonction du cahier des charges prévisionnel suivant :
 
 [Calculateur en ligne](https://makerspace-amiens.fr/pages/calculateur-moteur-robot/){: .btn .btn-purple }
@@ -45,7 +40,10 @@ Nous avons choisi ce modèle de moteur en utilisant le calculateur disponible su
 | Efficacité              | 65%    |
 | Temps de fonctionnement | 2 h    |
 
-Cependant, nous avons constaté que ces moteurs ne fournissaient pas le couple attendu en pratique, probablement en raison de la qualité des marques noname que nous avions. Cela nous a conduit à choisir un modèle supérieur, les Nema 23.
+Cependant, nous avons constaté que ces moteurs ne fournissaient pas le couple attendu en pratique, probablement en raison de la qualité des marques noname que nous avions. Cela nous a conduit à choisir un modèle supérieur, les Nema 23, voici la [documentation](https://www.omc-stepperonline.com/fr/nema-23-bipolaire-1-8deg-0-9-nm-127-5oz-in-2a-3-6v-57x57x52mm-4-fils-23hs20-2004s).
+
+
+<embed src="./Hardware_files/23HS20-2004S.pdf" type="application/pdf" width="100%" height="560px" />
 
 Ces moteurs sont un peu plus encombrants que les Nema 17, mais ils permettent d'utiliser le robot en transmission directe (direct drive), c'est-à-dire que la roue est directement fixée sur l'arbre moteur.
 
@@ -55,7 +53,15 @@ Ces moteurs sont un peu plus encombrants que les Nema 17, mais ils permettent d'
     </div>
 </model-viewer>
 
+
+Un moteur pas à pas fonctionne en effectuant des rotations par pas. Un changement de polarité permet de passer d'une position à une autre. Dans notre cas, ce changement est géré par notre programme via un driver nommé TMC2209, la [documentiation du tmc ici](https://www.analog.com/en/products/TMC2209.html)
+
+<embed src="./Hardware_files/TMC2209_datasheet_rev1.08.pdf" type="application/pdf" width="100%" height="600px" />
+
 Pour les mouvements des actionneurs, nous avons principalement utilisé des servomoteurs. Ce sont des moteurs à courant continu (DC) qui intègrent un régulateur de position. En envoyant un signal PWM (pulse width modulation) en français MLI (modulation de largeur d'impulsion), nous pouvons commander le moteur à se positionner à un certain angle.
+Les réferences que nous avons utilisée sur le robot sont:
+- FS 5115M [documentation ici](https://www.gotronic.fr/pj2-fs5115m-2553.pdf)
+- servo mg996r [documentation ici](./Hardware_files/mg996r.pdf)
 
 <model-viewer src="./Hardware_files/MG996RServo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/posterServo.webp" shadow-intensity="1">
     <div class="progress-bar hide" slot="progress-bar">
