@@ -21,6 +21,10 @@ Pour le mouvement, nous avons opté pour des moteurs pas à pas Nema 17, couramm
 
 <model-viewer disable-zoom src="./Hardware_files/Nema17.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="./Hardware_files/poster.webp" shadow-intensity="1"> </model-viewer>
 
+voici la [documentation](https://www.omc-stepperonline.com/fr/nema-17-bipolaire-45ncm-64oz-in-2a-42x42x40mm-4-fils-avec-1m-de-cable-et-connecteur-17hs16-2004s1) du nema 17 utilisée
+
+<embed src="./Hardware_files/17HS16-2004S1.pdf" type="application/pdf" width="100%" height="560px" />
+
 Un moteur pas à pas fonctionne en effectuant des rotations par pas. Un changement de polarité permet de passer d'une position à une autre. Dans notre cas, ce changement est géré par notre programme via un driver nommé TMC2209.
 
 Nous avons choisi ce modèle de moteur en utilisant le calculateur disponible sur le site du makerspace, en fonction du cahier des charges prévisionnel suivant :
