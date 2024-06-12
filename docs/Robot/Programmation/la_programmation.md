@@ -68,3 +68,16 @@ stateDiagram-v2
     Execution --> [*] : Fin du programme
 
 ``` 
+
+
+
+### Outils logiciels
+
+- **[Visual Studio Code](https://code.visualstudio.com/) :** Un riche éditeur de texte performant où nous venons greffer des extensions afin d'obtenir l'IDE qui nous correspond.
+- **[PlatformIO](https://platformio.org/) :** Une plateforme de développement, utilisée pour notre ESP32, offrant une gestion simplifiée des bibliothèques et des outils de compilation. Cela vient sous la forme d'une extension ajoutée à VSCode.
+
+### Bibliothèques
+
+- **[AccelStepper](https://github.com/waspinator/AccelStepper) :** Contrôle des moteurs pas à pas avec des fonctionnalités avancées comme l'accélération et la décélération. Nous l'utilisons pour la partie [steppers](./Steppers_Pamis.html).
+- **[Adafruit_PWMServoDriver](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) :** Pour controler les servo via le PCA
+- **[RPLIDAE](https://github.com/robopeak/rplidar_arduino) :** Pour la lecture du LIDAR
