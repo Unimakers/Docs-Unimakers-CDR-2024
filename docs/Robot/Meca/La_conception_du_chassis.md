@@ -67,7 +67,7 @@ Un <ins>robot holonome</ins> est un type de robot dont les systèmes de déplace
 
 Les robots holonomes sont souvent utilisés dans des applications où la capacité à se déplacer librement dans toutes les directions est cruciale, comme dans la robotique de service, la logistique intérieure, et les compétitions de robotique.
 
-<img src="../../images/robot-différentiel.JPEG" max-width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/robot-holonome.jpg" height="30%" width="30%" style="display: block; margin-left: auto; margin-right: auto;">
 
 Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les roues motrices sont fixées de manière indépendante, généralement sur les côtés gauche et droit du robot. La direction et la vitesse du mouvement sont contrôlées en variant les vitesses relatives de ces roues. Les caractéristiques techniques et les avantages d'un robot différentiel incluent :  
 
@@ -77,7 +77,7 @@ Un <ins>robot différentiel</ins> utilise un mécanisme de transmission où les 
 
 Les robots différentiels sont largement utilisés dans la robotique mobile.
 
-<img src="../../images/robot-holonome.jpg" max-width="60%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../../images/robot-différentiel.JPEG" height="30%" width="30%" style="display: block; margin-left: auto; margin-right: auto;">
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
 
@@ -110,6 +110,14 @@ La conception des roues est une étape primordiale pour les déplacements du rob
 La forme et la fonctionnalité des roues influencent directement la mobilité, la stabilité et l'efficacité énergétique du robot.
 À mesure que nos besoins et exigences ont évolué, la conception des roues a également subi plusieurs itérations.
 En conséquence, un total de quatre versions distinctes de roues ont été créées, chacune présentant des formes et caractéristiques uniques adaptées aux divers défis rencontrés.
+<div style="display: flex; justify-content: space-around;">
+
+<img src="../../images/Rouev1.png" height="15%" width="20%">
+<img src="../../images/Rouev2.png" height="20%" width="20%">
+<img src="../../images/Rouev3.png" height="10%" width="10%">
+<img src="../../images/Rouev4.png" height="10%" width="10%">
+
+</div>
 
 La conception des roues a été un processus évolutif, chaque version apportant des améliorations significatives basées sur les retours des tests et les exigences opérationnelles.
 Cette approche itérative a permis de développer des roues optimisées pour une performance maximale, garantissant ainsi la mobilité efficace et fiable du robot dans diverses conditions.
@@ -120,6 +128,9 @@ Cette approche itérative a permis de développer des roues optimisées pour une
 
 La troisième version du châssis présente une symétrie avec un espace central traversant. Un carter a été créé pour loger la carte électronique, la batterie, les boutons et le bouton d'arrêt d'urgence. Des billes folles ont été installées aux quatre coins du robot pour stabiliser les déplacements, car les roues placées au centre provoquaient un basculement avant-arrière. Les supports des billes folles peuvent également accueillir des roulements pour ne pas endommager la table.
 
+<div style="display: flex; justify-content: space-around;">
+<img src="../../images/Robot-25-11-2023.png" height="30%" width="30%">
+</div>
 *(cf : 3D V3)*
 
 ### <ins>Les élements de stabilité</ins>
@@ -131,9 +142,17 @@ Les billes folles à l'arrière permettent une grande liberté de mouvement dans
 Elles réduisent la friction avec le sol et facilitent les manœuvres, surtout lors des virages serrés ou des changements de direction rapides.
 De plus, elles contribuent à une meilleure répartition du poids, ce qui aide à maintenir l'équilibre du robot, notamment sur des surfaces inégales.
 
+<div style="display: flex; justify-content: space-around;">
+<img src="../../images/support-billes-folles.png" height="10%" width="20%">
+</div>
+
 Les roulements fixés au support moteur à l'avant assurent une rotation fluide et stable des roues motrices.
 Ils minimisent la résistance et les pertes d'énergie, ce qui améliore l'efficacité des déplacements du robot.
 En fournissant un support stable et robuste pour les roues avant, les roulements aident à maintenir une trajectoire rectiligne et à réduire les vibrations, contribuant ainsi à la précision et à la fiabilité des mouvements.
+
+<div style="display: flex; justify-content: space-around;">
+<img src="../../images/support-roulement-avant.png" height="30%" width="30%">
+</div>
 
 En combinant des billes folles à l'arrière et des roulements à l'avant, on obtient une solution efficace pour stabiliser le robot.
 Cette approche permet de maximiser la maniabilité et la réactivité du robot tout en assurant une stabilité optimale, ce qui est essentiel pour les applications exigeant une précision élevée et une adaptabilité à différents environnements. 

@@ -22,7 +22,7 @@ Les contraintes spécifiques à la Coupe de France de Robotique sont principalem
 
 ### Exigences de performance
 
-Lors de la conception du robot, l'objectif était d'obtenir un robot suffisamment compact pour respecter les contraintes dimensionnelles. Le robot doit être capable de transporter au moins 6 plantes ou 4 pots, justifiant le choix d'un barillet. Pour les déplacements, il est nécessaire de disposer d'une vitesse adéquate et d'un moyen de connaître la position de manière relativement précise. Les moteurs pas à pas ont été choisis à cet effet.
+Lors de la conception du robot, l'objectif était d'obtenir un robot suffisamment compact pour respecter les contraintes dimensionnelles. Le robot doit être capable de transporter au moins 6 plantes ou 4 pots, justifiant le choix d'un [barillet](../Meca/Le_barillet.md). Pour les déplacements, il est nécessaire de disposer d'une vitesse adéquate et d'un moyen de connaître la position de manière relativement précise. Les [moteur pas-à-pas](../Hardware/Hardware.html) ont été choisis à cet effet.
 
 ## Plan des parties suivantes
 
