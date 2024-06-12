@@ -131,6 +131,15 @@ Un espaceur permet la liaison entre le moteur et la platine en la surélevant si
 
 Lors des premiers essais, le moteur pas à pas initialement utilisé (NEMA 17 PANCAKE : 17HS086-1004S) a été remplacé en raison de sa puissance insuffisante. Il a été substitué par un moteur pas à pas NEMA 17 plus puissant, également disponible au sein de l'association. Ce changement de taille n'a pas posé de problème, car la différence entre les deux moteurs était minime. De plus, l'utilisation d'un unique étage pour le stockage a permis de libérer de l'espace en hauteur.
 
+Pour plus d'information concernant les moteurs pas à pas, il est possible de consulter la page dédiés au hardware : [moteur pas-à-pas](../Hardware/Hardware.html)
+
+autrement vous pouvez retrouver la documentation technique des moteurs pas à pas ici : 
+
+[NEMA 17 PANCAKE](https://www.omc-stepperonline.com/download/17HS08-1004S.pdf)
+
+[NEMA 17](https://www.omc-stepperonline.com/download/17HS16-2004S1.pdf)
+
+
 ### <ins>***Prototype N°2 :***</ins>
 
 <div style="display: flex; justify-content: space-around;">

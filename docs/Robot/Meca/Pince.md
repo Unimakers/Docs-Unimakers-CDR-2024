@@ -74,7 +74,7 @@ Pour plus d'information, il est possible de consulter la partie adware de la doc
 
 [Documentation technique MG996R](https://www.electronicoscaldas.com/datasheet/MG996R_Tower-Pro.pdf)
 
-[Hardware documentation technique](../Hardware/Hardware.html)
+[Documentation technique Hardware](../Hardware/Hardware.html)
 
 # Conception du système de pince
 
