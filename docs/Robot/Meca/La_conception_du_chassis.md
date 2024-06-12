@@ -35,10 +35,8 @@ Un châssis de qualité est indispensable pour assurer la stabilité et la rési
 Un châssis bien conçu permet de répartir efficacement les charges et les contraintes sur l'ensemble du robot, réduisant ainsi les risques de déformation ou de rupture.
 Il doit être capable de supporter les forces et les vibrations générées par les mouvements du robot, ainsi que les charges supplémentaires, telles que les capteurs, les actionneurs et les batteries.
 
-
 Pour garantir la performance, la stabilité et la durabilité d'un robot, un châssis de qualité est essentiel.
 Sa conception doit être minutieuse, en prenant en compte les contraintes mécaniques auxquelles le robot sera soumis et les exigences spécifiques de la tâche à accomplir.
-
 
 La première étape consiste à identifier tous les éléments qui devront être fixés sur le châssis. Pour ce robot, la liste est la suivante :
 
@@ -49,7 +47,6 @@ La première étape consiste à identifier tous les éléments qui devront être
 - **Support batterie** : Permet la fixation de la batterie au châssis.
 
 En prenant en compte ces éléments, le châssis doit être conçu pour optimiser la répartition des charges et assurer la robustesse nécessaire au bon fonctionnement du robot.
-
 
 # La conception du châssis
 
@@ -81,25 +78,28 @@ Les robots différentiels sont largement utilisés dans la robotique mobile.
 
 Le premier prototype utilisait une base roulante holonome pour permettre au robot de se mouvoir dans toutes les directions, avec un châssis triangulaire et des extrémités modulables.
 
-
 Suite à divers tests, une base roulante en transmission différentielle a été choisie pour optimiser l'espace de stockage des plantes en utilisant deux moteurs.
-
 
 Le choix d'une transmission différentielle pour la base roulante de notre projet présente plusieurs avantages importants, particulièrement dans le contexte d'optimisation de l'espace de stockage des plantes. Voici une argumentation détaillée :
 
-#### <ins>Maniabilité et Précision :</ins>  
+#### <ins>Maniabilité et Précision :</ins>
+
 Une transmission différentielle, utilisant deux moteurs, permet un contrôle précis de chaque roue. Cela signifie que la base roulante peut effectuer des virages sur place (pivotement), ce qui est essentiel dans des espaces restreints comme ceux souvent rencontrés dans des installations de stockage de plantes. Cette maniabilité permet une utilisation plus efficace de l'espace disponible, réduisant les besoins en allées larges et optimisant la disposition des plantes.
 
-#### <ins>Efficacité de l'Espace :</ins>  
+#### <ins>Efficacité de l'Espace :</ins>
+
 L'utilisation de deux [moteur pas-à-pas](../Hardware/Hardware.html) pour une transmission différentielle permet une conception compacte de la base roulante. Contrairement à des systèmes de transmission plus complexes ou volumineux, la transmission différentielle peut être intégrée dans des structures plus petites, laissant plus de place pour les plantes elles-mêmes. Cela est crucial pour maximiser la capacité de stockage sans sacrifier la mobilité ou la performance.
 
-#### <ins>Simplicité Mécanique et Maintenance :</ins>  
+#### <ins>Simplicité Mécanique et Maintenance :</ins>
+
 Les systèmes de transmission différentielle sont souvent plus simples à construire et à entretenir par rapport à des systèmes de transmission à plusieurs étages ou à engrenages complexes. Cette simplicité mécanique se traduit par une fiabilité accrue et une réduction des besoins de maintenance, ce qui est bénéfique pour une installation de stockage où l'accès aux mécanismes internes peut être limité.
 
-#### <ins>Adaptabilité et Flexibilité :</ins>  
+#### <ins>Adaptabilité et Flexibilité :</ins>
+
 Avec deux moteurs indépendants, la base roulante peut être facilement ajustée pour répondre à différentes configurations de stockage ou à des besoins spécifiques de déplacement. Par exemple, en modifiant simplement les vitesses relatives des moteurs, la base roulante peut adapter sa trajectoire pour naviguer efficacement dans divers arrangements de stockage.
 
-#### <ins>Répartition du Poids :</ins>  
+#### <ins>Répartition du Poids :</ins>
+
 La transmission différentielle permet une meilleure répartition du poids sur la base roulante. En contrôlant indépendamment chaque moteur et donc chaque roue, il est possible de maintenir une stabilité optimale même lorsque la charge est inégale, ce qui est souvent le cas dans des systèmes de stockage dynamique où les plantes peuvent être déplacées ou redistribuées fréquemment.
 
 En conclusion, le choix d'une transmission différentielle pour la base roulante est justifié par sa capacité à optimiser l'espace de stockage des plantes grâce à une maniabilité supérieure, une utilisation efficace de l'espace, une simplicité mécanique, une adaptabilité élevée et une répartition optimale du poids. Ces avantages combinés permettent de créer un système de stockage plus efficace, flexible et facile à maintenir, répondant parfaitement aux exigences d'un environnement de stockage de plantes.
@@ -112,24 +112,22 @@ La forme et la fonctionnalité des roues influencent directement la mobilité, l
 En conséquence, un total de quatre versions distinctes de roues ont été créées, chacune présentant des formes et caractéristiques uniques adaptées aux divers défis rencontrés.
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/Rouev1.png" height="15%" width="20%">
-<img src="../../images/Rouev2.png" height="20%" width="20%">
-<img src="../../images/Rouev3.png" height="10%" width="10%">
-<img src="../../images/Rouev4.png" height="10%" width="10%">
+<img src="../../images/Rouev1.webp" height="15%" width="20%">
+<img src="../../images/Rouev2.webp" height="20%" width="20%">
+<img src="../../images/Rouev3.webp" height="10%" width="10%">
+<img src="../../images/Rouev4.webp" height="10%" width="10%">
 
 </div>
 
 La conception des roues a été un processus évolutif, chaque version apportant des améliorations significatives basées sur les retours des tests et les exigences opérationnelles.
 Cette approche itérative a permis de développer des roues optimisées pour une performance maximale, garantissant ainsi la mobilité efficace et fiable du robot dans diverses conditions.
 
-
-
 ### <ins>Symétrie pour une meilleure stabilité</ins>
 
 La troisième version du châssis présente une symétrie avec un espace central traversant. Un carter a été créé pour loger la carte électronique, la batterie, les boutons et le bouton d'arrêt d'urgence. Des billes folles ont été installées aux quatre coins du robot pour stabiliser les déplacements, car les roues placées au centre provoquaient un basculement avant-arrière. Les supports des billes folles peuvent également accueillir des roulements pour ne pas endommager la table.
 
 <div style="display: flex; justify-content: space-around;">
-<img src="../../images/Robot-25-11-2023.png" height="30%" width="30%">
+<img src="../../images/Robot-25-11-2023.webp" height="30%" width="30%">
 </div>
 *(cf : 3D V3)*
 
@@ -143,7 +141,7 @@ Elles réduisent la friction avec le sol et facilitent les manœuvres, surtout l
 De plus, elles contribuent à une meilleure répartition du poids, ce qui aide à maintenir l'équilibre du robot, notamment sur des surfaces inégales.
 
 <div style="display: flex; justify-content: space-around;">
-<img src="../../images/support-billes-folles.png" height="10%" width="20%">
+<img src="../../images/support-billes-folles.webp" height="10%" width="20%">
 </div>
 
 Les roulements fixés au support moteur à l'avant assurent une rotation fluide et stable des roues motrices.
@@ -151,7 +149,7 @@ Ils minimisent la résistance et les pertes d'énergie, ce qui améliore l'effic
 En fournissant un support stable et robuste pour les roues avant, les roulements aident à maintenir une trajectoire rectiligne et à réduire les vibrations, contribuant ainsi à la précision et à la fiabilité des mouvements.
 
 <div style="display: flex; justify-content: space-around;">
-<img src="../../images/support-roulement-avant.png" height="30%" width="30%">
+<img src="../../images/support-roulement-avant.webp" height="30%" width="30%">
 </div>
 
 En combinant des billes folles à l'arrière et des roulements à l'avant, on obtient une solution efficace pour stabiliser le robot.
@@ -229,10 +227,3 @@ Cette attention à l’esthétique est particulièrement importante pour les rob
 
 En somme, la conception du robot combine ingénieusement protection, organisation, accessibilité et esthétique, résultant en un dispositif performant, durable et évolutif.
 Cette réalisation témoigne de l’importance d’une planification minutieuse et d’une conception réfléchie pour créer des solutions technologiques innovantes et pratiques.
-
-
-
-
-
-
-
