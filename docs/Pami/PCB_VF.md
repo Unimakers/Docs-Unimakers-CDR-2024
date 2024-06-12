@@ -13,7 +13,7 @@ title: PCB_VF
 - **Interrupteur de changement de stratégie**.
 - **Actionneur de LED néopixel**.
 
-![Schéma](../images/SchematicPAMIVF.png)
+![Schéma](../images/SchematicPAMIVF.webp)
 
 ## Adaptation du design
 
@@ -21,4 +21,4 @@ title: PCB_VF
 - Ajout de trous pour le passage de câbles.
 - Intégration d'une légende.
 
-![PCB](../images/PCBPAMIVF.png)
+![PCB](../images/PCBPAMIVF.webp)

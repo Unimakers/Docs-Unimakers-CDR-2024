@@ -6,17 +6,34 @@ nav_order: 3
 title: Système de stockage des éléments de jeu
 ---
 
+<style>
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%; /* Ratio 16:9 */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+	}
+
+	.video-container video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
 # Objectifs du système
 
 L'objectif du barillet est de stockée les éléments de jeu de la Coupe de France de Robotique 2024. Ces éléments comprennent de petits pots ronds métalliques (environ 6 cm de diamètre et 6,5 cm de hauteur) et des fleurs en plastique légèrement plus petites (de l'ordre de quelque militmètre).
 
 <div style="display: flex; justify-content: space-around;">
 
+<img src="../../images/pince/plante.webp" width="30%" >
 
-<img src="../../images/pince/plante.png" width="30%" >
-
-<img src="../../images/pince/pot_plante.png" width="30%" >
-
+<img src="../../images/pince/pot_plante.webp" width="30%" >
 
 </div>
 
@@ -25,10 +42,7 @@ L'objectif du barillet est de stockée les éléments de jeu de la Coupe de Fran
 Durant les phases de match, le robot va se déplacer sur le terrain et prendre les pots et les plantes puis les amener à un autre endroit.
 Le but étant de stocker les pots et plantes à l'intérieur du robot via le barillet puis de les restituer une fois la zone de dépose atteinte de sorte à limiter les aller retour. Le tout en s'adaptant à la vitesse des pinces.
 
-<video width="640" height="360" controls autoplay muted loop>
-  <source src="../../images/barillet/animation_barillet.webm" type="video/webm">
-  Votre navigateur ne prend pas en charge la balise vidéo.
-</video>
+<div class="video-container"><video muted autoplay loop><source src="../../images/barillet/animation_barillet.webm" type="video/webm" /></video></div>
 
 # Spécifications techniques
 
@@ -50,7 +64,7 @@ Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont 
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/rabateur_3B.png" width="50%" >
+<img src="../../images/barillet/rabateur_3B.webp" width="50%" >
 
 </div>
 
@@ -58,7 +72,7 @@ Pour stocker les éléments de jeu à l'intérieur du robot, deux systèmes ont 
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/prototype_barillet.png" width="30%" >
+<img src="../../images/barillet/prototype_barillet.webp" width="30%" >
 
 </div>
 
@@ -75,7 +89,7 @@ Plusieurs prototypes de ce système ont été réalisés. Le premier prototype c
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/rabateur_4B.png" width="30%" >
+<img src="../../images/barillet/rabateur_4B.webp" width="30%" >
 
 </div>
 
@@ -83,13 +97,13 @@ Le deuxième prototype comportait trois branches et pouvait s'intégrer dans le 
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/Rabateur_2B.png" width="30%">
+<img src="../../images/barillet/Rabateur_2B.webp" width="30%">
 
 </div>
+
 Pour la rotation du mécanisme, l'utilisation d'un moteur pas à pas ou d'un servomoteur était envisageable. Les deux options étaient valables. Le servomoteur présentait l'avantage d'être plus compact et plus facile à utiliser par rapport au moteur pas à pas. Cependant, bien que le moteur pas à pas soit plus volumineux et moins puissant que le servomoteur, il permettait une rotation infinie.
 
 Néanmoins, ce système nécessitait soit un axe reliant les deux côtés du rabatteur, soit un deuxième moteur pour éviter que les pièces en mouvement ne se bloquent entre elles. L'utilisation d'un axe aurait nécessité un agrandissement du système, ce qui n'était pas envisageable dans notre cas. Par conséquent, il aurait été nécessaire d'utiliser deux moteurs. Cependant, même avec deux moteurs, le système restait peu fiable. C'est pourquoi il a été décidé de conserver le barillet avec un axe vertical.
-
 
 ## Système de stockage à axe vertical
 
@@ -99,23 +113,19 @@ Cependant, les tests ont démontré l'impossibilité d'inclure plusieurs étages
 
 Les essais effectués en association avec la pince ont révélé que le nombre maximum de pots réalisable était de quatre. Bien qu'il soit théoriquement possible d'en placer six, des imprécisions dans le système de pince ont rendu cette configuration impraticable. En effet, la dépose des éléments de jeu n'était jamais parfaitement répétable en raison des déformations des mâchoires en TPU, qui variaient selon la position du pot lors de sa saisie.
 
-
-
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/spaceur.png" width="30%" >
+<img src="../../images/barillet/spaceur.webp" width="30%" >
 
 </div>
 
 Un espaceur permet la liaison entre le moteur et la platine en la surélevant simultanément. Cela empêche les éléments de jeu d'entrer en contact avec le moteur.
 
-
 ### <ins>***Prototype N°1 :*** </ins>
-
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/nema17_PANCAKE.png" width="30%" >
+<img src="../../images/barillet/nema17_PANCAKE.webp" width="30%" >
 
 </div>
 
@@ -125,7 +135,7 @@ Lors des premiers essais, le moteur pas à pas initialement utilisé (NEMA 17 PA
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/NEMA17.png" width="30%" >
+<img src="../../images/barillet/NEMA17.webp" width="30%" >
 
 </div>
 
@@ -135,7 +145,7 @@ Ce prototype repose donc sur un nouveau moteur plus imposant. Dans cette version
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/barillet_f.png" width="30%" >
+<img src="../../images/barillet/barillet_f.webp" width="30%" >
 
 </div>
 
@@ -145,11 +155,9 @@ De plus, une petite cale a été ajoutée pour guider les éléments de jeu lors
 
 <div style="display: flex; justify-content: space-around;">
 
+<img src="../../images/barillet/forme_ovale.webp" width="40%" >
 
-<img src="../../images/barillet/forme_ovale.png" width="40%" >
-
-<img src="../../images/barillet/bordure.png" width="40%" >
-
+<img src="../../images/barillet/bordure.webp" width="40%" >
 
 </div>
 
@@ -157,20 +165,17 @@ Un capteur a également été ajouté pour obtenir une position de référence e
 
 <div style="display: flex; justify-content: space-around;">
 
-<img src="../../images/barillet/capteur.png" width="30%" >
+<img src="../../images/barillet/capteur.webp" width="30%" >
 
 </div>
 
 # Tests et validation
 
-Finalement le système avec un axe horizontal à été choisie. Avant d'avoir un système fiable en association avec la pince, il a fallut faire de nombreux essaie de sorte à avoir la taille parfaite des emplacements pour les éléments de jeu. Il à également était nécéssaire de programmer la position de référence grâce au capteur. Le capteur détecter la présence de l'aimant avant que celui-ci ne soit au centre, une correction en terme de rotation à donc été ajouté pour corriger ce manque. 
+Finalement le système avec un axe horizontal à été choisie. Avant d'avoir un système fiable en association avec la pince, il a fallu faire de nombreux essaie de sorte à avoir la taille parfaite des emplacements pour les éléments de jeu. Il à également était nécessaire de programmer la position de référence grâce au capteur. Le capteur détecter la présence de l'aimant avant que celui-ci ne soit au centre, une correction en terme de rotation à donc été ajouté pour corriger ce manque. 
 
 ## Résultats 
 
-<video width="640" height="360" controls autoplay muted loop>
-  <source src="../../images/pince/fonc_pince.webm" type="video/webm">
-  Votre navigateur ne prend pas en charge la balise vidéo.
-</video>
+<div class="video-container"><video muted autoplay loop><source src="../../images/pince/fonc_pince.webm" type="video/webm" /></video></div>
 
 Lors de la compétition, le barillet a pu garantir une fiabilité irréprochable dans les actions qu'il devait effectuer. Aucune modification n'a dû être apportée une fois sur place et aucun composant n'a posé de problème.
 

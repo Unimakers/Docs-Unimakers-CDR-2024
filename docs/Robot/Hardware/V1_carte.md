@@ -22,7 +22,7 @@ Nous avons également besoin de connecteurs I²C pour connecter des cartes compa
 
 Les connecteurs sur cette première carte étaient en 5V, ce qui posait problème car l'ESP32 n'est pas tolérant au 5V. À court terme, cela pourrait fonctionner, mais à long terme, cela pourrait endommager l'ESP32, ou au moins l'un de ses registres. Une solution aurait été d'implémenter un circuit de traduction de niveau logique, pour convertir le 3,3V en 5V et inversement.
 
-![Illustration d'un level shifter](./V1_carte_files/logic-level-shifting-basics.jpg)
+![Illustration d'un level shifter](./V1_carte_files/logic-level-shifting-basics.webp)
 
 Cependant, comme il existe de nombreux composants en 3,3V sur le marché, il est préférable de passer la tension d'alimentation I²C en 3,3V dans les versions futures de la carte.
 

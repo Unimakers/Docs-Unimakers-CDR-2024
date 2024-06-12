@@ -3,8 +3,6 @@ layout: home
 nav_order: 1
 title: Accueil
 ---
-Terminée
-{: .label .label-green }
 
 <style>
 	.video-container {
@@ -25,21 +23,22 @@ Terminée
 	}
 </style>
 
-# Les Docs de l'équipe I3 de la coupe de france de robotique 2024
+# La documentation de l'équipe I3 pour la Coupe de France de robotique 2024
 
 Bienvenue sur la page du projet de la Coupe de France de robotique. Vous y trouverez les différentes documentations ainsi que les recherches effectuées par l'équipe dans le cadre de la construction d'un robot, tout en itérant les designs.
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/RobotDevantwide.jpg)
+![Le robot](./images/RobotDevantwide.jpg)
 
-## À propos du Projet
+## À propos du projet
 
-La Coupe de robotique est un événement qui a lieu chaque année à La Roche-sur-Yon. De nombreuses équipes de robotique provenant de différentes écoles d'ingénieurs ainsi que de lycées se rendent sur place pendant quatre jours pour mettre au défi leurs robots, qu'elles auront conçus au cours des neuf mois précédents.
+La Coupe de France de robotique est un événement qui a lieu chaque année à La Roche-sur-Yon. De nombreuses équipes de robotique provenant de différentes écoles d'ingénieurs ainsi que de lycées se rendent sur place pendant quatre jours pour mettre au défi leurs robots qu'elles auront conçus au cours des neuf mois précédents.
 
 ## Poster & vidéo - robot principal
 
-![Poster projet](images/PosterBon.png)
+![Poster projet](./images/PosterBon.webp)
 
-<video src="images/Robot.webm" controls title="Title"  style="width: 100%;"></video>
+<!-- Vidéo journée des projets sur le robot principal -->
+<div class="video-container"><video controls><source src="./images/Robot.webm" type="video/webm" /></video></div>
 
 ## Poster & vidéo - PAMI
 

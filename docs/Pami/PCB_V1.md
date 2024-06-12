@@ -13,7 +13,7 @@ L'objectif dans la réalisation de ce shéma est de mettre en liens les differen
 
 ### Schéma
 
-![Illustration schématique](../images/ShematicPAMI_V1.png)
+![Illustration schématique](../images/ShematicPAMI_V1.webp)
 
 - L'ESP32-S3-VROOM se met en lien avec des condensateurs pour augmenter la stabilité de son alimentation et limiter les bruits numériques
 - Les pins de transport de données du port USB_OTG sont égalements dotés de capacitées pour des raisons de filtrage numérique ainsi que un set résistance/diode connecté à la source d'alimentation du module afin de vérifier son bon fonctionnement. 
@@ -23,7 +23,6 @@ L'objectif dans la réalisation de ce shéma est de mettre en liens les differen
 - **Interrupteur d'arrêt d'urgence**
 - **LEDs de vérification de l'état des circuits**
 
-
 ### PCB
 
-![Image PCB](../images/PCBPAMI_V1.png)
+![Image PCB](../images/PCBPAMI_V1.webp)
