@@ -45,7 +45,7 @@ En résumé, le passage à OnShape a permis de surmonter les limitations de Soli
 
 ### <ins>Prototype fonctionnel avec Nema 23</ins>
 
-Les tests ont révélé que les moteurs Nema 17 étaient insuffisants. Les moteurs Nema 23 en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
+Les tests ont révélé que les moteurs [Nema 17](../Hardware/Hardware.html) étaient insuffisants. Les moteurs [Nema 23](../Hardware/Hardware.html) en transmission directe ont été adoptés. Les roulements à l'avant ont remplacé les billes folles pour stabiliser le robot et optimiser l'espace de stockage.
 
 Le robot fonctionne maintenant en 24V avec deux batteries placées à l'arrière. Le carter repose sur quatre pièces imprimées en 3D accueillant l'électro-aimant pour la tirette, un connecteur pour l'alimentation, une prise USB pour l'ESP32 et divers boutons.
 
