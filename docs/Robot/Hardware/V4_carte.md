@@ -26,6 +26,7 @@ Voici un schéma résumant les fonctionnalités de la carte !
 
 Quelques caractéristiques de cette carte :
 
+
 | **Éléments**             | **Détail**                                                                                                                                            |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tension d'alimentation   | Min : voir Traco puissance, Max : 36V                                                                                                                 |
